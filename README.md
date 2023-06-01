@@ -61,6 +61,7 @@ Personal Portafolio Profesional Web Site with responsive layout
 
 - **Mobile first approach**
 - **HTML & CSS Linters**
+- **Media Queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +124,7 @@ Deploy this project on any websever.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Web Page Optimized for wither screen sizes**
-- [ ] **Media queries**
+- [ ] **Larger Images Implementation**
 - [ ] **New CSS Styles**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
