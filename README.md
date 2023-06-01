@@ -3,17 +3,6 @@ Personal Portafolio Profesional Web Site with responsive layout
 
 <a name="readme-top"></a>
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -36,8 +25,6 @@ Personal Portafolio Profesional Web Site with responsive layout
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Personal_Portafolio] <a name="about-project"></a>
 
 **[Personal_Portafolio]** is a personal, professional website meant to show to the world all the projects, experiences, objectives, and knowledge I have gathered during all my years of studying, working, and collaborating with wonderful professional people on many projects. This project may serve as a template for your websites. Feel free to use it.
@@ -46,7 +33,7 @@ Personal Portafolio Profesional Web Site with responsive layout
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> This project has been developed using HTML & CSS. Using the mobile-first approach, and with the help of Figma movil website template, it has been developed a professional personal portfolio website. Linters for Html & CSS have been used for keeping the code quality.
 
 <details>
   <summary>Client</summary>
@@ -70,113 +57,59 @@ Personal Portafolio Profesional Web Site with responsive layout
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **Movile first approach**
-- **Media Queries**
+- **Mobile first approach**
 - **HTML & CSS Linters**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Demo link is coming soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
 In order to run this project you need:
+- Web Browser (Chrome, Edge, Safari, etc.)
+- Text Editor (Visual Studio Code, etc.)
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+If you like to try Linters results, you should need to follow this guide: https://github.com/microverseinc/linters-config/tree/master/html-css
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd local-folder
+  git clone git https://github.com/alexansaa/Personal_Portafolio.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+This project won't need further installation
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project double click the "index.html" file.
 
 ### Run tests
 
-To run tests, run the following command:
+To test Linters, after you have completed the guided tutorial above (the GitHub link), push the code to your new repository and check the Linters test in the project repository webpage or use GitHub for your desktop.
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+There are no extra tests for the code itself. If you run the code, you should see the webpage.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+Deploy this project on any websever.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -187,19 +120,13 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES (edit)-->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Web Page Optimized for wither screen sizes**
+- [ ] **Media queries**
+- [ ] **New CSS Styles**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -209,23 +136,17 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank every who continues supporting me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
