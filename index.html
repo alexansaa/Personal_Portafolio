@@ -6,21 +6,47 @@
         <link rel="stylesheet" href="myStyles.css" type="text/css"></link>
     </head>
     <body>
-        <nav id="topNav" class="menuAngosto_TopNav">
-            <!--Logo-->
-            <div class="logoAngostoContainer">
-                <a id="homeLogo_Angosto" href="#home" class="homeLogo_Angosto">
-                    My Logo
-                </a>
-            </div>
-            <!--Menu Hamburger-->
-            <div class="menuHamburgerContainer">
-                <a id="menuHamburger" href="javascript:void(0);" class="icon" onclick="hamburgerClick()">
-                    <img id="baraMenuImage" src="images/barMenu_30px.png" alt="menuAncor">
-                </a>
-            </div>
+        <nav id="topBar" class="topBar">
+            <!--Status-->
+            <section class="status_TopNav">
+                <!--Hora-->
+                <div class="timeContainer">
+                    <a id="homeTime" href="javascript:void(0);">
+                        <img id="timeImage" src="images/Status/Time.png" alt="timeAncor">
+                    </a>
+                </div>
+                <!--Status-->
+                <div class="statusContainer">
+                    <a id="homeStatus" href="javascript:void(0);">
+                        <img id="statusImage" src="images/Status/Status.png" alt="statusAncor">
+                    </a>
+                </div>
+            </section>
+            <!--Nav bar-->
+            <section class="menuAngosto_TopNav">
+                <!--Logo-->
+                <div class="logoAngostoContainer">
+                    <a id="homeLogo_Angosto" class="homeLogo_Angosto">
+                        My Logo
+                    </a>
+                </div>
+                <!--Menu Hamburger-->
+                <div class="menuHamburgerContainer">
+                    <a id="menuHamburger" href="javascript:void(0);" class="icon">
+                        <img id="baraMenuImage" src="images/barMenu.png" alt="menuAncor">
+                    </a>
+                </div>
+            </section>
         </nav>
         <section class="mainPage">
+            <!--Background
+            <div id="myBackground" class="background">
+                <img id="backgroundImagen" class="backgroundImg" src="images/backgroud/blackbackground.jpeg">
+            </div>-->
+            <!--Portada-->
+            <div id="myportada" class="portada">
+                <img id="portadaImagen" class="portadaImg" src="images/backgroud/Group.png">
+            </div>
             <div class="contentContainer">
                 <h1>Hey There.<br/>I'm Alex.</h1>
                 <h2>I'm a Software Developer</h2>
