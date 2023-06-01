@@ -4,10 +4,11 @@ body{
 
 .topBar{
     position: relative;
-    display: block;
+    display: flex;
     width: 100%;
     left: 0;
     top: 0;
+    flex-direction: column;
 }
 
 .status_TopNav{
@@ -67,7 +68,8 @@ body{
 .mainPage{
     /*background-color: rgb(19, 18, 18);*/
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
     left: 0;
     padding-left: 8%;
     padding-right: 8%;
