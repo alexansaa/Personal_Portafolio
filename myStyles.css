@@ -1,6 +1,18 @@
-body{
-    background-image: url(images/backgroud/blackbackground.jpeg);
+@media (min-width: 375px) and (max-width: 768px){
+
 }
+
+@media (min-width: 768px){
+    .mainPage{
+        /*display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;*/
+    }
+}
+
+/*body{
+    background-image: url(images/backgroud/blackbackground.jpeg);
+}*/
 
 .topBar{
     position: relative;
@@ -65,14 +77,17 @@ body{
     align-items: center;
 }
 
-.mainPage{
-    /*background-color: rgb(19, 18, 18);*/
-    position: relative;
+.flexContainer{
     display: flex;
-    flex-direction: column;
-    left: 0;
+    flex-wrap: wrap; 
+}
+
+.mainPage{
+    position: relative;
+    display: block;
     padding-left: 8%;
     padding-right: 8%;
+    width: 327px;
 }
 
 .mainPage h1{
@@ -109,10 +124,26 @@ body{
 
 .contentContainer{
     padding-top: 35%;
+    display: block;
+}
+
+.contentContainer h1{
+    font-family: 'Crete Round';
+    font-weight: normal;
+}
+
+.contentContainer h2{
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
 .contentContainer p{
-width: inherit;
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.contentContainer p{
+    /*width: inherit;*/
 }
 
 .background{
@@ -125,38 +156,30 @@ width: inherit;
 
 }
 
-.portada{
-    position: absolute;
-    /*text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    white-space: nowrap;
-    overflow: hidden;
-
-    display: block;*/
-    /*height: 800px;*/
-    /*overflow: hidden;
-    position: absolute;*/
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    /*top: -125px;*/
-}
-
-.portada img{
-    /*object-fit: cover;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(19, 18, 18);*/
-}
-
 .socialLinks{
     padding-bottom: 55%;
+    display: flex;
+    width: 100%;
+    
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 .socialLinks a{
     padding-left: 3%;
+    padding-right: 3%;
     text-decoration: none;
 }
 
+footer{
+    /*padding-top: 25px;*/
+}
+
+.portada{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
