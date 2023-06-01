@@ -1,227 +1,220 @@
-@media (max-width: 375px){
-    .socialLinks_Bottom{
-        display: block;
-        padding-bottom: 95%;
-    }
+@media (max-width: 375px) {
+  .socialLinks_Bottom {
+    display: block;
+    padding-bottom: 95%;
+  }
 
-    .socialLinks_Top{
-        display: none;
-    }
+  .socialLinks_Top {
+    display: none;
+  }
 
-    .contentContainer{
-        display: block;
-        max-width: 327px;
-        padding-top: 35%;
-    }
+  .contentContainer {
+    display: block;
+    max-width: 327px;
+    padding-top: 35%;
+  }
 
-    .mainPage h1{
-        font-size: 56px;
-        
-    }
+  .mainPage h1 {
+    font-size: 56px;
+  }
 
-    .mainPage h2{
-        font-size: 24px;
-    }
+  .mainPage h2 {
+    font-size: 24px;
+  }
 
-    .mainPage p{
-        font-size: 16px;
-    }
+  .mainPage p {
+    font-size: 16px;
+  }
 }
 
-@media (min-width: 376px) and (max-width: 768px){
-    .socialLinks_Bottom{
-        display: block;
-        padding-bottom: 55%;
-    }
+@media (min-width: 376px) and (max-width: 768px) {
+  .socialLinks_Bottom {
+    display: block;
+    padding-bottom: 55%;
+  }
 
-    .socialLinks_Top{
-        display: none;
-    }
+  .socialLinks_Top {
+    display: none;
+  }
 
-    .contentContainer{
-        display: block;
-        max-width: 327px;
-        padding-top: 35%;
-    }
+  .contentContainer {
+    display: block;
+    max-width: 327px;
+    padding-top: 35%;
+  }
 
-    .mainPage h1{
-        font-size: 56px;
-        
-    }
+  .mainPage h1 {
+    font-size: 56px;
+  }
 
-    .mainPage h2{
-        font-size: 24px;
-    }
+  .mainPage h2 {
+    font-size: 24px;
+  }
 
-    .mainPage p{
-        font-size: 16px;
-    }
+  .mainPage p {
+    font-size: 16px;
+  }
 }
 
-@media (min-width: 769px){
-    .socialLinks_Bottom{
-        display: none;
-    }
+@media (min-width: 769px) {
+  .socialLinks_Bottom {
+    display: none;
+  }
 
-    .flexContainer{
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .contentContainer{
-        display: inline-block;
-        max-width: 530px;
-        padding-top: 15%;
-        padding-bottom: 15%;
-    }
-
-    .mainPage h1{
-        font-size: 70px;
-    }
-
-    .mainPage h2{
-        font-size: 30px;
-    }
-
-    .mainPage p{
-        font-size: 20px;
-    }
-}
-
-.topBar{
-    position: relative;
-    display: flex;
-    width: 100%;
-    left: 0;
-    top: 0;
-    flex-direction: column;
-}
-
-.status_TopNav{
-    
-    position: static;
-    width: 100%;
-    display: flex;
+  .flexContainer {
     flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(69, 67, 67);
-    padding-top: 5%;
-    padding-bottom: 3%;
-}
-
-.timeContainer{
-    margin-left: 12%;
-    margin-bottom: 2%;
-}
-
-.statusContainer{
-    margin-right: 4%;
-}
-
-.logoAngostoContainer{
-    margin-left: 8%;
-}
-
-.menuAngosto_TopNav{
-    position: static;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(69, 67, 67);
-    padding-top: 1.5%;
-    padding-bottom: 5%;
-}
-
-.homeLogo_Angosto{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#baraMenuImage{
-    align-self: center;
-}
-
-.menuHamburgerContainer{
-    margin-right: 10%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+  }
+
+  .contentContainer {
+    display: inline-block;
+    max-width: 530px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .mainPage h1 {
+    font-size: 70px;
+  }
+
+  .mainPage h2 {
+    font-size: 30px;
+  }
+
+  .mainPage p {
+    font-size: 20px;
+  }
 }
 
-.flexContainer{
-    display: flex;
-    flex-wrap: wrap; 
+.topBar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  left: 0;
+  top: 0;
+  flex-direction: column;
 }
 
-.mainPage{
-    position: relative;
-    display: block;
-    padding-left: 8%;
-    padding-right: 8%;
+.status_TopNav {
+  position: static;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(69, 67, 67);
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
-.mainPage h1{
-    color:#FF6B00;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 64px;
-    letter-spacing: 0.37px;
+.timeContainer {
+  margin-left: 12%;
+  margin-bottom: 2%;
 }
 
-.mainPage h2{
-    color: #FFF5E1;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Roboto';
-    font-style: bold;
-    font-weight: 700;
-    /*font-size: 24px;*/
-    line-height: 32px;
+.statusContainer {
+  margin-right: 4%;
 }
 
-.background{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    z-index: -1;
-    background-repeat: repeat-x;
-
+.logoAngostoContainer {
+  margin-left: 8%;
 }
 
-.socialLinks_Top{
-    padding-right: 10%;
+.menuAngosto_TopNav {
+  position: static;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(69, 67, 67);
+  padding-top: 1.5%;
+  padding-bottom: 5%;
 }
 
-.socialLinks_Top a{
-    display: flex;
-    padding-top: 50%;
-    padding-bottom: 50%;
-    text-decoration: none;        
+.homeLogo_Angosto {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.socialLinks_Bottom{
-    width: 100%;
+#baraMenuImage {
+  align-self: center;
 }
 
-.socialLinks_Bottom a{
-    padding-left: 3%;
-    padding-right: 3%;
-    text-decoration: none;
+.menuHamburgerContainer {
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.portada{
-    display: block;
-    float: right;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainPage {
+  position: relative;
+  display: block;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.mainPage h1 {
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.mainPage h2 {
+  color: #fff5e1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.background {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  z-index: -1;
+  background-repeat: repeat-x;
+}
+
+.socialLinks_Top {
+  padding-right: 10%;
+}
+
+.socialLinks_Top a {
+  display: flex;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  text-decoration: none;
+}
+
+.socialLinks_Bottom {
+  width: 100%;
+}
+
+.socialLinks_Bottom a {
+  padding-left: 3%;
+  padding-right: 3%;
+  text-decoration: none;
+}
+
+.portada {
+  display: block;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
 }
