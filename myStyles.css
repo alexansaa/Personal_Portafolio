@@ -1,6 +1,7 @@
-@media (max-width: 768px){
+@media (max-width: 375px){
     .socialLinks_Bottom{
         display: block;
+        padding-bottom: 95%;
     }
 
     .socialLinks_Top{
@@ -25,13 +26,39 @@
     .mainPage p{
         font-size: 16px;
     }
+}
 
-    .portada img{
-        content: url(images/backgroud/Group.png);
+@media (min-width: 376px) and (max-width: 768px){
+    .socialLinks_Bottom{
+        display: block;
+        padding-bottom: 55%;
+    }
+
+    .socialLinks_Top{
+        display: none;
+    }
+
+    .contentContainer{
+        display: block;
+        max-width: 327px;
+        padding-top: 35%;
+    }
+
+    .mainPage h1{
+        font-size: 56px;
+        
+    }
+
+    .mainPage h2{
+        font-size: 24px;
+    }
+
+    .mainPage p{
+        font-size: 16px;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 769px){
     .socialLinks_Bottom{
         display: none;
     }
@@ -58,10 +85,6 @@
 
     .mainPage p{
         font-size: 20px;
-    }
-
-    .portada img{
-        content: url(images/backgroud/Group_Big.png);
     }
 }
 
@@ -151,18 +174,6 @@
     letter-spacing: 0.37px;
 }
 
-.mainPage h1{
-    /*color:#FF6B00;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: normal;*/
-    /*font-size: 56px;*/
-    /*line-height: 64px;
-    letter-spacing: 0.37px;*/
-}
-
 .mainPage h2{
     color: #FFF5E1;
     margin-top: 10px;
@@ -172,12 +183,6 @@
     font-weight: 700;
     /*font-size: 24px;*/
     line-height: 32px;
-}
-
-.contentContainer{
-    /*padding-top: 35%;
-    display: block;
-    max-width: 768px;*/
 }
 
 .background{
@@ -202,7 +207,6 @@
 }
 
 .socialLinks_Bottom{
-    padding-bottom: 55%;
     width: 100%;
 }
 
@@ -210,10 +214,6 @@
     padding-left: 3%;
     padding-right: 3%;
     text-decoration: none;
-}
-
-footer{
-    /*padding-top: 25px;*/
 }
 
 .portada{
