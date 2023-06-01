@@ -1,18 +1,69 @@
-@media (min-width: 375px) and (max-width: 768px){
+@media (max-width: 768px){
+    .socialLinks_Bottom{
+        display: block;
+    }
 
-}
+    .socialLinks_Top{
+        display: none;
+    }
 
-@media (min-width: 768px){
-    .mainPage{
-        /*display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;*/
+    .contentContainer{
+        display: block;
+        max-width: 327px;
+        padding-top: 35%;
+    }
+
+    .mainPage h1{
+        font-size: 56px;
+        
+    }
+
+    .mainPage h2{
+        font-size: 24px;
+    }
+
+    .mainPage p{
+        font-size: 16px;
+    }
+
+    .portada img{
+        content: url(images/backgroud/Group.png);
     }
 }
 
-/*body{
-    background-image: url(images/backgroud/blackbackground.jpeg);
-}*/
+@media (min-width: 768px){
+    .socialLinks_Bottom{
+        display: none;
+    }
+
+    .flexContainer{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contentContainer{
+        display: inline-block;
+        max-width: 530px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .mainPage h1{
+        font-size: 70px;
+    }
+
+    .mainPage h2{
+        font-size: 30px;
+    }
+
+    .mainPage p{
+        font-size: 20px;
+    }
+
+    .portada img{
+        content: url(images/backgroud/Group_Big.png);
+    }
+}
 
 .topBar{
     position: relative;
@@ -87,7 +138,6 @@
     display: block;
     padding-left: 8%;
     padding-right: 8%;
-    width: 327px;
 }
 
 .mainPage h1{
@@ -96,10 +146,21 @@
     margin-bottom: 0px;
     font-family: 'Crete Round';
     font-style: normal;
-    font-weight: bold;
-    font-size: 56px;
+    font-weight: normal;
     line-height: 64px;
     letter-spacing: 0.37px;
+}
+
+.mainPage h1{
+    /*color:#FF6B00;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: normal;*/
+    /*font-size: 56px;*/
+    /*line-height: 64px;
+    letter-spacing: 0.37px;*/
 }
 
 .mainPage h2{
@@ -107,43 +168,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Roboto';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
-    font-size: 24px;
+    /*font-size: 24px;*/
     line-height: 32px;
 }
 
-.mainPage p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
 .contentContainer{
-    padding-top: 35%;
+    /*padding-top: 35%;
     display: block;
-}
-
-.contentContainer h1{
-    font-family: 'Crete Round';
-    font-weight: normal;
-}
-
-.contentContainer h2{
-    font-family: 'Roboto';
-    font-weight: bold;
-}
-
-.contentContainer p{
-    font-family: 'Poppins';
-    font-weight: normal;
-}
-
-.contentContainer p{
-    /*width: inherit;*/
+    max-width: 768px;*/
 }
 
 .background{
@@ -156,16 +190,23 @@
 
 }
 
-.socialLinks{
-    padding-bottom: 55%;
-    display: block;
-    width: 100%;
-    
-    /*margin-left: auto;
-    margin-right: auto;*/
+.socialLinks_Top{
+    padding-right: 10%;
 }
 
-.socialLinks a{
+.socialLinks_Top a{
+    display: flex;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-decoration: none;        
+}
+
+.socialLinks_Bottom{
+    padding-bottom: 55%;
+    width: 100%;
+}
+
+.socialLinks_Bottom a{
     padding-left: 3%;
     padding-right: 3%;
     text-decoration: none;
