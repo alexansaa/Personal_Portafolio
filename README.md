@@ -119,7 +119,7 @@ Deploy this project on any websever.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](<a href="issue.html">send contribution!</a>).
+Feel free to check the [issues page](https://j2ncmhwtl7v.typeform.com/to/rlHIjtE7).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
