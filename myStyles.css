@@ -218,8 +218,9 @@
 
 .horizontal-list li a {
   display: block;
-  padding: 10px 15px; /* Adjust the padding as needed */
-  text-decoration: none;color: #333; /* Adjust the text color as needed */
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
 }
 
 .portada img {
