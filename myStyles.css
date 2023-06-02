@@ -18,7 +18,7 @@
 @media (max-width: 375px) {
   .socialLinks_Bottom {
     display: block;
-    padding-bottom: 125%;
+    padding-bottom: 105%;
   }
 
   .contentContainer {
@@ -43,12 +43,20 @@
   .mainPage p {
     font-size: 16px;
   }
+
+
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
   .socialLinks_Bottom {
     display: block;
-    padding-bottom: 55%;
+    padding-bottom: 115%;
+  }
+
+  .horizontal-list li {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .contentContainer {
@@ -68,11 +76,12 @@
   .mainPage p {
     font-size: 16px;
   }
+
+
 }
 
 @media (min-width: 769px) {
   .flexContainer {
-    /* flex-direction: row; */
     align-items: center;
   }
 
@@ -93,13 +102,17 @@
   .mainPage p {
     font-size: 20px;
   }
+
+  .socialLinks_Bottom {
+    display: block;
+    padding-bottom: 115%;
+  }
 }
 
 .topBar {
   position: relative;
   display: flex;
   justify-content: space-between;
-  /* text-align: center; */
   width: 100%;
   left: 0;
   top: 0;
@@ -178,6 +191,10 @@
   padding-left: 8%;
   padding-right: 8%;
   background-color: black;
+  background-image: url("images/backgroud/Group.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 100% 100%;
 }
 
 .mainPage h1 {
@@ -204,17 +221,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.background {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: auto;
-  z-index: -1;
-  background-repeat: repeat-x;
-}
-
 .socialLinks_Bottom {
-  width: 100%;
+  width: auto;
 }
 
 .horizontal-list {
@@ -222,31 +230,34 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 
 .horizontal-list li a {
   display: block;
   padding: 10px 15px; /* Adjust the padding as needed */
   text-decoration: none;
-  background-color: #f2f2f2; /* Adjust the background color as needed */
+  /* background-color: #f2f2f2; */ /* Adjust the background color as needed */
   color: #333; /* Adjust the text color as needed */
 }
 
-.portada[src*="/images/backgroud/Group.png"] {
-  background-image: url("/images/backgroud/Group.png");
+.portada {
+  /*background-image: url("images/backgroud/Group.png");
   background-repeat: no-repeat;
-  background-size: cover;
-
-  display: block;
-  float: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
+  background-size: contain;*/
+  /*display: flex;*/
+  /*position: absolute;*/
+  /*float: inline-end;
+  text-align: right;*/
+  /* right: 0;
+  bottom: 0; */
+  /*width: 100%;
+  height: 100%;*/
 }
+
+
 
 .portada img {
   display: block;
-  opacity: 0; /* Oculta la imagen real */
+  /*opacity: 0;  Oculta la imagen real */
 }
