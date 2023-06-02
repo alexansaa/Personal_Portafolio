@@ -8,7 +8,6 @@
     display: block;
     max-width: 327px;
     padding-top: 35%;
-    /* order: 2; */
   }
 
   .flexContainer {
@@ -178,8 +177,8 @@
   line-height: 32px;
 }
 
-.mainPage p{
-  color: #ffffff;
+.mainPage p {
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
