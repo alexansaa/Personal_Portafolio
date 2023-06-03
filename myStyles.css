@@ -543,13 +543,45 @@
   background-position: 100% 95%;
 }
 
+.abountMeButton {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  width: fit-content;
+  text-align: left;
+  margin-left: 9%;
+  margin-bottom: 55%;
+  font-family: 'Inter', sans-serif;
+}
+
+.abountMeButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.abountMeButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.abountMeButton:disabled {
+  background-color: #c4b9b1;
+  color: #000;
+  border-color: #c4b9b1;
+}
+
 .aboutMe h1 {
   font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
   font-size: 79px;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 24px;
+  padding-top: 35%;
+  padding-bottom: 10%;
 }
 
 .aboutMe p {
@@ -559,7 +591,7 @@
   font-size: 16px;
   margin-left: 24px;
   margin-right: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 12%;
 }
 
 #letsConectLik {
