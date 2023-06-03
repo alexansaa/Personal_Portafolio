@@ -18,7 +18,7 @@
 @media (max-width: 375px) {
   .socialLinks_Bottom {
     display: block;
-    padding-bottom: 105%;
+    padding-bottom: 115%;
   }
 
   .contentContainer {
@@ -42,6 +42,29 @@
 
   .mainPage p {
     font-size: 16px;
+  }
+
+  .card {
+    width: 327px;
+    height: 386px;
+  }
+
+  .card h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+  }
+
+  .card h4 {
+    color: #fff;
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #fff;
   }
 }
 
@@ -74,6 +97,29 @@
   .mainPage p {
     font-size: 16px;
   }
+
+  .card {
+    width: 327px;
+    height: 386px;
+  }
+
+  .card h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+  }
+
+  .card h4 {
+    color: #fff;
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #fff;
+  }
 }
 
 @media (min-width: 769px) {
@@ -102,6 +148,31 @@
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+  }
+
+  .card {
+    width: 530px;
+    height: 580px;
+  }
+
+  .card h2 {
+    font-size: 72px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card h4 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card p {
+    font-size: 25px;
+    color: #fff;
   }
 }
 
@@ -226,3 +297,298 @@
 .portada img {
   display: block;
 }
+
+.worksInit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WorkTitle {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WorkSeparation {
+  border-width: 2px;
+  width: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.worksInit h2 {
+  margin-top: 120px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  width: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.WorkImage img {
+  margin-top: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.worksBody {
+  margin-left: inherit;
+  margin-right: inherit;
+  width: 85%;
+}
+
+.worksInit h3 {
+  font-size: 32px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: normal;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.worksInit p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
+}
+
+.worksList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.worksList ul {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.worksList li {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border: solid 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.workButton {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: fit-content;
+  text-align: left;
+  margin-left: 9%;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.worksCards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  text-align: center;
+  height: auto;
+}
+
+.card {
+  background-image: url("images/Work_Init/WorkCard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h2 {
+  font-family: 'Crete Round', sans-serif;
+  text-align: left;
+  margin-left: 13px;
+  margin-right: 19px;
+  margin-top: 72px;
+  font-weight: normal;
+  padding-bottom: 12px;
+}
+
+.flexCardTitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card h3 {
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  padding-bottom: 12px;
+}
+
+.card h4 {
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin-right: auto;
+  padding-bottom: 12px;
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin-left: 13px;
+  margin-right: 13px;
+  padding-bottom: 12px;
+}
+
+.worksListCard {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.worksListCard li {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border: solid 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.worksListCard ul {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.workButtonCard {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: auto;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.aboutMe {
+  background-color: black;
+  background-image: url("images/AboutMe/Background.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 100% 95%;
+}
+
+.aboutMe h1 {
+  font-family: 'Crete Round', sans-serif;
+  color: #ff6b00;
+  font-size: 79px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 24px;
+}
+
+.aboutMe p {
+  color: #fff;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-bottom: 24px;
+}
+
+#letsConectLik {
+  color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  margin-left: 24px;
+}
+
+.socialLinks_AboutMe {
+  padding-left: 24px;
+}
+
+.workButton {
+  margin-bottom: 209px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tech p {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+}
+
+.openable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.techflex {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stackNotice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.stackNotice img {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.stackNotice p {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.TechSeparation {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
