@@ -53,7 +53,7 @@ Personal Portafolio Profesional Web Site with responsive layout
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [GitHub pages deployment](https://alexansaa.github.io/Personal_Portafolio/)
+- [Pages deployment coming soon!]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ Deploy this project on any websever.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://j2ncmhwtl7v.typeform.com/to/rlHIjtE7).
+Feel free to check the [issues page](https://github.com/alexansaa/Personal_Portafolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
