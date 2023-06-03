@@ -399,6 +399,24 @@
   font-family: 'Inter', sans-serif;
 }
 
+.workButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.workButton:disabled {
+  background-color: #c4b9b1;
+  color: #000000;
+  border-color: #c4b9b1;
+}
+
 .worksCards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -414,6 +432,8 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card h2 {
@@ -437,6 +457,7 @@
   display: inline-block;
   margin-left: auto;
   padding-bottom: 5%;
+  display: block;
 }
 
 .card h4 {
@@ -444,6 +465,7 @@
   display: inline-block;
   margin-right: auto;
   padding-bottom: 5%;
+  display: block;
 }
 
 .card p {
@@ -452,6 +474,7 @@
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 4%;
+  display: block;
 }
 
 .worksListCard {
@@ -493,6 +516,24 @@
   position: absolute;
   bottom: 0;
   font-family: 'Inter', sans-serif;
+}
+
+.workButtonCard:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButtonCard:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.workButtonCard:disabled {
+  background-color: #c4b9b1;
+  color: #000000;
+  border-color: #c4b9b1;
 }
 
 .aboutMe {
@@ -546,11 +587,79 @@
   font-size: 25px;
 }
 
-.openable {
+.technologies {
+  padding-top: 22%;
+  background-color: #000000;
+  padding-bottom: 15%;
+}
+
+.openables {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  color: #fff;
+  font-family: 'Inter',sans-serif;
+}
+
+.openable_item{
+  font-size: 32px;
+  text-align: center;
+}
+
+.openable_item li{
+  font-size: 22px;
+  list-style: none;
+}
+
+.openable_item>li{
+  text-align: center;
+}
+
+#openable_Lang {
+  list-style: none;
+}
+
+#openable_Lang::before {
+  content: "\25AA";
+  list-style: square;
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#openable_Fram {
+  list-style: none;
+}
+
+#openable_Fram::before {
+  content: "\2022";
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#openable_Ski {
+  list-style: none;
+}
+
+#openable_Ski::before {
+  content: "\2B25";
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.openable_item ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.openable_item li {
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .techflex {
@@ -645,6 +754,24 @@
   margin-top: 7%;
   margin-bottom: 18%;
   font-family: 'Inter', sans-serif;
+}
+
+.msjButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.msjButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.msjButton:disabled {
+  background-color: #c4b9b1;
+  color: #000000;
+  border-color: #c4b9b1;
 }
 
 .socialLinks_Comment {
