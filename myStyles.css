@@ -461,14 +461,12 @@
   margin: 0;
   align-items: center;
   text-decoration: none;
-  align-items: center;
 }
 
 .worksListCard li {
   display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
-  color: #333;
   border: solid 1px;
   margin-left: 10px;
   margin-right: 10px;
@@ -489,7 +487,6 @@
   padding-bottom: 3%;
   padding-left: 4%;
   padding-right: 4%;
-  width: auto;
   text-align: center;
   margin-top: auto;
   width: 100%;
@@ -533,10 +530,6 @@
 
 .socialLinks_AboutMe {
   padding-left: 10%;
-}
-
-.workButton {
-  margin-bottom: 209px;
 }
 
 .tech {
@@ -658,10 +651,4 @@
   margin: auto;
   margin-top: 3%;
   margin-bottom: 8%;
-}
-
-.horizontal-list {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
 }
