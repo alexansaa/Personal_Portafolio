@@ -413,7 +413,7 @@
 
 .workButton:disabled {
   background-color: #c4b9b1;
-  color: #000000;
+  color: #000;
   border-color: #c4b9b1;
 }
 
@@ -465,7 +465,6 @@
   display: inline-block;
   margin-right: auto;
   padding-bottom: 5%;
-  display: block;
 }
 
 .card p {
@@ -532,7 +531,7 @@
 
 .workButtonCard:disabled {
   background-color: #c4b9b1;
-  color: #000000;
+  color: #000;
   border-color: #c4b9b1;
 }
 
@@ -589,7 +588,7 @@
 
 .technologies {
   padding-top: 22%;
-  background-color: #000000;
+  background-color: #000;
   padding-bottom: 15%;
 }
 
@@ -598,20 +597,22 @@
   flex-direction: column;
   justify-content: space-between;
   color: #fff;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-.openable_item{
+.openable_item {
   font-size: 32px;
   text-align: center;
 }
 
-.openable_item li{
+.openable_item li {
   font-size: 22px;
   list-style: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-.openable_item>li{
+.openable_item > li {
   text-align: center;
 }
 
@@ -655,11 +656,6 @@
 .openable_item ul {
   padding-top: 5%;
   padding-bottom: 5%;
-}
-
-.openable_item li {
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 
 .techflex {
@@ -770,7 +766,7 @@
 
 .msjButton:disabled {
   background-color: #c4b9b1;
-  color: #000000;
+  color: #000;
   border-color: #c4b9b1;
 }
 
