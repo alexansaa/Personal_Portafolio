@@ -420,9 +420,8 @@
 .worksCards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 0.0125%;
+  gap: 2.5%;
   text-align: center;
-  height: auto;
 }
 
 .card {
@@ -480,25 +479,31 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  align-items: center;
+  
   text-decoration: none;
+  
+  /* flex-direction: row; */
 }
 
 .worksListCard li {
-  display: inline-block;
+  display: flex;
+  float: left;
   padding: 10px 15px;
   text-decoration: none;
-  border: solid 1px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   color: #fff;
   font-family: 'Inter', sans-serif;
+  background-color: rgba(255, 255, 255, 0.24);
 }
 
 .worksListCard ul {
-  margin: auto;
+  margin-left: 4%;
   padding-top: 6%;
   padding-bottom: 15%;
+  /* justify-items: left;
+  align-content: flex-start; */
+  
 }
 
 .workButtonCard {
@@ -540,6 +545,7 @@
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: 100% 95%;
+  margin-top: 160%;
 }
 
 .abountMeButton {
@@ -581,6 +587,7 @@
   text-align: center;
   padding-top: 35%;
   padding-bottom: 10%;
+  font-weight: normal;
 }
 
 .aboutMe p {
