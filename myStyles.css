@@ -18,12 +18,12 @@
 @media (max-width: 375px) {
   .socialLinks_Bottom {
     display: block;
-    padding-bottom: 105%;
+    padding-bottom: 115%;
   }
 
   .contentContainer {
     display: block;
-    max-width: 327px;
+    max-width: 345px;
     padding-top: 35%;
   }
 
@@ -42,6 +42,29 @@
 
   .mainPage p {
     font-size: 16px;
+  }
+
+  .card {
+    width: 345px;
+    height: 386px;
+  }
+
+  .card h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+  }
+
+  .card h4 {
+    color: #fff;
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #fff;
   }
 }
 
@@ -74,6 +97,29 @@
   .mainPage p {
     font-size: 16px;
   }
+
+  .card {
+    width: 327px;
+    height: 386px;
+  }
+
+  .card h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+  }
+
+  .card h4 {
+    color: #fff;
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #fff;
+  }
 }
 
 @media (min-width: 769px) {
@@ -102,6 +148,31 @@
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+  }
+
+  .card {
+    width: 530px;
+    height: 580px;
+  }
+
+  .card h2 {
+    font-size: 72px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card h4 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card p {
+    font-size: 25px;
+    color: #fff;
   }
 }
 
@@ -218,11 +289,521 @@
 
 .horizontal-list li a {
   display: block;
-  padding: 10px 15px;
+  padding: 25% 15px;
   text-decoration: none;
   color: #333;
 }
 
 .portada img {
   display: block;
+}
+
+.worksInit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WorkTitle {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WorkSeparation {
+  border-width: 2px;
+  width: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.worksInit h2 {
+  margin-top: 30%;
+  margin-bottom: 20%;
+  text-align: center;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  width: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.WorkImage img {
+  margin-top: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.worksBody {
+  margin-left: inherit;
+  margin-right: inherit;
+  width: 85%;
+}
+
+.worksInit h3 {
+  font-size: 32px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: normal;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.worksInit p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.worksList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.worksList ul {
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 12%;
+}
+
+.worksList li {
+  display: inline-block;
+  padding: 3.5% 15px;
+  text-decoration: none;
+  color: #333;
+  border: solid 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.workButton {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  width: fit-content;
+  text-align: left;
+  margin-left: 9%;
+  margin-bottom: 20%;
+  font-family: 'Inter', sans-serif;
+}
+
+.workButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.workButton:disabled {
+  background-color: #c4b9b1;
+  color: #000;
+  border-color: #c4b9b1;
+}
+
+.worksCards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5%;
+  text-align: center;
+}
+
+.card {
+  background-image: url("images/Work_Init/WorkCard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-family: 'Crete Round', sans-serif;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 22%;
+  font-weight: normal;
+  padding-bottom: 6%;
+}
+
+.flexCardTitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.card h3 {
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  padding-bottom: 5%;
+}
+
+.card h4 {
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 4%;
+  display: block;
+}
+
+.worksListCard {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.worksListCard li {
+  display: flex;
+  float: left;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.worksListCard ul {
+  margin-left: 4%;
+  padding-top: 6%;
+  padding-bottom: 15%;
+}
+
+.workButtonCard {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 6%;
+  padding-bottom: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.workButtonCard:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButtonCard:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.workButtonCard:disabled {
+  background-color: #c4b9b1;
+  color: #000;
+  border-color: #c4b9b1;
+}
+
+.aboutMe {
+  background-color: black;
+  background-image: url("images/AboutMe/Background.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 100% 95%;
+  margin-top: 160%;
+}
+
+.abountMeButton {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  width: fit-content;
+  text-align: left;
+  margin-left: 9%;
+  margin-bottom: 55%;
+  font-family: 'Inter', sans-serif;
+}
+
+.abountMeButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.abountMeButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.abountMeButton:disabled {
+  background-color: #c4b9b1;
+  color: #000;
+  border-color: #c4b9b1;
+}
+
+.aboutMe h1 {
+  font-family: 'Crete Round', sans-serif;
+  color: #ff6b00;
+  font-size: 79px;
+  text-align: center;
+  padding-top: 35%;
+  padding-bottom: 10%;
+  font-weight: normal;
+}
+
+.aboutMe p {
+  color: #fff;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-bottom: 12%;
+}
+
+#letsConectLik {
+  color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  margin-left: 24px;
+}
+
+.socialLinks_AboutMe {
+  padding-left: 10%;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tech p {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+}
+
+.technologies {
+  padding-top: 22%;
+  background-color: #000;
+  padding-bottom: 15%;
+}
+
+.openables {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.openable_item {
+  font-size: 32px;
+  text-align: center;
+}
+
+.openable_item li {
+  font-size: 22px;
+  list-style: none;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.openable_item > li {
+  text-align: center;
+}
+
+#openable_Lang {
+  list-style: none;
+}
+
+#openable_Lang::before {
+  content: "\25AA";
+  list-style: square;
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#openable_Fram {
+  list-style: none;
+}
+
+#openable_Fram::before {
+  content: "\2022";
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#openable_Ski {
+  list-style: none;
+}
+
+#openable_Ski::before {
+  content: "\2B25";
+  color: #ff6b00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.openable_item ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.techflex {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stackNotice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.stackNotice img {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.stackNotice p {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.TechSeparation {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+.comments {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.comments h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 17%;
+  padding-bottom: 17%;
+}
+
+.form_comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input_comment {
+  width: auto;
+  padding-left: 5%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #979493;
+  box-sizing: unset;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.text_comment {
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-left: 5%;
+  padding-top: 3%;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #979493;
+  margin-top: 7%;
+  background-color: #fbf8f7;
+}
+
+.msjButton {
+  background-color: #ff6b00;
+  color: #fff;
+  padding-top: 6%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  margin-bottom: 18%;
+  font-family: 'Inter', sans-serif;
+}
+
+.msjButton:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.msjButton:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.msjButton:disabled {
+  background-color: #c4b9b1;
+  color: #000;
+  border-color: #c4b9b1;
+}
+
+.socialLinks_Comment {
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 8%;
 }
