@@ -743,17 +743,32 @@
   justify-content: center;
   flex-direction: column;
   text-align: left;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .input_comment {
   width: auto;
   padding-left: 5%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   color: #979493;
   box-sizing: unset;
-  margin-left: 7%;
-  margin-right: 7%;
+}
+
+.input_place {
+  border: none;
+  outline: none;
+}
+
+.InputSeparation {
+  border-width: 1px;
+  width: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
 }
 
 .text_comment {
@@ -763,7 +778,7 @@
   padding-top: 3%;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: #979493;
+  color: #3C3A39;
   margin-top: 7%;
   background-color: #fbf8f7;
 }
