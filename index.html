@@ -206,14 +206,16 @@
         <section class="comments">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <form class="form_comment">
-                <input type="text" id="fname" name="fname" placeholder="Full Name" min="4" max="30" class="input_place input_comment"
-                    required><br>
+                <input type="text" id="fname" name="fname" placeholder="Full Name" min="4" max="30" class="input_place input_comment" required>
+                <hr class="InputSeparation">
                 <br>
                 <br>
-                <input type="text" id="faddress" name="faddress" class="input_comment" placeholder="Email Address">
+                <br>
+                <input id="faddress" name="faddress" class="input_place input_comment" placeholder="Email Address" type="email" min="10" max="30" required>
+                <hr class="InputSeparation">
+                <textarea name="comment" id="comment" cols="30" rows="10" class="text_comment" type="text" min="15" max="500" placeholder="Write some text here" required>Write me something...</textarea>
+                <button type="submit" class="msjButton">Get in touch</button>
             </form>
-            <textarea name="comment" id="comment" cols="30" rows="10" class="text_comment">Write me something...</textarea>
-            <button type="button" class="msjButton">Get in touch</button>
             <hr class="CommentSeparation">
             <div class="socialLinks_Comment">
                 <ul class="horizontal-list">

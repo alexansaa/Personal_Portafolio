@@ -763,6 +763,18 @@
   margin-right: 7%;
 }
 
+.input_place {
+  border: none;
+  outline: none;
+}
+
+.InputSeparation {
+  border-width: 1px;
+  width: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
 .text_comment {
   margin-left: 7%;
   margin-right: 7%;
