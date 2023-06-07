@@ -120,6 +120,11 @@
     font-size: 16px;
     color: #fff;
   }
+
+  .aligned-list {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 769px) {
@@ -756,6 +761,18 @@
   margin-right: 7%;
 }
 
+.input_place {
+  border: none;
+  outline: none;
+}
+
+.InputSeparation {
+  border-width: 1px;
+  width: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
 .text_comment {
   margin-left: 7%;
   margin-right: 7%;
@@ -771,7 +788,7 @@
 .msjButton {
   background-color: #ff6b00;
   color: #fff;
-  padding-top: 6%;
+  padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 3%;
   padding-right: 3%;
