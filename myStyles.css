@@ -768,7 +768,10 @@
 
 .InputSeparation {
   border-width: 1px;
-  width: inherit;
+  width: 80%;
+  align-self: center;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-left: inherit;
   padding-right: inherit;
 }
