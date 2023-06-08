@@ -614,10 +614,10 @@
   background-repeat: no-repeat;
 }
 
-/* .homeLogo_Angosto img:hover {
+.homeLogo_Angosto img:hover {
   transform: rotate(360deg);
   transition: 2s all ease-in;
-} */
+}
 
 #baraMenuImage {
   align-self: center;
