@@ -16,9 +16,19 @@
 }
 
 @media (max-width: 375px) {
+  .homeLogo_Angosto {
+    font-size: 25px;
+  }
+
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+    width: 100%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: row;
   }
 
   .contentContainer {
@@ -32,8 +42,19 @@
     align-items: center;
   }
 
+  .mainPage {
+    background-color: black;
+    background-image: url("images/backgroud/Group.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100% 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .mainPage h1 {
     font-size: 56px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -42,6 +63,62 @@
 
   .mainPage p {
     font-size: 16px;
+  }
+
+  .WorkTitle {
+    flex-direction: column;
+  }
+
+  .WorkTitle h2 {
+    margin-top: 30%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    width: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+
+  .WorkSeparation {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .WorkImage {
+    display: block;
+  }
+
+  .WorkImage img {
+    margin-top: 20%;
+  }
+
+  .centerWork {
+    display: block;
+  }
+
+  .worksBody {
+    display: block;
+    width: 100%;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .worksList li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .workButton {
+    display: block;
+    margin-bottom: 20%;
   }
 
   .card {
@@ -66,12 +143,30 @@
     font-size: 16px;
     color: #fff;
   }
+
+  .menuTextContainer {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: inline-flex;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
+  .homeLogo_Angosto {
+    font-size: 25px;
+  }
+
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+    width: 100%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: row;
   }
 
   .horizontal-list li {
@@ -86,8 +181,19 @@
     padding-top: 35%;
   }
 
+  .mainPage {
+    background-color: black;
+    background-image: url("images/backgroud/Group.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100% 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .mainPage h1 {
     font-size: 56px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -96,6 +202,62 @@
 
   .mainPage p {
     font-size: 16px;
+  }
+
+  .WorkTitle {
+    flex-direction: column;
+  }
+
+  .WorkTitle h2 {
+    margin-top: 30%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    width: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+
+  .WorkSeparation {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .WorkImage {
+    display: block;
+  }
+
+  .WorkImage img {
+    margin-top: 20%;
+  }
+
+  .centerWork {
+    display: block;
+  }
+
+  .worksBody {
+    display: block;
+    width: 100%;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .worksList li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .workButton {
+    display: block;
+    margin-bottom: 20%;
   }
 
   .card {
@@ -121,25 +283,53 @@
     color: #fff;
   }
 
-  .aligned-list {
+  /* .aligned-list {
     display: flex;
     flex-direction: row;
+  } */
+
+  .menuTextContainer {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: inline-flex;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1220px) {
+  .homeLogo_Angosto {
+    font-size: 35px;
+  }
+
   .flexContainer {
     align-items: center;
   }
 
   .contentContainer {
     display: inline-block;
-    max-width: 530px;
+    max-width: 400px;
+    padding-left: 5%;
+    /* padding-top: 20%; */
+    order: 2;
+    /* padding-bottom: 30%; */
+  }
+
+  .mainPage {
+    background-color: black;
+    background-image: url("images/desktop/background.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 100% 30%;
     padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
   .mainPage h1 {
     font-size: 70px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -150,9 +340,97 @@
     font-size: 20px;
   }
 
+  .WorkTitle {
+    flex-direction: row;
+    /* max-height: auto;
+    justify-content: center;
+    align-items: center;*/
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .WorkTitle h2 {
+    /* width: auto; */
+    white-space: nowrap;
+    font-size: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .WorkSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+  }
+
+  .centerWork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .WorkImage {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 250%;
+  }
+
+  .WorkImage img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .contextWork {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .worksBody {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: left;
+    /* margin-left: inherit;
+    margin-right: inherit;
+    max-width: 40%; */
+    border: 0;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+    margin-left: 10%;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+  }
+
+  .workButton {
+    display: flex;
+    width: auto;
+    align-self: flex-start;
+    
+    /* width: 40%;
+    margin-left: 10%; */
+  }
+
   .socialLinks_Bottom {
-    display: block;
-    padding-bottom: 115%;
+    display: inline-block;
+    order: 1;
+    margin-right: 2%;
+    margin-left: -8%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: column;
   }
 
   .card {
@@ -179,19 +457,124 @@
     font-size: 25px;
     color: #fff;
   }
+
+  .aligned-list {
+    /* padding-left: 1%; */
+  }
+
+  .menuTextContainer {
+    display: inline-flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+}
+
+@media (min-width: 1221px) {
+  .homeLogo_Angosto {
+    font-size: 35px;
+  }
+
+  .flexContainer {
+    align-items: center;
+  }
+
+  .contentContainer {
+    display: inline-block;
+    max-width: 700px;
+    /* padding-top: 20%; */
+    order: 2;
+    /* padding-bottom: 30%; */
+  }
+
+  .mainPage {
+    background-color: black;
+    background-image: url("images/desktop/background.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-origin: 0 15;
+    background-position: 100% 20%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .mainPage h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+
+  .mainPage h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+
+  .mainPage p {
+    font-size: 25px;
+  }
+
+  .socialLinks_Bottom {
+    display: inline-block;
+    order: 1;
+    margin-right: 6%;
+    margin-left: -8%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 530px;
+    height: 580px;
+  }
+
+  .card h2 {
+    font-size: 72px;
+    color: #fff;
+  }
+
+  .card h3 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card h4 {
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .card p {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .menuTextContainer {
+    display: inline-flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
 }
 
 .topBar {
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   left: 0;
   top: 0;
   flex-direction: row;
   background-color: rgb(69, 67, 67);
-  padding-top: 1.5%;
-  padding-bottom: 5%;
+  padding-top: min(40px);
+  padding-bottom: min(40px);
+  min-width: 348px;
 }
 
 .status_TopNav {
@@ -216,25 +599,43 @@
 
 .logoAngostoContainer {
   margin-left: 8%;
-  display: inline-block;
+  display: flex;
 }
 
 .homeLogo_Angosto {
   text-decoration: none;
   color: aliceblue;
-  font-size: 25px;
   font-weight: bold;
+  font-family: 'Inter',sans-serif;
 }
 
 #baraMenuImage {
   align-self: center;
 }
 
+.menuTextContainer {
+  margin-right: 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.menuTextContainer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+}
+
+#main {
+  min-width: 348px;
+}
+
 .menuHamburgerContainer {
   margin-right: 10%;
   margin-top: auto;
   margin-bottom: auto;
-  display: inline-flex;
   justify-content: center;
   text-align: center;
 }
@@ -247,13 +648,6 @@
 .mainPage {
   position: relative;
   display: block;
-  padding-left: 8%;
-  padding-right: 8%;
-  background-color: black;
-  background-image: url("images/backgroud/Group.png");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: 100% 100%;
 }
 
 .mainPage h1 {
@@ -261,14 +655,14 @@
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 64px;
+  
   letter-spacing: 0.37px;
 }
 
 .mainPage h2 {
-  color: #fff5e1;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  color: #fff;
+  padding-bottom: 4%;
+  padding-top: 4%;
   font-family: 'Roboto', sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -276,16 +670,17 @@
 }
 
 .mainPage p {
+  
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
-.socialLinks_Bottom {
-  width: auto;
-}
+/* .socialLinks_Bottom {
+  display: block;
+  width: 100%;
+} */
 
 .horizontal-list {
-  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -305,6 +700,7 @@
 
 .worksInit {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
@@ -312,57 +708,37 @@
 }
 
 .WorkTitle {
+  display: flex;
   width: 90%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.WorkSeparation {
-  border-width: 2px;
-  width: inherit;
-  margin-left: inherit;
-  margin-right: inherit;
-}
-
-.worksInit h2 {
-  margin-top: 30%;
-  margin-bottom: 20%;
+.WorkTitle h2 {
   text-align: center;
   font-family: 'Crete Round', sans-serif;
   font-weight: normal;
-  font-size: 40px;
-  width: inherit;
-  margin-left: inherit;
-  margin-right: inherit;
 }
 
-.WorkImage img {
-  margin-top: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.WorkSeparation {
+  border-width: 1px;
+  border-color: #000;
 }
 
-.worksBody {
-  margin-left: inherit;
-  margin-right: inherit;
-  width: 85%;
-}
-
-.worksInit h3 {
-  font-size: 32px;
+.worksBody h3 {
+  
   font-family: 'Crete Round', sans-serif;
   font-weight: normal;
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: inherit;
+  margin-right: inherit; */
   margin-bottom: 5%;
 }
 
-.worksInit p {
+.worksBody p {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  
 }
 
 .worksList {
@@ -380,13 +756,11 @@
 }
 
 .worksList li {
-  display: inline-block;
+  display: inline-flex;
   padding: 3.5% 15px;
   text-decoration: none;
   color: #333;
   border: solid 1px;
-  margin-left: 10px;
-  margin-right: 10px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -397,10 +771,7 @@
   padding-bottom: 3.5%;
   padding-left: 3.5%;
   padding-right: 3.5%;
-  width: fit-content;
-  text-align: left;
-  margin-left: 9%;
-  margin-bottom: 20%;
+  margin-left: 5%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -768,7 +1139,8 @@
 
 .InputSeparation {
   border-width: 1px;
-  width: inherit;
+  align-self: center;
+  width: 80%;
   padding-left: inherit;
   padding-right: inherit;
 }
