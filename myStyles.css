@@ -42,6 +42,10 @@
     align-items: center;
   }
 
+  #main {
+    min-width: 346px;
+  }
+
   .mainPage {
     background-color: black;
     background-image: url("images/backgroud/Group.png");
@@ -96,6 +100,12 @@
     display: block;
   }
 
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .worksBody {
     display: block;
     width: 100%;
@@ -103,12 +113,19 @@
 
   .worksBody h3 {
     font-size: 32px;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .worksBody p {
     font-size: 16px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .worksList ul {
+    margin: auto;
+    /* margin-left: 10%; */
   }
 
   .worksList li {
@@ -118,12 +135,15 @@
 
   .workButton {
     display: block;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
+    margin-left: 5%;
+    margin-bottom: 13%;
   }
 
   .card {
     width: 345px;
     height: 386px;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
   }
 
   .card h2 {
@@ -144,6 +164,14 @@
     color: #fff;
   }
 
+  .flexCardTitle {
+    display: flex;
+  }
+
+  .worksListCard ul {
+    padding-bottom: 15%;
+  }
+
   .menuTextContainer {
     display: none;
   }
@@ -151,9 +179,48 @@
   .menuHamburgerContainer {
     display: inline-flex;
   }
+
+  .aboutMe {
+    margin-top: 90%;
+  }
+
+  .aboutMe h1 {
+    font-size: 79px;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+
+  .abountMeButton {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 9%;
+    margin-bottom: 55%;
+  }
+
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
+  #main {
+    min-width: 346px;
+  }
+
   .homeLogo_Angosto {
     font-size: 25px;
   }
@@ -235,6 +302,12 @@
     display: block;
   }
 
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .worksBody {
     display: block;
     width: 100%;
@@ -242,12 +315,19 @@
 
   .worksBody h3 {
     font-size: 32px;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .worksBody p {
     font-size: 16px;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .worksList ul {
+    margin: auto;
+    /* margin-left: 10%; */
   }
 
   .worksList li {
@@ -257,12 +337,15 @@
 
   .workButton {
     display: block;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
+    margin-left: 5%;
+    margin-bottom: 13%;
   }
 
   .card {
     width: 327px;
     height: 386px;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
   }
 
   .card h2 {
@@ -283,6 +366,14 @@
     color: #fff;
   }
 
+  .flexCardTitle {
+    display: flex;
+  }
+
+  .worksListCard ul {
+    padding-bottom: 15%;
+  }
+
   /* .aligned-list {
     display: flex;
     flex-direction: row;
@@ -295,9 +386,48 @@
   .menuHamburgerContainer {
     display: inline-flex;
   }
+
+  .aboutMe {
+    margin-top: 90%;
+  }
+
+  .aboutMe h1 {
+    font-size: 79px;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+
+  .abountMeButton {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 9%;
+    margin-bottom: 55%;
+  }
+
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1220px) {
+  #main {
+    min-width: 346px;
+  }
+
   .homeLogo_Angosto {
     font-size: 35px;
   }
@@ -307,7 +437,8 @@
   }
 
   .contentContainer {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     max-width: 400px;
     padding-left: 5%;
     /* padding-top: 20%; */
@@ -371,6 +502,17 @@
     padding-right: 10%;
   }
 
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    /* width: auto;*/
+  }
+
   .WorkImage {
     display: flex;
     justify-content: center;
@@ -404,19 +546,23 @@
   .worksBody h3 {
     font-size: 32px;
     margin-left: 10%;
+    margin-bottom: 5%;
   }
 
   .worksBody p {
     font-size: 16px;
     margin-left: 10%;
-    /* margin-right: 10%; */
+  }
+
+  .worksList ul {
+    margin-left: 10%;
   }
 
   .workButton {
     display: flex;
     width: auto;
     align-self: flex-start;
-    
+    margin-left: 10%;
     /* width: 40%;
     margin-left: 10%; */
   }
@@ -433,14 +579,34 @@
     flex-direction: column;
   }
 
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
   .card {
-    width: 530px;
-    height: 580px;
+    width: 240px;
+    height: 290px;
+    justify-content: end;
+    padding-bottom: 4%;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
+  }
+
+  .card:hover {
+    background-image: url("images/Work_Init/WorkCard.png");
   }
 
   .card h2 {
-    font-size: 72px;
+    font-size: 25px;
     color: #fff;
+    white-space: nowrap;
+  }
+
+  .card:hover h2 {
+    display: none;
+    /* font-size: 25px;
+    color: #fff;
+    white-space: nowrap; */
   }
 
   .card h3 {
@@ -448,18 +614,94 @@
     font-size: 32px;
   }
 
+  .card:hover h3 {
+    display: none;
+    /* color: #fff;
+    font-size: 32px; */
+  }
+
   .card h4 {
     color: #fff;
     font-size: 32px;
   }
 
+  .card:hover h4 {
+    /* color: #fff;
+    font-size: 32px; */
+    display: none;
+  }
+
   .card p {
-    font-size: 25px;
+    font-size: 12px;
     color: #fff;
+  }
+
+  .card:hover p {
+    /* font-size: 12px;
+    color: #fff; */
+    display: none;
+  }
+
+  .card:hover ul {
+    display: none;
+  }
+
+  .card:hover button {
+    display: block;
+  }
+
+  .flexCardTitle {
+    display: none;
+  }
+
+  .worksListCard ul {
+    /* padding-bottom: 15%; */
+  }
+
+  .worksListCard li {
+    font-size: 12px;
+  }
+
+  .workButtonCard {
+    display: none;  
   }
 
   .aligned-list {
     /* padding-left: 1%; */
+  }
+
+  .aboutMe {
+    margin-top: 10%;
+  }
+
+  .aboutMe h1 {
+    font-size: 79px;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+  }
+
+  .aboutMe p {
+    font-size: 25px;
+    /* margin-left: 24px; 
+    margin-right: 24px;*/
+    max-width: 650px;
+    padding-bottom: 12%;
+    padding-left: 10%;
+    text-align: left;
+  }
+
+  .abountMeButton {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    font-size: 27px;
   }
 
   .menuTextContainer {
@@ -574,7 +816,7 @@
   background-color: rgb(69, 67, 67);
   padding-top: min(40px);
   padding-bottom: min(40px);
-  min-width: 348px;
+  min-width: 346px;
 }
 
 .status_TopNav {
@@ -628,10 +870,6 @@
   font-size: 25px;
 }
 
-#main {
-  min-width: 348px;
-}
-
 .menuHamburgerContainer {
   margin-right: 10%;
   margin-top: auto;
@@ -648,6 +886,7 @@
 .mainPage {
   position: relative;
   display: block;
+  /* width: 100%; */
 }
 
 .mainPage h1 {
@@ -694,6 +933,20 @@
   color: #333;
 }
 
+.horizontal-list-bottom {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.horizontal-list-bottom li a {
+  display: block;
+  padding: 25% 15px;
+  text-decoration: none;
+  color: #333;
+}
+
 .portada img {
   display: block;
 }
@@ -727,18 +980,12 @@
 }
 
 .worksBody h3 {
-  
   font-family: 'Crete Round', sans-serif;
-  font-weight: normal;
-  margin-top: 5%;
-  /* margin-left: inherit;
-  margin-right: inherit; */
-  margin-bottom: 5%;
+  font-weight: normal;  
 }
 
 .worksBody p {
   font-family: 'Inter', sans-serif;
-  
 }
 
 .worksList {
@@ -750,7 +997,6 @@
 }
 
 .worksList ul {
-  margin: auto;
   padding-top: 5%;
   padding-bottom: 12%;
 }
@@ -771,7 +1017,6 @@
   padding-bottom: 3.5%;
   padding-left: 3.5%;
   padding-right: 3.5%;
-  margin-left: 5%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -795,13 +1040,12 @@
 
 .worksCards {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2.5%;
+  /* grid-template-columns: repeat(1, 1fr);
+  gap: 2.5%; */
   text-align: center;
 }
 
 .card {
-  background-image: url("images/Work_Init/WorkCard.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -822,7 +1066,6 @@
 }
 
 .flexCardTitle {
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -873,7 +1116,6 @@
 .worksListCard ul {
   margin-left: 4%;
   padding-top: 6%;
-  padding-bottom: 15%;
 }
 
 .workButtonCard {
@@ -909,26 +1151,29 @@
   border-color: #c4b9b1;
 }
 
+.aboutMeSecction {
+  padding-top: min(40px);
+  padding-bottom: min(40px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 346px;
+  width: 100%;
+}
+
 .aboutMe {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   background-image: url("images/AboutMe/Background.png");
   background-repeat: no-repeat;
-  background-size: 40%;
+  /* background-size: 40%; */
   background-position: 100% 95%;
-  margin-top: 160%;
 }
 
 .abountMeButton {
   background-color: #ff6b00;
   color: #fff;
-  padding-top: 3.5%;
-  padding-bottom: 3.5%;
-  padding-left: 3.5%;
-  padding-right: 3.5%;
-  width: fit-content;
-  text-align: left;
-  margin-left: 9%;
-  margin-bottom: 55%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -953,21 +1198,12 @@
 .aboutMe h1 {
   font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
-  font-size: 79px;
-  text-align: center;
-  padding-top: 35%;
-  padding-bottom: 10%;
   font-weight: normal;
 }
 
 .aboutMe p {
   color: #fff;
-  text-align: left;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  padding-bottom: 12%;
 }
 
 #letsConectLik {
@@ -1102,6 +1338,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: left;
+  min-width: 346px;
 }
 
 .comments h2 {
