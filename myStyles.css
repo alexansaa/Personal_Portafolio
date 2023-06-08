@@ -607,7 +607,17 @@
   color: aliceblue;
   font-weight: bold;
   font-family: 'Inter',sans-serif;
+  background-image: url();
+  height: 125px;
+  width: 250px;
+  object-fit: contain;
+  background-repeat: no-repeat;
 }
+
+/* .homeLogo_Angosto img:hover {
+  transform: rotate(360deg);
+  transition: 2s all ease-in;
+} */
 
 #baraMenuImage {
   align-self: center;
