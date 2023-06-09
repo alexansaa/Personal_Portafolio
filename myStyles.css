@@ -200,10 +200,10 @@
   }
 
   .abountMeButton {
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
     width: fit-content;
     text-align: left;
     margin-left: 9%;
@@ -452,10 +452,10 @@
   }
 
   .abountMeButton {
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
     width: fit-content;
     text-align: left;
     margin-left: 9%;
@@ -769,10 +769,10 @@
   }
 
   .abountMeButton {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
     width: fit-content;
     text-align: left;
     margin-left: 10%;
@@ -1758,6 +1758,7 @@
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
+  border: none;
 }
 
 .msjButton:hover {
