@@ -125,7 +125,6 @@
 
   .worksList ul {
     margin: auto;
-    /* margin-left: 10%; */
   }
 
   .worksList li {
@@ -135,7 +134,6 @@
 
   .workButton {
     display: block;
-    /* margin-bottom: 20%; */
     margin-left: 5%;
     margin-bottom: 13%;
   }
@@ -379,7 +377,6 @@
 
   .worksList ul {
     margin: auto;
-    /* margin-left: 10%; */
   }
 
   .worksList li {
@@ -389,7 +386,6 @@
 
   .workButton {
     display: block;
-    /* margin-bottom: 20%; */
     margin-left: 5%;
     margin-bottom: 13%;
   }
@@ -425,11 +421,6 @@
   .worksListCard ul {
     padding-bottom: 15%;
   }
-
-  /* .aligned-list {
-    display: flex;
-    flex-direction: row;
-  } */
 
   .menuTextContainer {
     display: none;
@@ -544,9 +535,7 @@
     flex-direction: column;
     max-width: 400px;
     padding-left: 5%;
-    /* padding-top: 20%; */
     order: 2;
-    /* padding-bottom: 30%; */
   }
 
   .mainPage {
@@ -576,14 +565,10 @@
 
   .WorkTitle {
     flex-direction: row;
-    /* max-height: auto;
-    justify-content: center;
-    align-items: center;*/
     margin-top: 8%;
   }
 
   .WorkTitle h2 {
-    /* width: auto; */
     white-space: nowrap;
     font-size: 40px;
     margin-left: 3%;
@@ -608,18 +593,15 @@
   .worksCards_Container {
     gap: 2.5%;
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
-    /* width: auto;*/
   }
 
   .WorkImage {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 250%;
   }
 
@@ -638,12 +620,7 @@
   .worksBody {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     text-align: left;
-    /* margin-left: inherit;
-    margin-right: inherit;
-    max-width: 40%; */
     border: 0;
   }
 
@@ -667,8 +644,6 @@
     width: auto;
     align-self: flex-start;
     margin-left: 10%;
-    /* width: 40%;
-    margin-left: 10%; */
   }
 
   .socialLinks_Bottom {
@@ -708,9 +683,6 @@
 
   .card:hover h2 {
     display: none;
-    /* font-size: 25px;
-    color: #fff;
-    white-space: nowrap; */
   }
 
   .card h3 {
@@ -720,8 +692,6 @@
 
   .card:hover h3 {
     display: none;
-    /* color: #fff;
-    font-size: 32px; */
   }
 
   .card h4 {
@@ -730,8 +700,6 @@
   }
 
   .card:hover h4 {
-    /* color: #fff;
-    font-size: 32px; */
     display: none;
   }
 
@@ -741,8 +709,6 @@
   }
 
   .card:hover p {
-    /* font-size: 12px;
-    color: #fff; */
     display: none;
   }
 
@@ -758,20 +724,12 @@
     display: none;
   }
 
-  .worksListCard ul {
-    /* padding-bottom: 15%; */
-  }
-
   .worksListCard li {
     font-size: 12px;
   }
 
   .workButtonCard {
     display: none;  
-  }
-
-  .aligned-list {
-    /* padding-left: 1%; */
   }
 
   .aboutMe {
@@ -791,8 +749,6 @@
 
   .aboutMe p {
     font-size: 20px;
-    /* margin-left: 24px; 
-    margin-right: 24px;*/
     max-width: 650px;
     padding-bottom: 12%;
     padding-left: 10%;
@@ -878,7 +834,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    
   }
 
   .first_name {
@@ -902,7 +857,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    
   }
 }
 
@@ -918,9 +872,7 @@
   .contentContainer {
     display: inline-block;
     max-width: 700px;
-    /* padding-top: 20%; */
     order: 2;
-    /* padding-bottom: 30%; */
   }
 
   .mainPage {
@@ -953,14 +905,10 @@
 
   .WorkTitle {
     flex-direction: row;
-    /* max-height: auto;
-    justify-content: center;
-    align-items: center;*/
     margin-top: 8%;
   }
 
   .WorkTitle h2 {
-    /* width: auto; */
     white-space: nowrap;
     font-size: 40px;
     margin-left: 3%;
@@ -980,34 +928,28 @@
     padding-left: 10%;
     padding-right: 10%;
     margin-top : 8%;
-    /* margin-bottom: 8%; */
     height: 450px;
   }
 
   .worksCards_Container {
     gap: 5%;
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
-    /* width: auto;*/
   }
 
   .WorkImage {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 250%;
   }
 
   .WorkImage img {
-    /* max-width: 100%; */
     height: auto;
     object-fit: contain;
     width: 100%;
-    
   }
 
   .contextWork {
@@ -1018,12 +960,7 @@
   .worksBody {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     text-align: left;
-    /* margin-left: inherit;
-    margin-right: inherit;
-    max-width: 40%; */
     border: 0;
   }
 
@@ -1048,8 +985,6 @@
     align-self: flex-start;
     margin-left: 10%;
     font-size: 16px;
-    /* width: 40%;
-    margin-left: 10%; */
   }
 
   .workButtonCard {
@@ -1094,9 +1029,6 @@
 
   .card:hover h2 {
     display: none;
-    /* font-size: 25px;
-    color: #fff;
-    white-space: nowrap; */
   }
 
   .card h3 {
@@ -1106,8 +1038,6 @@
 
   .card:hover h3 {
     display: none;
-    /* color: #fff;
-    font-size: 32px; */
   }
 
   .card h4 {
@@ -1116,8 +1046,6 @@
   }
 
   .card:hover h4 {
-    /* color: #fff;
-    font-size: 32px; */
     display: none;
   }
 
@@ -1127,8 +1055,6 @@
   }
 
   .card:hover p {
-    /* font-size: 12px;
-    color: #fff; */
     display: none;
   }
 
@@ -1144,16 +1070,8 @@
     display: none;
   }
 
-  .worksListCard ul {
-    /* padding-bottom: 15%; */
-  }
-
   .worksListCard li {
     font-size: 20px;
-  }
-
-  .aligned-list {
-    /* padding-left: 1%; */
   }
 
   .aboutMe {
@@ -1173,8 +1091,6 @@
 
   .aboutMe p {
     font-size: 20px;
-    /* margin-left: 24px; 
-    margin-right: 24px;*/
     max-width: 650px;
     padding-bottom: 12%;
     padding-left: 10%;
@@ -1370,7 +1286,6 @@
 .mainPage {
   position: relative;
   display: block;
-  /* width: 100%; */
 }
 
 .mainPage h1 {
@@ -1378,7 +1293,6 @@
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
-  
   letter-spacing: 0.37px;
 }
 
@@ -1397,11 +1311,6 @@
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
-
-/* .socialLinks_Bottom {
-  display: block;
-  width: 100%;
-} */
 
 .horizontal-list {
   list-style-type: none;
@@ -1524,8 +1433,6 @@
 
 .worksCards {
   display: grid;
-  /* grid-template-columns: repeat(1, 1fr);
-  gap: 2.5%; */
   text-align: center;
 }
 
@@ -1737,11 +1644,6 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
-/* .openable_item > li {
-  text-align: center;
-} */
-
 #openable_Lang {
   list-style: none;
 }
@@ -1846,8 +1748,6 @@
   border-width: 1px;
   align-self: center;
   width: 80%;
-  /* padding-left: inherit;
-  padding-right: inherit; */
 }
 
 .text_comment {
