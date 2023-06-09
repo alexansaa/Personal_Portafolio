@@ -1395,6 +1395,7 @@
   padding-left: 3.5%;
   padding-right: 3.5%;
   font-family: 'Inter', sans-serif;
+  border: none;
 }
 
 .workButton:hover {
