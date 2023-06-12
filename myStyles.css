@@ -16,9 +16,19 @@
 }
 
 @media (max-width: 375px) {
+  .homeLogo_Angosto {
+    font-size: 25px;
+  }
+
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+    width: 100%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: row;
   }
 
   .contentContainer {
@@ -32,8 +42,23 @@
     align-items: center;
   }
 
+  #main {
+    min-width: 346px;
+  }
+
+  .mainPage {
+    background-color: black;
+    background-image: url("images/backgroud/Group.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100% 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .mainPage h1 {
     font-size: 56px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -44,9 +69,79 @@
     font-size: 16px;
   }
 
+  .WorkTitle {
+    flex-direction: column;
+  }
+
+  .WorkTitle h2 {
+    margin-top: 30%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    width: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+
+  .WorkSeparation {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .WorkImage {
+    display: block;
+  }
+
+  .WorkImage img {
+    margin-top: 20%;
+  }
+
+  .centerWork {
+    display: block;
+  }
+
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .worksBody {
+    display: block;
+    width: 100%;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .worksList ul {
+    margin: auto;
+  }
+
+  .worksList li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .workButton {
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 13%;
+  }
+
   .card {
     width: 345px;
     height: 386px;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
   }
 
   .card h2 {
@@ -66,12 +161,129 @@
     font-size: 16px;
     color: #fff;
   }
+
+  .flexCardTitle {
+    display: flex;
+  }
+
+  .worksListCard ul {
+    padding-bottom: 15%;
+  }
+
+  .menuTextContainer {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: inline-flex;
+  }
+
+  .aboutMe {
+    margin-top: 90%;
+    background-image: url("images/AboutMe/Background.png");
+    background-position: 100% 95%;
+  }
+
+  .aboutMe h1 {
+    font-size: 56px;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+
+  .abountMeButton {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 9%;
+    margin-bottom: 55%;
+  }
+
+  .technologies {
+    padding-top: 22%;
+    padding-bottom: 15%;
+  }
+
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .openables {
+    flex-direction: column;
+  }
+
+  .openable_item {
+    text-align: center;
+  }
+
+  .comments h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 17%;
+    padding-bottom: 17%;
+  }
+
+  .msjButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .last_name {
+    display: none;
+  }
+
+  .names_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .input_comment {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 5%;
+    width: auto;
+  }
+
+  .names_container_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
+  #main {
+    min-width: 346px;
+  }
+
+  .homeLogo_Angosto {
+    font-size: 25px;
+  }
+
   .socialLinks_Bottom {
     display: block;
     padding-bottom: 115%;
+    width: 100%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: row;
   }
 
   .horizontal-list li {
@@ -86,8 +298,19 @@
     padding-top: 35%;
   }
 
+  .mainPage {
+    background-color: black;
+    background-image: url("images/backgroud/Group.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 100% 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .mainPage h1 {
     font-size: 56px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -98,9 +321,79 @@
     font-size: 16px;
   }
 
+  .WorkTitle {
+    flex-direction: column;
+  }
+
+  .WorkTitle h2 {
+    margin-top: 30%;
+    margin-bottom: 20%;
+    font-size: 40px;
+    width: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+  }
+
+  .WorkSeparation {
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .WorkImage {
+    display: block;
+  }
+
+  .WorkImage img {
+    margin-top: 20%;
+  }
+
+  .centerWork {
+    display: block;
+  }
+
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .worksBody {
+    display: block;
+    width: 100%;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .worksList ul {
+    margin: auto;
+  }
+
+  .worksList li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .workButton {
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 13%;
+  }
+
   .card {
     width: 327px;
     height: 386px;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
   }
 
   .card h2 {
@@ -121,25 +414,146 @@
     color: #fff;
   }
 
-  .aligned-list {
+  .flexCardTitle {
+    display: flex;
+  }
+
+  .worksListCard ul {
+    padding-bottom: 15%;
+  }
+
+  .menuTextContainer {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: inline-flex;
+  }
+
+  .aboutMe {
+    margin-top: 90%;
+    background-image: url("images/AboutMe/Background.png");
+    background-position: 100% 95%;
+  }
+
+  .aboutMe h1 {
+    font-size: 56px;
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 10%;
+  }
+
+  .aboutMe p {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+
+  .abountMeButton {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 9%;
+    margin-bottom: 55%;
+  }
+
+  .horizontal-list-bottom {
     display: flex;
     flex-direction: row;
   }
+
+  .technologies {
+    padding-top: 22%;
+    padding-bottom: 15%;
+  }
+
+  .openables {
+    flex-direction: column;
+  }
+
+  .openable_item {
+    text-align: center;
+  }
+
+  .comments h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 17%;
+    padding-bottom: 17%;
+  }
+
+  .msjButton {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
+
+  .last_name {
+    display: none;
+  }
+
+  .names_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .input_comment {
+    margin-left: 7%;
+    padding-left: 5%;
+    width: auto;
+  }
+
+  .names_container_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1220px) {
+  #main {
+    min-width: 346px;
+  }
+
+  .homeLogo_Angosto {
+    font-size: 35px;
+  }
+
   .flexContainer {
     align-items: center;
   }
 
   .contentContainer {
-    display: inline-block;
-    max-width: 530px;
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding-left: 5%;
+    order: 2;
+  }
+
+  .mainPage {
+    background-color: black;
+    background-image: url("images/desktop/background.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 100% 30%;
     padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
   .mainPage h1 {
     font-size: 70px;
+    line-height: 64px;
   }
 
   .mainPage h2 {
@@ -150,19 +564,138 @@
     font-size: 20px;
   }
 
+  .WorkTitle {
+    flex-direction: row;
+    margin-top: 8%;
+  }
+
+  .WorkTitle h2 {
+    white-space: nowrap;
+    font-size: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .WorkSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+  }
+
+  .centerWork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 450px;
+  }
+
+  .worksCards_Container {
+    gap: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .WorkImage {
+    display: flex;
+    justify-content: center;
+    width: 250%;
+  }
+
+  .WorkImage img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .contextWork {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+  }
+
+  .worksBody {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 0;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .worksBody p {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+
+  .worksList ul {
+    margin-left: 10%;
+  }
+
+  .workButton {
+    display: flex;
+    width: auto;
+    align-self: flex-start;
+    margin-left: 10%;
+  }
+
   .socialLinks_Bottom {
-    display: block;
-    padding-bottom: 115%;
+    display: inline-block;
+    order: 1;
+    margin-right: 2%;
+    margin-left: -8%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
   }
 
   .card {
-    width: 530px;
-    height: 580px;
+    width: 240px;
+    height: 290px;
+    justify-content: end;
+    padding-bottom: 4%;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
+  }
+
+  .card:hover {
+    background-image: url("images/Work_Init/WorkCard.png");
   }
 
   .card h2 {
-    font-size: 72px;
+    font-size: 25px;
     color: #fff;
+    white-space: nowrap;
+  }
+
+  .coment_container h2 {
+    text-align: left;
+    margin-top: 5%;
+  }
+
+  .comments h2 {
+    text-align: left;
+    font-size: 32px;
+    padding-left: 10%;
+    width: 60%;
+  }
+
+  .card:hover h2 {
+    display: none;
   }
 
   .card h3 {
@@ -170,14 +703,489 @@
     font-size: 32px;
   }
 
+  .card:hover h3 {
+    display: none;
+  }
+
   .card h4 {
     color: #fff;
     font-size: 32px;
   }
 
+  .card:hover h4 {
+    display: none;
+  }
+
   .card p {
-    font-size: 25px;
+    font-size: 12px;
     color: #fff;
+  }
+
+  .aboutMe p {
+    font-size: 20px;
+    max-width: 650px;
+    padding-bottom: 12%;
+    padding-left: 10%;
+    text-align: left;
+  }
+
+  .card:hover p {
+    display: none;
+  }
+
+  .card:hover ul {
+    display: none;
+  }
+
+  .card:hover button {
+    display: block;
+  }
+
+  .flexCardTitle {
+    display: none;
+  }
+
+  .worksListCard li {
+    font-size: 12px;
+  }
+
+  .workButtonCard {
+    display: none;
+  }
+
+  .aboutMe {
+    margin-top: 10%;
+    background-image: url("images/AboutMe/Background_Big.png");
+    background-position: 100% 85%;
+    background-size: 50%;
+  }
+
+  .aboutMe h1 {
+    font-size: 65px;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+  }
+
+  .abountMeButton {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    font-size: 20px;
+  }
+
+  .aboutMeSeparation {
+    width: 90%;
+    align-self: center;
+  }
+
+  .menuTextContainer {
+    display: inline-flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+
+  .technologies {
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .openables {
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .openable_item {
+    text-align: row;
+  }
+
+  .openable_content {
+    margin-left: -18%;
+  }
+
+  .coment_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_comment {
+    margin-top: 5%;
+  }
+
+  .msjButton {
+    margin-left: 7%;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .names_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .last_name {
+    width: auto;
+  }
+
+  .input_comment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 5%;
+  }
+
+  .names_container_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1221px) {
+  .homeLogo_Angosto {
+    font-size: 35px;
+  }
+
+  .flexContainer {
+    align-items: center;
+  }
+
+  .contentContainer {
+    display: inline-block;
+    max-width: 700px;
+    order: 2;
+  }
+
+  .mainPage {
+    background-color: black;
+    background-image: url("images/desktop/background.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-origin: 0 15;
+    background-position: 100% 20%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .mainPage h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+
+  .mainPage h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+
+  .mainPage p {
+    font-size: 25px;
+  }
+
+  .WorkTitle {
+    flex-direction: row;
+    margin-top: 8%;
+  }
+
+  .WorkTitle h2 {
+    white-space: nowrap;
+    font-size: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .WorkSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+  }
+
+  .centerWork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 8%;
+    height: 450px;
+  }
+
+  .worksCards_Container {
+    gap: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .WorkImage {
+    display: flex;
+    justify-content: center;
+    width: 250%;
+  }
+
+  .WorkImage img {
+    height: auto;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .contextWork {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .worksBody {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 0;
+  }
+
+  .worksBody h3 {
+    font-size: 32px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .worksBody p {
+    font-size: 20px;
+    margin-left: 10%;
+  }
+
+  .worksList ul {
+    margin-left: 10%;
+  }
+
+  .workButton {
+    display: flex;
+    width: auto;
+    align-self: flex-start;
+    margin-left: 10%;
+    font-size: 16px;
+  }
+
+  .workButtonCard {
+    display: none;
+    font-size: 19px;
+  }
+
+  .socialLinks_Bottom {
+    display: inline-block;
+    order: 1;
+    margin-right: 6%;
+    margin-left: -8%;
+  }
+
+  .horizontal-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .horizontal-list-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 350px;
+    height: 400px;
+    justify-content: end;
+    padding-bottom: 4%;
+    background-image: url("images/Work_Init/WorkCardBlk_Sml.png");
+  }
+
+  .coment_container h2 {
+    text-align: left;
+    margin-top: 5%;
+  }
+
+  .comments h2 {
+    text-align: left;
+    font-size: 32px;
+    padding-left: 10%;
+    width: 60%;
+  }
+
+  .aboutMe p {
+    font-size: 20px;
+    max-width: 650px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    text-align: left;
+  }
+
+  .card:hover {
+    background-image: url("images/Work_Init/WorkCard.png");
+  }
+
+  .card h2 {
+    font-size: 38px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .card:hover h2 {
+    display: none;
+  }
+
+  .card h3 {
+    color: #fff;
+    font-size: 38px;
+  }
+
+  .card:hover h3 {
+    display: none;
+  }
+
+  .card h4 {
+    color: #fff;
+    font-size: 38px;
+  }
+
+  .card:hover h4 {
+    display: none;
+  }
+
+  .card p {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .card:hover p {
+    display: none;
+  }
+
+  .card:hover ul {
+    display: none;
+  }
+
+  .card:hover button {
+    display: block;
+  }
+
+  .flexCardTitle {
+    display: none;
+  }
+
+  .worksListCard li {
+    font-size: 20px;
+  }
+
+  .aboutMe {
+    margin-top: 10%;
+    background-image: url("images/AboutMe/Background_Big.png");
+    background-position: 100% 50%;
+    background-size: 50%;
+  }
+
+  .aboutMe h1 {
+    font-size: 65px;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+  }
+
+  .abountMeButton {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: fit-content;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    font-size: 20px;
+  }
+
+  .aboutMeSeparation {
+    width: 90%;
+    align-self: center;
+  }
+
+  .menuTextContainer {
+    display: inline-flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+
+  .technologies {
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+  }
+
+  .openables {
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .openable_item {
+    text-align: row;
+  }
+
+  .openable_content {
+    margin-left: -18%;
+  }
+
+  .coment_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_comment {
+    margin-top: 5%;
+  }
+
+  .msjButton {
+    margin-left: 7%;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .names_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .last_name {
+    width: auto;
+  }
+
+  .input_comment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 5%;
+  }
+
+  .names_container_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -185,13 +1193,15 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   left: 0;
   top: 0;
   flex-direction: row;
   background-color: rgb(69, 67, 67);
-  padding-top: 1.5%;
-  padding-bottom: 5%;
+  padding-top: min(40px);
+  padding-bottom: min(40px);
+  min-width: 346px;
 }
 
 .status_TopNav {
@@ -216,25 +1226,39 @@
 
 .logoAngostoContainer {
   margin-left: 8%;
-  display: inline-block;
+  display: flex;
 }
 
 .homeLogo_Angosto {
   text-decoration: none;
   color: aliceblue;
-  font-size: 25px;
   font-weight: bold;
+  font-family: 'Inter', sans-serif;
 }
 
 #baraMenuImage {
   align-self: center;
 }
 
+.menuTextContainer {
+  margin-right: 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.menuTextContainer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+}
+
 .menuHamburgerContainer {
   margin-right: 10%;
   margin-top: auto;
   margin-bottom: auto;
-  display: inline-flex;
   justify-content: center;
   text-align: center;
 }
@@ -247,13 +1271,6 @@
 .mainPage {
   position: relative;
   display: block;
-  padding-left: 8%;
-  padding-right: 8%;
-  background-color: black;
-  background-image: url("images/backgroud/Group.png");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: 100% 100%;
 }
 
 .mainPage h1 {
@@ -261,14 +1278,13 @@
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 64px;
   letter-spacing: 0.37px;
 }
 
 .mainPage h2 {
-  color: #fff5e1;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  color: #fff;
+  padding-bottom: 4%;
+  padding-top: 4%;
   font-family: 'Roboto', sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -280,12 +1296,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.socialLinks_Bottom {
-  width: auto;
-}
-
 .horizontal-list {
-  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -299,12 +1310,27 @@
   color: #333;
 }
 
+.horizontal-list-bottom {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.horizontal-list-bottom li a {
+  display: block;
+  padding: 25% 15px;
+  text-decoration: none;
+  color: #333;
+}
+
 .portada img {
   display: block;
 }
 
 .worksInit {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
@@ -312,57 +1338,31 @@
 }
 
 .WorkTitle {
+  display: flex;
   width: 90%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.WorkSeparation {
-  border-width: 2px;
-  width: inherit;
-  margin-left: inherit;
-  margin-right: inherit;
-}
-
-.worksInit h2 {
-  margin-top: 30%;
-  margin-bottom: 20%;
+.WorkTitle h2 {
   text-align: center;
   font-family: 'Crete Round', sans-serif;
   font-weight: normal;
-  font-size: 40px;
-  width: inherit;
-  margin-left: inherit;
-  margin-right: inherit;
 }
 
-.WorkImage img {
-  margin-top: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.WorkSeparation {
+  border-width: 1px;
+  border-color: #000;
 }
 
-.worksBody {
-  margin-left: inherit;
-  margin-right: inherit;
-  width: 85%;
-}
-
-.worksInit h3 {
-  font-size: 32px;
+.worksBody h3 {
   font-family: 'Crete Round', sans-serif;
   font-weight: normal;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
 }
 
-.worksInit p {
+.worksBody p {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
 }
 
 .worksList {
@@ -374,19 +1374,16 @@
 }
 
 .worksList ul {
-  margin: auto;
   padding-top: 5%;
   padding-bottom: 12%;
 }
 
 .worksList li {
-  display: inline-block;
+  display: inline-flex;
   padding: 3.5% 15px;
   text-decoration: none;
   color: #333;
   border: solid 1px;
-  margin-left: 10px;
-  margin-right: 10px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -397,10 +1394,6 @@
   padding-bottom: 3.5%;
   padding-left: 3.5%;
   padding-right: 3.5%;
-  width: fit-content;
-  text-align: left;
-  margin-left: 9%;
-  margin-bottom: 20%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -424,13 +1417,10 @@
 
 .worksCards {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 2.5%;
   text-align: center;
 }
 
 .card {
-  background-image: url("images/Work_Init/WorkCard.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -451,7 +1441,6 @@
 }
 
 .flexCardTitle {
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -502,14 +1491,13 @@
 .worksListCard ul {
   margin-left: 4%;
   padding-top: 6%;
-  padding-bottom: 15%;
 }
 
 .workButtonCard {
   background-color: #ff6b00;
   color: #fff;
   padding-top: 6%;
-  padding-bottom: 3%;
+  padding-bottom: 6%;
   padding-left: 4%;
   padding-right: 4%;
   text-align: center;
@@ -538,26 +1526,26 @@
   border-color: #c4b9b1;
 }
 
+.aboutMeSecction {
+  padding-top: min(40px);
+  padding-bottom: min(40px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 346px;
+  width: 100%;
+}
+
 .aboutMe {
+  display: flex;
+  flex-direction: column;
   background-color: black;
-  background-image: url("images/AboutMe/Background.png");
   background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: 100% 95%;
-  margin-top: 160%;
 }
 
 .abountMeButton {
   background-color: #ff6b00;
   color: #fff;
-  padding-top: 3.5%;
-  padding-bottom: 3.5%;
-  padding-left: 3.5%;
-  padding-right: 3.5%;
-  width: fit-content;
-  text-align: left;
-  margin-left: 9%;
-  margin-bottom: 55%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -582,21 +1570,12 @@
 .aboutMe h1 {
   font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
-  font-size: 79px;
-  text-align: center;
-  padding-top: 35%;
-  padding-bottom: 10%;
   font-weight: normal;
 }
 
 .aboutMe p {
   color: #fff;
-  text-align: left;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  padding-bottom: 12%;
 }
 
 #letsConectLik {
@@ -624,14 +1603,11 @@
 }
 
 .technologies {
-  padding-top: 22%;
   background-color: #000;
-  padding-bottom: 15%;
 }
 
 .openables {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -639,7 +1615,6 @@
 
 .openable_item {
   font-size: 32px;
-  text-align: center;
 }
 
 .openable_item li {
@@ -649,8 +1624,9 @@
   padding-bottom: 3%;
 }
 
-.openable_item > li {
-  text-align: center;
+.openable_item ul {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #openable_Lang {
@@ -658,8 +1634,7 @@
 }
 
 #openable_Lang::before {
-  content: "\25AA";
-  list-style: square;
+  content: url(images/Techs/Romb.png);
   color: #ff6b00;
   display: inline-block;
   width: 1em;
@@ -671,7 +1646,7 @@
 }
 
 #openable_Fram::before {
-  content: "\2022";
+  content: url(images/Techs/Square.png);
   color: #ff6b00;
   display: inline-block;
   width: 1em;
@@ -683,16 +1658,11 @@
 }
 
 #openable_Ski::before {
-  content: "\2B25";
+  content: url(images/Techs/Circle.png);
   color: #ff6b00;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-}
-
-.openable_item ul {
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .techflex {
@@ -731,16 +1701,11 @@
   justify-content: center;
   flex-direction: column;
   text-align: left;
+  min-width: 346px;
 }
 
 .comments h2 {
   font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  text-align: center;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 17%;
-  padding-bottom: 17%;
 }
 
 .form_comment {
@@ -748,17 +1713,14 @@
   justify-content: center;
   flex-direction: column;
   text-align: left;
+  width: 100%;
 }
 
 .input_comment {
-  width: auto;
-  padding-left: 5%;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   color: #979493;
   box-sizing: unset;
-  margin-left: 7%;
-  margin-right: 7%;
 }
 
 .input_place {
@@ -768,9 +1730,8 @@
 
 .InputSeparation {
   border-width: 1px;
-  width: inherit;
-  padding-left: inherit;
-  padding-right: inherit;
+  align-self: center;
+  width: 85%;
 }
 
 .text_comment {
@@ -788,17 +1749,16 @@
 .msjButton {
   background-color: #ff6b00;
   color: #fff;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
   width: fit-content;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 7%;
   margin-bottom: 18%;
   font-family: 'Inter', sans-serif;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: none;
 }
 
 .msjButton:hover {
@@ -821,6 +1781,11 @@
 
 .socialLinks_Comment {
   margin: auto;
-  margin-top: 3%;
-  margin-bottom: 8%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.first_name {
+  width: auto;
+  flex-grow: 1;
 }
