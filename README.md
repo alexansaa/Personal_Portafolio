@@ -48,6 +48,7 @@ Personal Portafolio Profesional Web Site with responsive layout
 - **Mobile first approach**
 - **HTML & CSS Linters**
 - **Media Queries**
+- **Responsive to different screen sizes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +108,7 @@ Deploy this project on any websever.
 
 👤 **Benson Kiai**
 
-- GitHub: [@alexansaa](https://github.com/BenMKT)
+- GitHub: [@BenMKT](https://github.com/BenMKT)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,6 +117,7 @@ Deploy this project on any websever.
 - [ ] **Web Page Optimized for wither screen sizes**
 - [ ] **Larger Images Implementation**
 - [ ] **New CSS Styles**
+- [ ] **Formspree suport for contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
