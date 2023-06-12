@@ -1395,7 +1395,6 @@
   padding-left: 3.5%;
   padding-right: 3.5%;
   font-family: 'Inter', sans-serif;
-  border: none;
 }
 
 .workButton:hover {
@@ -1548,7 +1547,6 @@
   background-color: #ff6b00;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  border: none;
 }
 
 .abountMeButton:hover {
