@@ -644,7 +644,6 @@
   }
 
   .worksBody p {
-    font-size: 16px;
     margin-left: 10%;
   }
 
@@ -938,6 +937,10 @@
     height: 450px;
   }
 
+  .worksList li {
+    font-size: 25px;
+  }
+
   .worksCards_Container {
     gap: 5%;
     display: grid;
@@ -972,13 +975,13 @@
   }
 
   .worksBody h3 {
-    font-size: 32px;
+    font-size: 38px;
     margin-left: 10%;
     margin-bottom: 5%;
   }
 
   .worksBody p {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10%;
   }
 
