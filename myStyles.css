@@ -517,7 +517,7 @@
   .input_comment::placeholder {
     font-size: 20px;
   }
-  
+
   .names_container_input {
     display: flex;
     flex-direction: column;
@@ -527,7 +527,6 @@
   .text_comment::placeholder {
     font-size: 20px;
   }
-
 }
 
 /* Media queries for Desktop version */
