@@ -319,7 +319,7 @@
   }
 
   .mainPage p {
-    /* font-size: 16px; */ /*+ 4px*/
+    font-size: 20px;
   }
 
   .WorkTitle {
@@ -371,7 +371,7 @@
   }
 
   .worksBody p {
-    /* font-size: 16px; */ /*+4px*/
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -389,7 +389,7 @@
     display: block;
     margin-left: 5%;
     margin-bottom: 13%;
-    /* font-size: 20px; */
+    font-size: 20px;
   }
 
   .card {
@@ -446,7 +446,7 @@
   }
 
   .aboutMe p {
-    /* font-size: 16px; */ /* + 4 px*/
+    font-size: 20px;
     margin-left: 24px;
     margin-right: 24px;
     padding-bottom: 12%;
@@ -462,7 +462,7 @@
     text-align: left;
     margin-left: 9%;
     margin-bottom: 55%;
-    /* font-size: 20px;*/
+    font-size: 20px;
   }
 
   .horizontal-list-bottom {
@@ -514,9 +514,9 @@
     width: auto;
   }
 
-  /* .input_comment::placeholder {
-    fontsize = 20px
-  } */
+  .input_comment::placeholder {
+    font-size: 20px; 
+  }
 
   .names_container_input {
     display: flex;
@@ -524,9 +524,9 @@
     width: 100%;
   }
 
-  /* .text_comment::placeholder {
-    fontsize = 20px
-  } */
+  .text_comment::placeholder {
+    font-size: 20px; 
+  }
 }
 
 /* Media queries for Desktop version */
