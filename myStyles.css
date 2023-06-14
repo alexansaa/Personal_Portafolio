@@ -515,9 +515,9 @@
   }
 
   .input_comment::placeholder {
-    font-size: 20px; 
+    font-size: 20px;
   }
-
+  
   .names_container_input {
     display: flex;
     flex-direction: column;
@@ -525,8 +525,9 @@
   }
 
   .text_comment::placeholder {
-    font-size: 20px; 
+    font-size: 20px;
   }
+
 }
 
 /* Media queries for Desktop version */
@@ -984,6 +985,7 @@
   .worksList ul {
     margin-left: 10%;
   }
+
   .worksList li {
     font-size: 22px;
   }
