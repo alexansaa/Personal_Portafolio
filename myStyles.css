@@ -645,6 +645,7 @@
     width: auto;
     align-self: flex-start;
     margin-left: 10%;
+    font-weight: 1000;
   }
 
   .socialLinks_Bottom {
@@ -1389,7 +1390,7 @@
 
 .workButton {
   background-color: #ff6b00;
-  color: #fff;
+  color: #000;
   padding-top: 3.5%;
   padding-bottom: 3.5%;
   padding-left: 3.5%;
@@ -1545,8 +1546,9 @@
 
 .abountMeButton {
   background-color: #ff6b00;
-  color: #fff;
+  color: #000;
   font-family: 'Inter', sans-serif;
+  font-weight: 1000;
 }
 
 .abountMeButton:hover {
@@ -1719,8 +1721,11 @@
 .input_comment {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: #979493;
   box-sizing: unset;
+}
+
+.input_comment::placeholder {
+  color: #000;
 }
 
 .input_place {
@@ -1744,6 +1749,10 @@
   color: #979493;
   margin-top: 7%;
   background-color: #fbf8f7;
+}
+
+.text_comment::placeholder {
+  color: #000;
 }
 
 .msjButton {
