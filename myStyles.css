@@ -937,10 +937,6 @@
     height: 450px;
   }
 
-  .worksList li {
-    font-size: 25px;
-  }
-
   .worksCards_Container {
     gap: 5%;
     display: grid;
@@ -988,13 +984,16 @@
   .worksList ul {
     margin-left: 10%;
   }
+  .worksList li {
+    font-size: 22px;
+  }
 
   .workButton {
     display: flex;
     width: auto;
     align-self: flex-start;
     margin-left: 10%;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .workButtonCard {
@@ -1040,7 +1039,7 @@
   }
 
   .aboutMe p {
-    font-size: 20px;
+    font-size: 25px;
     max-width: 650px;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -1177,7 +1176,7 @@
   .msjButton {
     margin-left: 7%;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .names_container {
@@ -1198,10 +1197,18 @@
     padding-left: 5%;
   }
 
+  .input_comment::placeholder {
+    font-size: 21px;
+  }
+
   .names_container_input {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .text_comment::placeholder {
+    font-size: 21px;
   }
 }
 
