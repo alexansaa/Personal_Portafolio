@@ -1772,13 +1772,13 @@
 
 .msjButton:hover {
   background-color: #eac2a6;
-  /* color: #ff6b00; */
+  color: #000;
   border-color: #ff6b00;
 }
 
 .msjButton:active {
   background-color: #ba5d1a;
-  /* color: #fff; */
+  color: #000;
   border-color: #ff6b00;
 }
 
