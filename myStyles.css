@@ -15,6 +15,7 @@
   text-align: center;
 }
 
+/* Media queries for mobile version */
 @media (max-width: 375px) {
   .homeLogo_Angosto {
     font-size: 25px;
@@ -318,7 +319,7 @@
   }
 
   .mainPage p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .WorkTitle {
@@ -370,7 +371,7 @@
   }
 
   .worksBody p {
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -388,6 +389,7 @@
     display: block;
     margin-left: 5%;
     margin-bottom: 13%;
+    font-size: 20px;
   }
 
   .card {
@@ -444,7 +446,7 @@
   }
 
   .aboutMe p {
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 24px;
     margin-right: 24px;
     padding-bottom: 12%;
@@ -460,6 +462,7 @@
     text-align: left;
     margin-left: 9%;
     margin-bottom: 55%;
+    font-size: 20px;
   }
 
   .horizontal-list-bottom {
@@ -511,13 +514,22 @@
     width: auto;
   }
 
+  .input_comment::placeholder {
+    font-size: 20px;
+  }
+
   .names_container_input {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
+  .text_comment::placeholder {
+    font-size: 20px;
+  }
 }
 
+/* Media queries for Desktop version */
 @media (min-width: 769px) and (max-width: 1220px) {
   #main {
     min-width: 346px;
@@ -632,7 +644,6 @@
   }
 
   .worksBody p {
-    font-size: 16px;
     margin-left: 10%;
   }
 
@@ -645,6 +656,7 @@
     width: auto;
     align-self: flex-start;
     margin-left: 10%;
+    font-weight: 1000;
   }
 
   .socialLinks_Bottom {
@@ -959,13 +971,13 @@
   }
 
   .worksBody h3 {
-    font-size: 32px;
+    font-size: 38px;
     margin-left: 10%;
     margin-bottom: 5%;
   }
 
   .worksBody p {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10%;
   }
 
@@ -973,12 +985,16 @@
     margin-left: 10%;
   }
 
+  .worksList li {
+    font-size: 22px;
+  }
+
   .workButton {
     display: flex;
     width: auto;
     align-self: flex-start;
     margin-left: 10%;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .workButtonCard {
@@ -1024,7 +1040,7 @@
   }
 
   .aboutMe p {
-    font-size: 20px;
+    font-size: 25px;
     max-width: 650px;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -1161,7 +1177,7 @@
   .msjButton {
     margin-left: 7%;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .names_container {
@@ -1182,10 +1198,18 @@
     padding-left: 5%;
   }
 
+  .input_comment::placeholder {
+    font-size: 21px;
+  }
+
   .names_container_input {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .text_comment::placeholder {
+    font-size: 21px;
   }
 }
 
@@ -1389,7 +1413,7 @@
 
 .workButton {
   background-color: #ff6b00;
-  color: #fff;
+  color: #000;
   padding-top: 3.5%;
   padding-bottom: 3.5%;
   padding-left: 3.5%;
@@ -1510,13 +1534,13 @@
 
 .workButtonCard:hover {
   background-color: #eac2a6;
-  color: #ff6b00;
+  color: #000;
   border-color: #ff6b00;
 }
 
 .workButtonCard:active {
   background-color: #ba5d1a;
-  color: #fff;
+  color: #000;
   border-color: #ff6b00;
 }
 
@@ -1545,8 +1569,9 @@
 
 .abountMeButton {
   background-color: #ff6b00;
-  color: #fff;
+  color: #000;
   font-family: 'Inter', sans-serif;
+  font-weight: 1000;
 }
 
 .abountMeButton:hover {
@@ -1719,8 +1744,11 @@
 .input_comment {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  color: #979493;
   box-sizing: unset;
+}
+
+.input_comment::placeholder {
+  color: #000;
 }
 
 .input_place {
@@ -1746,9 +1774,13 @@
   background-color: #fbf8f7;
 }
 
+.text_comment::placeholder {
+  color: #000;
+}
+
 .msjButton {
   background-color: #ff6b00;
-  color: #fff;
+  color: #000;
   width: fit-content;
   text-align: center;
   margin-top: 7%;
@@ -1763,13 +1795,13 @@
 
 .msjButton:hover {
   background-color: #eac2a6;
-  color: #ff6b00;
+  color: #000;
   border-color: #ff6b00;
 }
 
 .msjButton:active {
   background-color: #ba5d1a;
-  color: #fff;
+  color: #000;
   border-color: #ff6b00;
 }
 
