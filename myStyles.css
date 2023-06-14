@@ -15,6 +15,7 @@
   text-align: center;
 }
 
+/* Media queries for mobile version */
 @media (max-width: 375px) {
   .homeLogo_Angosto {
     font-size: 25px;
@@ -318,7 +319,7 @@
   }
 
   .mainPage p {
-    font-size: 16px;
+    /* font-size: 16px; */ /*+ 4px*/
   }
 
   .WorkTitle {
@@ -370,7 +371,7 @@
   }
 
   .worksBody p {
-    font-size: 16px;
+    /* font-size: 16px; */ /*+4px*/
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -388,6 +389,7 @@
     display: block;
     margin-left: 5%;
     margin-bottom: 13%;
+    /* font-size: 20px; */
   }
 
   .card {
@@ -444,7 +446,7 @@
   }
 
   .aboutMe p {
-    font-size: 16px;
+    /* font-size: 16px; */ /* + 4 px*/
     margin-left: 24px;
     margin-right: 24px;
     padding-bottom: 12%;
@@ -460,6 +462,7 @@
     text-align: left;
     margin-left: 9%;
     margin-bottom: 55%;
+    /* font-size: 20px;*/
   }
 
   .horizontal-list-bottom {
@@ -511,13 +514,22 @@
     width: auto;
   }
 
+  /* .input_comment::placeholder {
+    fontsize = 20px
+  } */
+
   .names_container_input {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
+  /* .text_comment::placeholder {
+    fontsize = 20px
+  } */
 }
 
+/* Media queries for Desktop version */
 @media (min-width: 769px) and (max-width: 1220px) {
   #main {
     min-width: 346px;
