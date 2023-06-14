@@ -1511,13 +1511,13 @@
 
 .workButtonCard:hover {
   background-color: #eac2a6;
-  color: #ff6b00;
+  /* color: #ff6b00; */
   border-color: #ff6b00;
 }
 
 .workButtonCard:active {
   background-color: #ba5d1a;
-  color: #fff;
+  /* color: #fff; */
   border-color: #ff6b00;
 }
 
@@ -1757,7 +1757,7 @@
 
 .msjButton {
   background-color: #ff6b00;
-  color: #fff;
+  /* color: #fff; */
   width: fit-content;
   text-align: center;
   margin-top: 7%;
@@ -1772,13 +1772,13 @@
 
 .msjButton:hover {
   background-color: #eac2a6;
-  color: #ff6b00;
+  /* color: #ff6b00; */
   border-color: #ff6b00;
 }
 
 .msjButton:active {
   background-color: #ba5d1a;
-  color: #fff;
+  /* color: #fff; */
   border-color: #ff6b00;
 }
 
