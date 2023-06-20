@@ -1323,12 +1323,11 @@
   text-align: center;
 }
 
-/*implement me!*/
-/*.left {
+.left {
   align-self: flex-end;
   padding-top: 15%;
   padding-right: 5%;
-}*/
+}
 
 .menuHamburgerContainer {
   margin-right: 10%;
