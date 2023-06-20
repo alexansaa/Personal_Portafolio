@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
         <title>Alexander Saavedra Personal Portfolio</title>
+        <script src="logic.js"></script>
     </head>
     <body>
         <header id="topBar" class="topBar">
@@ -18,18 +19,24 @@
                 </a>
             </div>
             <!--Menu Text-->
-            <div class="menuTextContainer">
+            <div id="myLinks" class="menuTextContainer">
+                <a id="closeHamburger" href="javascript:void(0);" class="icon left">
+                    <img id="closeMenuImage" src="images/xMenu_50.png" alt="Close Menu" onclick="sandwitchClick()">
+                </a>
                 <a href="javascript:void(0);" tabindex="1">Portfolio</a>
+                <hr class="SimpleSeparation">
                 <a href="javascript:void(0);" tabindex="2">About</a>
+                <hr class="SimpleSeparation">
                 <a href="javascript:void(0);" tabindex="3">Contact</a>
+                <hr class="SimpleSeparation">
                 <a href="javascript:void(0);" tabindex="4">
-                    <img id="baraMenuImage" src="images/desktop/Mail.png" alt="Email Me" class="center">
+                    <img src="images/desktop/Mail.png" alt="Email Me" class="center">
                 </a>
             </div>
             <!--Menu Hamburger-->
             <nav class="menuHamburgerContainer">
                 <a id="menuHamburger" href="javascript:void(0);" class="icon">
-                    <img id="baraMenuImage" src="images/barMenu.png" alt="Hamburger Menu" class="center">
+                    <img id="baraMenuImage" src="images/barMenu.png" alt="Hamburger Menu" class="center" onclick="sandwitchClick()">
                 </a>
             </nav>
         </header>

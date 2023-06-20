@@ -9,6 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  z-index: 10;
 }
 
 .icon {
@@ -87,6 +88,14 @@
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .SimpleSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+    /* padding-left: 5%;
+    padding-right: 5%; */
   }
 
   .WorkImage {
@@ -172,6 +181,32 @@
   }
 
   .menuTextContainer {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgb(69, 67, 67);
+    
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10%;
+  }
+
+  .menuTextContainer hr {
+    width: 90%;
+  }
+
+  .menuTextContainer a img {
     display: none;
   }
 
@@ -801,6 +836,15 @@
     display: inline-flex;
   }
 
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
   .menuHamburgerContainer {
     display: none;
   }
@@ -1140,6 +1184,15 @@
     display: inline-flex;
   }
 
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
   .menuHamburgerContainer {
     display: none;
   }
@@ -1265,18 +1318,15 @@
 }
 
 .menuTextContainer {
-  margin-right: 10%;
-  justify-content: center;
+  /* margin-right: 10%;
+  justify-content: center; */
   text-align: center;
 }
 
-.menuTextContainer a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 25px;
+.left {
+  align-self: flex-end;
+  padding-top: 15%;
+  padding-right: 5%;
 }
 
 .menuHamburgerContainer {
@@ -1284,7 +1334,9 @@
   margin-top: auto;
   margin-bottom: auto;
   justify-content: center;
+  align-self: flex-end;
   text-align: center;
+  z-index: 11;
 }
 
 .flexContainer {
@@ -1378,6 +1430,11 @@
 .WorkSeparation {
   border-width: 1px;
   border-color: #000;
+}
+
+.SimpleSeparation {
+  border-width: 1px;
+  border-color: #fff;
 }
 
 .worksBody h3 {
@@ -1820,4 +1877,13 @@
 .first_name {
   width: auto;
   flex-grow: 1;
+}
+
+/* estolos de popup*/
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
 }
