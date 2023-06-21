@@ -190,7 +190,7 @@
     bottom: 0;
     z-index: 10;
     background-color: rgb(69, 67, 67);
-    
+    text-align: center;
   }
 
   .menuTextContainer a {
@@ -208,6 +208,12 @@
 
   .menuTextContainer a img {
     display: none;
+  }
+
+  .left {
+    align-self: flex-end;
+    padding-top: 15%;
+    padding-right: 5%;
   }
 
   .menuHamburgerContainer {
@@ -461,6 +467,38 @@
 
   .menuTextContainer {
     display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgb(69, 67, 67);
+    text-align: center;
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10%;
+  }
+
+  .menuTextContainer hr {
+    width: 90%;
+  }
+
+  .menuTextContainer a img {
+    display: none;
+  }
+
+  .left {
+    align-self: flex-end;
+    padding-top: 15%;
+    padding-right: 5%;
   }
 
   .menuHamburgerContainer {
@@ -834,6 +872,9 @@
 
   .menuTextContainer {
     display: inline-flex;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
   }
 
   .menuTextContainer a {
@@ -843,6 +884,14 @@
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
+  }
+
+  .menuTextContainer hr {
+    display: none;
+  }
+  
+  .left {
+    display: none;
   }
 
   .menuHamburgerContainer {
@@ -1182,8 +1231,10 @@
 
   .menuTextContainer {
     display: inline-flex;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
   }
-
   .menuTextContainer a {
     text-decoration: none;
     color: #fff;
@@ -1191,6 +1242,10 @@
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
+  }
+
+  .left {
+    display: none;
   }
 
   .menuHamburgerContainer {
@@ -1315,18 +1370,6 @@
 
 #baraMenuImage {
   align-self: center;
-}
-
-.menuTextContainer {
-  /* margin-right: 10%;
-  justify-content: center; */
-  text-align: center;
-}
-
-.left {
-  align-self: flex-end;
-  padding-top: 15%;
-  padding-right: 5%;
 }
 
 .menuHamburgerContainer {
