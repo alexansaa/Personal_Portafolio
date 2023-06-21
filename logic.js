@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const linksElements = document.querySelectorAll('#myLinks a');
   const openBtn = document.querySelector('#menuHamburgerContainer');
   const myLinksContainer = document.querySelector('#myLinks');
   const myIcon = document.querySelector('#menuHamburgerContainer');
@@ -12,5 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
   closeBtn.addEventListener('click', () => {
     myLinksContainer.classList.remove('openable');
     myIcon.classList.remove('disaperable');
+  });
+  linksElements.forEach((e) => {
+    e.addEventListener('click', () => {
+      myLinksContainer.classList.remove('openable');
+      myIcon.classList.remove('disaperable');
+    })
   });
 });
