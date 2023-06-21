@@ -94,6 +94,7 @@
     width: 100%;
     align-self: center;
     height: 1px;
+
     /* padding-left: 5%;
     padding-right: 5%; */
   }
@@ -388,6 +389,7 @@
     width: 100%;
     align-self: center;
     height: 1px;
+
     /* padding-left: 5%;
     padding-right: 5%; */
   }
@@ -905,7 +907,7 @@
   .menuTextContainer hr {
     display: none;
   }
-  
+
   .left {
     display: none;
   }
@@ -928,7 +930,8 @@
   }
 
   .openable_item {
-    text-align: row;
+
+    /* text-align: row; */
   }
 
   .openable_content {
@@ -995,7 +998,6 @@
     background-image: url("images/desktop/background.png");
     background-repeat: no-repeat;
     background-size: 35%;
-    background-origin: 0 15;
     background-position: 100% 20%;
     padding-top: 10%;
     padding-bottom: 15%;
@@ -1255,6 +1257,7 @@
     justify-content: center;
     text-align: center;
   }
+
   .menuTextContainer a {
     text-decoration: none;
     color: #fff;
@@ -1286,7 +1289,8 @@
   }
 
   .openable_item {
-    text-align: row;
+    
+    /* text-align: row; */
   }
 
   .openable_content {
@@ -1351,8 +1355,8 @@
   top: 0;
   flex-direction: row;
   background-color: rgb(69, 67, 67);
-  padding-top: min(40px);
-  padding-bottom: min(40px);
+  padding-top: 40px;
+  padding-bottom: 40px;
   min-width: 346px;
 }
 
@@ -1424,7 +1428,6 @@
   padding-bottom: 4%;
   padding-top: 4%;
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
   font-weight: 700;
   line-height: 32px;
 }
@@ -1670,8 +1673,8 @@
 }
 
 .aboutMeSecction {
-  padding-top: min(40px);
-  padding-bottom: min(40px);
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1941,7 +1944,6 @@
   flex-grow: 1;
 }
 
-/* estolos de popup*/
 .openable {
   display: flex;
   flex-direction: column;
