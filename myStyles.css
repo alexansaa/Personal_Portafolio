@@ -115,6 +115,7 @@
     gap: 2.5%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    z-index: 12;
   }
 
   .worksBody {
@@ -309,6 +310,17 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -410,6 +422,7 @@
     gap: 2.5%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    z-index: 12;
   }
 
   .worksBody {
@@ -701,6 +714,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    z-index: 12;
   }
 
   .WorkImage {
@@ -1058,6 +1072,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    z-index: 12;
   }
 
   .WorkImage {
@@ -1961,6 +1976,55 @@
 }
 
 .apearable {
-  display: block;
-  z-index: 12;
+  display: flex;
+  z-index: 13;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.apearable h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.titleAppear {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.blureStyle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 13;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+}
+
+.worksListAperable {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.worksListAperable li {
+  display: flex;
+  float: left;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.24);
+  /* border: 1px solid #000; */
 }
