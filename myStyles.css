@@ -9,6 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  z-index: 10;
 }
 
 .icon {
@@ -87,6 +88,15 @@
     width: inherit;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .SimpleSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+
+    /* padding-left: 5%;
+    padding-right: 5%; */
   }
 
   .WorkImage {
@@ -173,10 +183,47 @@
 
   .menuTextContainer {
     display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: #3c3a39;
+    text-align: center;
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff5e1;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+
+  .menuTextContainer hr {
+    width: 90%;
+  }
+
+  #emailIcon {
+    display: none;
+  }
+
+  .left {
+    align-self: flex-end;
+    padding-top: 15%;
+    padding-right: 5%;
+    z-index: 12;
   }
 
   .menuHamburgerContainer {
     display: inline-flex;
+    z-index: 11;
   }
 
   .aboutMe {
@@ -341,6 +388,15 @@
     margin-right: auto;
   }
 
+  .SimpleSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+
+    /* padding-left: 5%;
+    padding-right: 5%; */
+  }
+
   .WorkImage {
     display: block;
   }
@@ -426,10 +482,44 @@
 
   .menuTextContainer {
     display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgb(69, 67, 67);
+    text-align: center;
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10%;
+  }
+
+  .menuTextContainer hr {
+    width: 90%;
+  }
+
+  #emailIcon {
+    display: none;
+  }
+
+  .left {
+    align-self: flex-end;
+    padding-top: 15%;
+    padding-right: 5%;
+    z-index: 12;
   }
 
   .menuHamburgerContainer {
     display: inline-flex;
+    z-index: 11;
   }
 
   .aboutMe {
@@ -592,6 +682,10 @@
     width: 100%;
     align-self: center;
     height: 1px;
+  }
+
+  .SimpleSeparation {
+    display: none;
   }
 
   .centerWork {
@@ -799,6 +893,26 @@
 
   .menuTextContainer {
     display: inline-flex;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
+  .menuTextContainer hr {
+    display: none;
+  }
+
+  .left {
+    display: none;
   }
 
   .menuHamburgerContainer {
@@ -819,7 +933,7 @@
   }
 
   .openable_item {
-    text-align: row;
+    /* text-align: row; */
   }
 
   .openable_content {
@@ -886,7 +1000,6 @@
     background-image: url("images/desktop/background.png");
     background-repeat: no-repeat;
     background-size: 35%;
-    background-origin: 0 15;
     background-position: 100% 20%;
     padding-top: 10%;
     padding-bottom: 15%;
@@ -925,6 +1038,10 @@
     width: 100%;
     align-self: center;
     height: 1px;
+  }
+
+  .SimpleSeparation {
+    display: none;
   }
 
   .centerWork {
@@ -1138,6 +1255,22 @@
 
   .menuTextContainer {
     display: inline-flex;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menuTextContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
+  .left {
+    display: none;
   }
 
   .menuHamburgerContainer {
@@ -1158,7 +1291,7 @@
   }
 
   .openable_item {
-    text-align: row;
+    /* text-align: row; */
   }
 
   .openable_content {
@@ -1223,8 +1356,8 @@
   top: 0;
   flex-direction: row;
   background-color: rgb(69, 67, 67);
-  padding-top: min(40px);
-  padding-bottom: min(40px);
+  padding-top: 40px;
+  padding-bottom: 40px;
   min-width: 346px;
 }
 
@@ -1264,26 +1397,12 @@
   align-self: center;
 }
 
-.menuTextContainer {
-  margin-right: 10%;
-  justify-content: center;
-  text-align: center;
-}
-
-.menuTextContainer a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 25px;
-}
-
 .menuHamburgerContainer {
   margin-right: 10%;
   margin-top: auto;
   margin-bottom: auto;
   justify-content: center;
+  align-self: flex-end;
   text-align: center;
 }
 
@@ -1310,7 +1429,6 @@
   padding-bottom: 4%;
   padding-top: 4%;
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
   font-weight: 700;
   line-height: 32px;
 }
@@ -1378,6 +1496,11 @@
 .WorkSeparation {
   border-width: 1px;
   border-color: #000;
+}
+
+.SimpleSeparation {
+  border-width: 1px;
+  border-color: #fff;
 }
 
 .worksBody h3 {
@@ -1551,8 +1674,8 @@
 }
 
 .aboutMeSecction {
-  padding-top: min(40px);
-  padding-bottom: min(40px);
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1820,4 +1943,27 @@
 .first_name {
   width: auto;
   flex-grow: 1;
+}
+
+.openable {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgb(69, 67, 67);
+  text-align: center;
+}
+
+.disaperable {
+  display: none;
+  z-index: -10;
+}
+
+.apearable {
+  display: block;
+  z-index: 12;
 }
