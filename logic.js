@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     e.addEventListener('click', () => {
       myLinksContainer.classList.remove('openable');
       myIcon.classList.remove('disaperable');
-    })
+    });
   });
 });
