@@ -196,11 +196,14 @@
 
   .menuTextContainer a {
     text-decoration: none;
-    color: #fff;
+    color: #fff5e1;
     font-family: "Inter", sans-serif;
     font-size: 40px;
+    font-weight: bold;
     text-align: left;
     padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
   }
 
   .menuTextContainer hr {
