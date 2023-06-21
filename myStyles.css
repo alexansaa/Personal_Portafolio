@@ -206,7 +206,7 @@
     width: 90%;
   }
 
-  .menuTextContainer a img {
+  #emailIcon {
     display: none;
   }
 
@@ -214,10 +214,12 @@
     align-self: flex-end;
     padding-top: 15%;
     padding-right: 5%;
+    z-index: 12;
   }
 
   .menuHamburgerContainer {
     display: inline-flex;
+    z-index: 11;
   }
 
   .aboutMe {
@@ -382,6 +384,14 @@
     margin-right: auto;
   }
 
+  .SimpleSeparation {
+    width: 100%;
+    align-self: center;
+    height: 1px;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+  }
+
   .WorkImage {
     display: block;
   }
@@ -491,7 +501,7 @@
     width: 90%;
   }
 
-  .menuTextContainer a img {
+  #emailIcon {
     display: none;
   }
 
@@ -499,10 +509,12 @@
     align-self: flex-end;
     padding-top: 15%;
     padding-right: 5%;
+    z-index: 12;
   }
 
   .menuHamburgerContainer {
     display: inline-flex;
+    z-index: 11;
   }
 
   .aboutMe {
@@ -665,6 +677,10 @@
     width: 100%;
     align-self: center;
     height: 1px;
+  }
+
+  .SimpleSeparation {
+    display: none;
   }
 
   .centerWork {
@@ -1018,6 +1034,10 @@
     width: 100%;
     align-self: center;
     height: 1px;
+  }
+
+  .SimpleSeparation {
+    display: none;
   }
 
   .centerWork {
@@ -1379,7 +1399,6 @@
   justify-content: center;
   align-self: flex-end;
   text-align: center;
-  z-index: 11;
 }
 
 .flexContainer {
@@ -1923,10 +1942,25 @@
 }
 
 /* estolos de popup*/
-.open {
-  display: block;
+.openable {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgb(69, 67, 67);
+  text-align: center;
 }
 
-.close {
+.disaperable {
   display: none;
+  z-index: -10;
+}
+
+.apearable {
+  display: block;
+  z-index: 12;
 }
