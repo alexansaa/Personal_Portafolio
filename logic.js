@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   function validateForm() {
     const myErrorMsj = document.getElementById('validationMsj');
-    let myEmail = document.getElementById('faddress').value;
+    const myEmail = document.getElementById('faddress').value;
     if (myEmail !== String(myEmail).toLowerCase()) {
       myErrorMsj.textContent = 'Error de Validacion: Email esta en mayusculas!';
     } else {
