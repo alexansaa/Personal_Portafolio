@@ -27,6 +27,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -37,6 +38,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -47,6 +49,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -57,6 +60,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -67,6 +71,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -77,6 +82,7 @@ const projects = [
     sub_name: "CANOPY",
     area_year: " • Back End Dev • 2015",
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    description_plus: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     image: "images/Work_Init/Works_PopUp.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://www.google.com/",
@@ -127,9 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
     projectsSection.appendChild(myCard);
   });
 });
-// document.addEventListener('DOMContentLoaded', () => {
-
-// });
 function renderCustomDiv(projectIndex) {
   const blureElement = document.createElement('div');
   blureElement.classList.add('blureStyle');
@@ -162,30 +165,44 @@ function renderCustomDiv(projectIndex) {
     myWorksList.appendChild(tmpElement);
   });
   listContainer.appendChild(myWorksList);
+  const myContentContainer = document.createElement('div');
+  myContentContainer.classList.add('apearableImgContainer');
   const myImg = document.createElement('img');
   myImg.src = project.image;
+  const textContainer = document.createElement('div');
+  textContainer.classList.add('textcontainer');
   const myDescription = document.createElement('p');
-  myDescription.textContent = project.description;
-  const myBtnLive = document.createElement('button');
+  myDescription.textContent = project.description_plus;
+  const btnContainer = document.createElement('div');
+  btnContainer.classList.add('worksBtnsAperable');
+  const myBtnLive = document.createElement('a');
   myBtnLive.textContent = 'See Live';
-  myBtnLive.classList.add('workButton');
-  const myBtnSrc = document.createElement('button');
+  myBtnLive.classList.add('workButtonApereable');
+  const myBtnLiveImg = document.createElement('img');
+  myBtnLiveImg.src = 'images/Iconos/apereable_icons/arrow.png';
+  myBtnLive.appendChild(myBtnLiveImg);
+  const myBtnSrc = document.createElement('a');
   myBtnSrc.textContent = 'See Source';
-  myBtnSrc.classList.add('workButton');
+  myBtnSrc.classList.add('workButtonApereable');
+  const myBtnSrcImg = document.createElement('img');
+  myBtnSrcImg.src = 'images/Iconos/apereable_icons/github.png';
+  myBtnSrc.appendChild(myBtnSrcImg);
   closeCardPopUp.addEventListener('click', () => {
-    console.log('close');
     const customDiv = document.querySelector('.custom-div');
     if (customDiv) {
       blureElement.remove();
       customDiv.remove();
     }
   });
-  customDiv.appendChild(titleContainer);
+  btnContainer.appendChild(myBtnLive);
+  btnContainer.appendChild(myBtnSrc);
+  textContainer.appendChild(myDescription);
+  textContainer.appendChild(btnContainer);
+  myContentContainer.appendChild(myImg);
+  myContentContainer.appendChild(textContainer);
+    customDiv.appendChild(titleContainer);
   customDiv.appendChild(listContainer);
-  customDiv.appendChild(myImg);
-  customDiv.appendChild(myDescription);
-  customDiv.appendChild(myBtnLive);
-  customDiv.appendChild(myBtnSrc);
+  customDiv.appendChild(myContentContainer);
   document.body.appendChild(blureElement);
   document.body.appendChild(customDiv);
 }

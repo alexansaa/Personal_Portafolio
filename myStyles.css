@@ -317,10 +317,64 @@
     flex-direction: column;
     background-color: #fff;
     top: 5%;
-    bottom: 5%;
+    bottom: auto;
     left: 5%;
     right: 5%;
   }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable h2 {
+    font-size: 32px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .apearable img {
+    width: 100%;
+    align-self: center;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 13%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
+  }
+
+
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -626,6 +680,69 @@
 
   .text_comment::placeholder {
     font-size: 20px;
+  }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable h2 {
+    font-size: 32px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .apearable img {
+    width: 100%;
+    align-self: center;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 13%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
   }
 }
 
@@ -989,6 +1106,84 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable h2 {
+    font-size: 37px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .apearable img {
+    width: 110%;
+    align-self: flex-start;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .textcontainer {
+    margin-left: 5%;
+    max-width: 450px;
+  }
+
+  .apearableImgContainer {
+    display: flex;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 7%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
+  }
+
+
+
 }
 
 @media (min-width: 1221px) {
@@ -1355,6 +1550,83 @@
 
   .text_comment::placeholder {
     font-size: 21px;
+  }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  }
+
+  .apearable h2 {
+    font-size: 50px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 28px;
+  }
+
+  .apearable img {
+    width: 110%;
+    align-self: flex-start;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .textcontainer {
+    margin-left: 5%;
+    max-width: 500px;
+  }
+
+  .apearableImgContainer {
+    display: flex;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 10px 15px;
+    font-size: 25px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 7%;
+    font-size: 25px;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
   }
 }
 
@@ -1978,22 +2250,24 @@
 .apearable {
   display: flex;
   z-index: 13;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-bottom: 3%;
 }
 
 .apearable h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
   white-space: nowrap;
   font-weight: bold;
+}
+
+.apearable p {
+  font-family: sans-serif;
+  text-justify: inter-word;
 }
 
 .titleAppear {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 5%;
 }
 
 .blureStyle {
@@ -2010,21 +2284,45 @@
 .worksListAperable {
   display: flex;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   text-decoration: none;
 }
 
 .worksListAperable li {
   display: flex;
   float: left;
-  padding: 10px 15px;
   text-decoration: none;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
   color: #000;
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
   background-color: rgba(255, 255, 255, 0.24);
-  border: 1px solid #000;
+  border: 1px groove #979493;
 }
+
+.worksBtnsAperable {
+  display: flex;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.workButtonApereable {
+  background-color: #ff6b00;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.workButtonApereable:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButtonApereable:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+
