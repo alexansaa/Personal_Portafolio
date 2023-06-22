@@ -263,3 +263,49 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+document.addEventListener('DOMContentLoaded', () => {
+  function validateForm(){
+    const myErrorMsj = document.getElementById('validationMsj');
+    var myName = document.getElementById('fname').value;
+    var myEmail = document.getElementById('faddress').value;
+    var myText = document.getElementById('comment').value;
+  
+    if (myEmail != String(myEmail).toLowerCase()){
+      myErrorMsj.textContent = 'Error de Validacion: Email esta en mayusculas!';
+    } else {
+      myErrorMsj.textContent = 'Enviando!';
+      document.getElementById('myForm').submit();
+    }
+  }
+  const form = document.querySelector('#SubmitButton');
+  form.addEventListener('click',(e) => {
+    validateForm();
+  });
+});
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   function validateForm(){
+//     const myErrorMsj = document.querySelector('validationMsj');
+//     var myName = document.getElementById('fname').value;
+//     var myEmail = document.getElementById('faddress').value;
+//     var myText = document.getElementById('comment').value;
+  
+//     if (myName != String(myName).toLowerCase()){
+//       myErrorMsj.textContent = 'Error de Validacion!';
+//     } else if (myEmail != String(myEmail).toLowerCase()){
+//       myErrorMsj.textContent = 'Error de Validacion!';
+//     } else if (myText != String(myText).toLowerCase()){
+//       myErrorMsj.textContent = 'Error de Validacion!';
+//     } else {
+//       myErrorMsj.textContent = 'Enviando!';
+//       document.getElementById('myForm').submit();
+//     }
+//   }
+// });
+
+
+
+
+
+
+
