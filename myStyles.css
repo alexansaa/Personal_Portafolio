@@ -115,6 +115,7 @@
     gap: 2.5%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    z-index: 12;
   }
 
   .worksBody {
@@ -312,6 +313,69 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable h2 {
+    font-size: 32px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .apearable img {
+    width: 100%;
+    align-self: center;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 13%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -413,6 +477,7 @@
     gap: 2.5%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    z-index: 12;
   }
 
   .worksBody {
@@ -617,6 +682,79 @@
   .text_comment::placeholder {
     font-size: 20px;
   }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable h2 {
+    font-size: 32px;
+  }
+
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .apearable img {
+    width: 100%;
+    align-self: center;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 3%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
+  }
+
+  .apearableImgContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apearableImgContainer img {
+    max-width: 300px;
+    justify-self: center;
+    align-self: center;
+  }
 }
 
 /* Media queries for Desktop version */
@@ -704,12 +842,13 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    z-index: 12;
   }
 
   .WorkImage {
     display: flex;
     justify-content: center;
-    width: 250%;
+    width: 150%;
   }
 
   .WorkImage img {
@@ -742,7 +881,11 @@
   }
 
   .worksList ul {
-    margin-left: 10%;
+    margin-left: 5%;
+  }
+
+  .worksList li {
+    margin-right: 10px;
   }
 
   .workButton {
@@ -800,6 +943,10 @@
     width: 60%;
   }
 
+  .apearable h2 {
+    font-size: 37px;
+  }
+
   .card:hover h2 {
     display: none;
   }
@@ -833,6 +980,11 @@
     padding-bottom: 12%;
     padding-left: 10%;
     text-align: left;
+  }
+
+  .apearable p {
+    margin-bottom: 5%;
+    font-size: 16px;
   }
 
   .card:hover p {
@@ -978,6 +1130,70 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .apearable img {
+    width: 110%;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .textcontainer {
+    margin-left: 5%;
+    max-width: 450px;
+  }
+
+  .apearableImgContainer {
+    display: flex;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+  }
+
+  .worksListAperable {
+    padding-bottom: 6%;
+    padding-top: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 7%;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
+  }
 }
 
 @media (min-width: 1221px) {
@@ -1061,12 +1277,13 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    z-index: 12;
   }
 
   .WorkImage {
     display: flex;
     justify-content: center;
-    width: 250%;
+    width: 150%;
   }
 
   .WorkImage img {
@@ -1104,6 +1321,7 @@
 
   .worksList li {
     font-size: 22px;
+    margin-right: 10px;
   }
 
   .workButton {
@@ -1174,6 +1392,10 @@
     white-space: nowrap;
   }
 
+  .apearable h2 {
+    font-size: 50px;
+  }
+
   .card:hover h2 {
     display: none;
   }
@@ -1199,6 +1421,18 @@
   .card p {
     font-size: 20px;
     color: #fff;
+  }
+
+  .apearable img {
+    width: 110%;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .apearable p {
+    margin-bottom: 5%;
+    font-size: 25px;
   }
 
   .card:hover p {
@@ -1343,6 +1577,68 @@
 
   .text_comment::placeholder {
     font-size: 21px;
+  }
+
+  .custom-div {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    background-color: #fff;
+    top: 5%;
+    bottom: auto;
+    left: 5%;
+    right: 5%;
+  }
+
+  .apearable {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .textcontainer {
+    margin-left: 5%;
+    max-width: 500px;
+  }
+
+  .apearableImgContainer {
+    display: flex;
+  }
+
+  .apearableImgContainer img {
+    max-width: 450px;
+  }
+
+  .titleAppear {
+    padding-top: 5%;
+  }
+
+  .worksListAperable {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    left: 0;
+  }
+
+  .worksListAperable li {
+    padding: 10px 15px;
+    font-size: 25px;
+  }
+
+  .worksBtnsAperable {
+    justify-content: space-between;
+  }
+
+  .workButtonApereable {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin-bottom: 7%;
+    font-size: 20px;
+  }
+
+  .workButtonApereable img {
+    padding-left: 5px;
   }
 }
 
@@ -1964,6 +2260,79 @@
 }
 
 .apearable {
-  display: block;
-  z-index: 12;
+  display: flex;
+  z-index: 13;
+  margin-bottom: 3%;
+}
+
+.apearable h2 {
+  font-family: 'Roboto', sans-serif;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.apearable p {
+  font-family: sans-serif;
+  text-justify: inter-word;
+}
+
+.titleAppear {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blureStyle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 13;
+  pointer-events: none;
+  backdrop-filter: blur(10px);
+}
+
+.worksListAperable {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.worksListAperable li {
+  display: flex;
+  float: left;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 1px groove #979493;
+}
+
+.worksBtnsAperable {
+  display: flex;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.workButtonApereable {
+  background-color: #ff6b00;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.workButtonApereable:hover {
+  background-color: #eac2a6;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.workButtonApereable:active {
+  background-color: #ba5d1a;
+  color: #fff;
+  border-color: #ff6b00;
 }
