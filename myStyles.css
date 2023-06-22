@@ -2336,3 +2336,9 @@
   color: #fff;
   border-color: #ff6b00;
 }
+
+.errorMsj {
+  align-self: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
