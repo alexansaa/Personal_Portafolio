@@ -373,8 +373,6 @@
   .workButtonApereable img {
     padding-left: 5px;
   }
-
-
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -963,6 +961,12 @@
     text-align: left;
   }
 
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
   .card:hover p {
     display: none;
   }
@@ -1127,15 +1131,8 @@
     font-size: 37px;
   }
 
-  .apearable p {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 20px;
-  }
-
   .apearable img {
     width: 110%;
-    align-self: flex-start;
     object-fit: cover;
     justify-self: center;
     align-self: center;
@@ -1181,9 +1178,6 @@
   .workButtonApereable img {
     padding-left: 5px;
   }
-
-
-
 }
 
 @media (min-width: 1221px) {
@@ -1381,6 +1375,10 @@
     white-space: nowrap;
   }
 
+  .apearable h2 {
+    font-size: 50px;
+  }
+
   .card:hover h2 {
     display: none;
   }
@@ -1406,6 +1404,13 @@
   .card p {
     font-size: 20px;
     color: #fff;
+  }
+
+  .apearable img {
+    width: 110%;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
   }
 
   .card:hover p {
@@ -1566,25 +1571,11 @@
   .apearable {
     padding-left: 5%;
     padding-right: 5%;
-    
   }
-
-  .apearable h2 {
-    font-size: 50px;
-  }
-
   .apearable p {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 28px;
-  }
-
-  .apearable img {
-    width: 110%;
-    align-self: flex-start;
-    object-fit: cover;
-    justify-self: center;
-    align-self: center;
   }
 
   .textcontainer {
@@ -2324,5 +2315,3 @@
   color: #fff;
   border-color: #ff6b00;
 }
-
-
