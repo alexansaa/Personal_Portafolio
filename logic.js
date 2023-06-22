@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (myEmail !== String(myEmail).toLowerCase()) {
       myErrorMsj.textContent = 'Error de Validacion: Email esta en mayusculas!';
     } else {
-      //myErrorMsj.textContent = 'Enviando!';
+      myErrorMsj.textContent = 'Enviando!';
       document.getElementById('myForm').submit();
     }
   }
