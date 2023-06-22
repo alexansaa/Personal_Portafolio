@@ -176,8 +176,8 @@ function renderCustomDiv(projectIndex) {
 document.addEventListener('DOMContentLoaded', () => {
   let count = 0;
   projects.forEach((project, index) => {
-    if (count === 0){
-      count = count + 1;
+    if (count === 0) {
+      count += 1;
       const projectsSection = document.querySelector('#centerWork');
       const WorkImage = document.createElement('div');
       WorkImage.classList.add('WorkImage');
