@@ -174,16 +174,16 @@ function renderCustomDiv(projectIndex) {
   document.body.appendChild(customDiv);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  var count = 0;
+  let count = 0;
   projects.forEach((project, index) => {
-    if(count == 0){
-      count++;
+    if (count === 0){
+      count = count + 1;
       const projectsSection = document.querySelector('#centerWork');
       const WorkImage = document.createElement('div');
       WorkImage.classList.add('WorkImage');
       const mainImg = document.createElement('img');
       mainImg.src = project.image;
-      mainImg.alt = "Main Project Image, a Yoga Girl in a pose";
+      mainImg.alt = 'Main Project Image, a Yoga Girl in a pose';
       WorkImage.appendChild(mainImg);
       const contextWork = document.createElement('div');
       contextWork.classList.add('contextWork');
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
       contextWork.appendChild(workButton);
       projectsSection.appendChild(WorkImage);
       projectsSection.appendChild(contextWork);
-    }else{
+    } else {
       const projectsSection = document.querySelector('#cardsDiv');
       const myCard = document.createElement('div');
       myCard.classList.add('card');
