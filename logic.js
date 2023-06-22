@@ -23,45 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 const projects = [
   {
-    name: 'Tonic',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/Works_PopUp.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
-  },
-  {
     name: 'Multi-Post Stories',
     sub_name: 'CANOPY',
     area_year: ' • Back End Dev • 2015',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/Works_PopUp.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
-  },
-  {
-    name: 'Tonic',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/Works_PopUp.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
-  },
-  {
-    name: 'Multi-Post Stories',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/Works_PopUp.png',
+    image: 'images/Work_Init/WorkHead.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://www.google.com/',
     sourceLink: 'https://github.com/user/project1',
@@ -83,7 +50,51 @@ const projects = [
     area_year: ' • Back End Dev • 2015',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'images/Work_Init/WorkCard.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://github.com/user/project1',
+  },
+  {
+    name: 'Tonic',
+    sub_name: 'CANOPY',
+    area_year: ' • Back End Dev • 2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'images/Work_Init/WorkHead.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://github.com/user/project1',
+  },
+  {
+    name: 'Multi-Post Stories',
+    sub_name: 'CANOPY',
+    area_year: ' • Back End Dev • 2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: 'images/Work_Init/Works_PopUp.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://github.com/user/project1',
+  },
+  {
+    name: 'Tonic',
+    sub_name: 'CANOPY',
+    area_year: ' • Back End Dev • 2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'images/Work_Init/WorkCard.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://www.google.com/',
+    sourceLink: 'https://github.com/user/project1',
+  },
+  {
+    name: 'Multi-Post Stories',
+    sub_name: 'CANOPY',
+    area_year: ' • Back End Dev • 2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: 'images/Work_Init/WorkHead.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://www.google.com/',
     sourceLink: 'https://github.com/user/project1',
@@ -163,46 +174,92 @@ function renderCustomDiv(projectIndex) {
   document.body.appendChild(customDiv);
 }
 document.addEventListener('DOMContentLoaded', () => {
-  const projectsSection = document.querySelector('#cardsDiv');
+  var count = 0;
   projects.forEach((project, index) => {
-    const myCard = document.createElement('div');
-    myCard.classList.add('card');
-    const myTitle = document.createElement('h2');
-    myTitle.textContent = project.name;
-    const myCardTitleConteiner = document.createElement('div');
-    myCardTitleConteiner.classList.add('flexCardTitle');
-    const mysubtitle = document.createElement('h3');
-    mysubtitle.textContent = project.sub_name;
-    const myAreaYear = document.createElement('h4');
-    myAreaYear.textContent = project.area_year;
-    myCardTitleConteiner.appendChild(mysubtitle);
-    myCardTitleConteiner.appendChild(myAreaYear);
-    const myDescription = document.createElement('p');
-    myDescription.textContent = project.description;
-    const myworksContainer = document.createElement('div');
-    myworksContainer.classList.add('worksListCard');
-    const myWorksList = document.createElement('ul');
-    myWorksList.classList.add('aligned-list-card');
-    project.technologies.map((tech) => {
-      const tmpElement = document.createElement('li');
-      tmpElement.textContent = tech;
-      myWorksList.appendChild(tmpElement);
-      return 0;
-    });
-    myworksContainer.appendChild(myWorksList);
-    const myBtnClo = document.createElement('button');
-    myBtnClo.type = 'button';
-    myBtnClo.textContent = 'See Project';
-    myBtnClo.classList.add('workButtonCard');
-    myBtnClo.addEventListener('click', (event) => {
-      event.stopPropagation();
-      renderCustomDiv(index);
-    });
-    myCard.appendChild(myTitle);
-    myCard.appendChild(myCardTitleConteiner);
-    myCard.appendChild(myDescription);
-    myCard.appendChild(myworksContainer);
-    myCard.appendChild(myBtnClo);
-    projectsSection.appendChild(myCard);
+    if(count == 0){
+      count++;
+      const projectsSection = document.querySelector('#centerWork');
+      const WorkImage = document.createElement('div');
+      WorkImage.classList.add('WorkImage');
+      const mainImg = document.createElement('img');
+      mainImg.src = project.image;
+      mainImg.alt = "Main Project Image, a Yoga Girl in a pose";
+      WorkImage.appendChild(mainImg);
+      const contextWork = document.createElement('div');
+      contextWork.classList.add('contextWork');
+      const worksBody = document.createElement('div');
+      worksBody.classList.add('worksBody');
+      const myTitleMain = document.createElement('h3');
+      myTitleMain.textContent = project.name;
+      const myTextMain = document.createElement('p');
+      myTextMain.textContent = project.description;
+      worksBody.appendChild(myTitleMain);
+      worksBody.appendChild(myTextMain);
+      const worksList = document.createElement('div');
+      worksList.classList.add('worksList');
+      const myMainWorkList = document.createElement('ul');
+      myMainWorkList.classList.add('aligned-list');
+      project.technologies.map((tech) => {
+        const tmpElement = document.createElement('li');
+        tmpElement.textContent = tech;
+        myMainWorkList.appendChild(tmpElement);
+        return 0;
+      });
+      worksList.appendChild(myMainWorkList);
+      const workButton = document.createElement('button');
+      workButton.type = 'button';
+      workButton.textContent = 'See Project';
+      workButton.classList.add('workButton');
+      workButton.addEventListener('click', (event) => {
+        event.stopPropagation();
+        renderCustomDiv(index);
+      });
+      contextWork.appendChild(worksBody);
+      contextWork.appendChild(worksList);
+      contextWork.appendChild(workButton);
+      projectsSection.appendChild(WorkImage);
+      projectsSection.appendChild(contextWork);
+    }else{
+      const projectsSection = document.querySelector('#cardsDiv');
+      const myCard = document.createElement('div');
+      myCard.classList.add('card');
+      const myTitle = document.createElement('h2');
+      myTitle.textContent = project.name;
+      const myCardTitleConteiner = document.createElement('div');
+      myCardTitleConteiner.classList.add('flexCardTitle');
+      const mysubtitle = document.createElement('h3');
+      mysubtitle.textContent = project.sub_name;
+      const myAreaYear = document.createElement('h4');
+      myAreaYear.textContent = project.area_year;
+      myCardTitleConteiner.appendChild(mysubtitle);
+      myCardTitleConteiner.appendChild(myAreaYear);
+      const myDescription = document.createElement('p');
+      myDescription.textContent = project.description;
+      const myworksContainer = document.createElement('div');
+      myworksContainer.classList.add('worksListCard');
+      const myWorksList = document.createElement('ul');
+      myWorksList.classList.add('aligned-list-card');
+      project.technologies.map((tech) => {
+        const tmpElement = document.createElement('li');
+        tmpElement.textContent = tech;
+        myWorksList.appendChild(tmpElement);
+        return 0;
+      });
+      myworksContainer.appendChild(myWorksList);
+      const myBtnCard = document.createElement('button');
+      myBtnCard.type = 'button';
+      myBtnCard.textContent = 'See Project';
+      myBtnCard.classList.add('workButtonCard');
+      myBtnCard.addEventListener('click', (event) => {
+        event.stopPropagation();
+        renderCustomDiv(index);
+      });
+      myCard.appendChild(myTitle);
+      myCard.appendChild(myCardTitleConteiner);
+      myCard.appendChild(myDescription);
+      myCard.appendChild(myworksContainer);
+      myCard.appendChild(myBtnCard);
+      projectsSection.appendChild(myCard);
+    }
   });
 });
