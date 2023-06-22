@@ -31,7 +31,7 @@ const projects = [
     image: 'images/Work_Init/Works_PopUp.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1'
+    sourceLink: 'https://github.com/user/project1',
   },
   {
     name: 'Multi-Post Stories',
@@ -42,7 +42,7 @@ const projects = [
     image: 'images/Work_Init/Works_PopUp.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1'
+    sourceLink: 'https://github.com/user/project1',
   },
   {
     name: 'Tonic',
@@ -53,7 +53,7 @@ const projects = [
     image: 'images/Work_Init/Works_PopUp.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1'
+    sourceLink: 'https://github.com/user/project1',
   },
   {
     name: 'Multi-Post Stories',
@@ -89,51 +89,6 @@ const projects = [
     sourceLink: 'https://github.com/user/project1',
   },
 ];
-document.addEventListener('DOMContentLoaded', () => {
-  const projectsSection = document.querySelector('#cardsDiv');
-  projects.forEach((project, index) => {
-    const myCard = document.createElement('div');
-    myCard.classList.add('card');
-    const myTitle = document.createElement('h2');
-    myTitle.textContent = project.name;
-    const myCardTitleConteiner = document.createElement('div');
-    myCardTitleConteiner.classList.add('flexCardTitle');
-    const mysubtitle = document.createElement('h3');
-    mysubtitle.textContent = project.sub_name;
-    const myAreaYear = document.createElement('h4');
-    myAreaYear.textContent = project.area_year;
-    myCardTitleConteiner.appendChild(mysubtitle);
-    myCardTitleConteiner.appendChild(myAreaYear);
-    const myDescription = document.createElement('p');
-    myDescription.textContent = project.description;
-    const myworksContainer = document.createElement('div');
-    myworksContainer.classList.add('worksListCard');
-    const myWorksList = document.createElement('ul');
-    myWorksList.classList.add('aligned-list-card');
-    project.technologies.map((tech) => {
-      const tmpElement = document.createElement('li');
-      tmpElement.textContent = tech;
-      myWorksList.appendChild(tmpElement);
-      return 0;
-    });
-    myworksContainer.appendChild(myWorksList);
-    const myBtnClo = document.createElement('button');
-    myBtnClo.id = '' + 'customBtn' + index;
-    myBtnClo.type = 'button';
-    myBtnClo.textContent = 'See Project';
-    myBtnClo.classList.add('workButtonCard');
-    myBtnClo.addEventListener('click', (event) => {
-      event.stopPropagation();
-      renderCustomDiv(index);
-    });
-    myCard.appendChild(myTitle);
-    myCard.appendChild(myCardTitleConteiner);
-    myCard.appendChild(myDescription);
-    myCard.appendChild(myworksContainer);
-    myCard.appendChild(myBtnClo);
-    projectsSection.appendChild(myCard);
-  });
-});
 function renderCustomDiv(projectIndex) {
   const blureElement = document.createElement('div');
   blureElement.classList.add('blureStyle');
@@ -207,3 +162,47 @@ function renderCustomDiv(projectIndex) {
   document.body.appendChild(blureElement);
   document.body.appendChild(customDiv);
 }
+document.addEventListener('DOMContentLoaded', () => {
+  const projectsSection = document.querySelector('#cardsDiv');
+  projects.forEach((project, index) => {
+    const myCard = document.createElement('div');
+    myCard.classList.add('card');
+    const myTitle = document.createElement('h2');
+    myTitle.textContent = project.name;
+    const myCardTitleConteiner = document.createElement('div');
+    myCardTitleConteiner.classList.add('flexCardTitle');
+    const mysubtitle = document.createElement('h3');
+    mysubtitle.textContent = project.sub_name;
+    const myAreaYear = document.createElement('h4');
+    myAreaYear.textContent = project.area_year;
+    myCardTitleConteiner.appendChild(mysubtitle);
+    myCardTitleConteiner.appendChild(myAreaYear);
+    const myDescription = document.createElement('p');
+    myDescription.textContent = project.description;
+    const myworksContainer = document.createElement('div');
+    myworksContainer.classList.add('worksListCard');
+    const myWorksList = document.createElement('ul');
+    myWorksList.classList.add('aligned-list-card');
+    project.technologies.map((tech) => {
+      const tmpElement = document.createElement('li');
+      tmpElement.textContent = tech;
+      myWorksList.appendChild(tmpElement);
+      return 0;
+    });
+    myworksContainer.appendChild(myWorksList);
+    const myBtnClo = document.createElement('button');
+    myBtnClo.type = 'button';
+    myBtnClo.textContent = 'See Project';
+    myBtnClo.classList.add('workButtonCard');
+    myBtnClo.addEventListener('click', (event) => {
+      event.stopPropagation();
+      renderCustomDiv(index);
+    });
+    myCard.appendChild(myTitle);
+    myCard.appendChild(myCardTitleConteiner);
+    myCard.appendChild(myDescription);
+    myCard.appendChild(myworksContainer);
+    myCard.appendChild(myBtnClo);
+    projectsSection.appendChild(myCard);
+  });
+});

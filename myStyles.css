@@ -926,6 +926,10 @@
     width: 60%;
   }
 
+  .apearable h2 {
+    font-size: 37px;
+  }
+
   .card:hover h2 {
     display: none;
   }
@@ -1125,10 +1129,6 @@
   .apearable {
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  .apearable h2 {
-    font-size: 37px;
   }
 
   .apearable img {
@@ -1413,6 +1413,12 @@
     align-self: center;
   }
 
+  .apearable p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 28px;
+  }
+
   .card:hover p {
     display: none;
   }
@@ -1571,11 +1577,6 @@
   .apearable {
     padding-left: 5%;
     padding-right: 5%;
-  }
-  .apearable p {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 28px;
   }
 
   .textcontainer {
