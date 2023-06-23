@@ -279,3 +279,43 @@ document.addEventListener('DOMContentLoaded', () => {
     validateForm();
   });
 });
+document.addEventListener('DOMContentLoaded', () => {
+  function preserveChanges(myField, myChange) {
+    const data = localStorage.getItem('userData');
+    const tmpData = JSON.parse(data);
+    tmpData[myField] = myChange;
+    const forSave = JSON.stringify(tmpData);
+    localStorage.setItem('userData', forSave);
+  }
+  const myNameInput = document.getElementById('fname');
+  myNameInput.addEventListener('input', () => {
+    preserveChanges('userName', myNameInput.value);
+    return 0;
+  });
+  const myEmailInput = document.getElementById('faddress');
+  myEmailInput.addEventListener('input', () => {
+    preserveChanges('email', myEmailInput.value);
+    return 0;
+  });
+  const myTextInpuy = document.getElementById('comment');
+  myTextInpuy.addEventListener('input', () => {
+    preserveChanges('text', myTextInpuy.value);
+  });
+});
+
+window.onload = function initDataPreserv() {
+  const userData = localStorage.getItem('userData');
+  if (userData === null) {
+    const createData = { userName: 'FullName', email: 'Email Address', text: 'my text' };
+    const storeD = JSON.stringify(createData);
+    localStorage.setItem('userData', storeD);
+  } else {
+    const tmpData = JSON.parse(userData);
+    const myNameInput = document.getElementById('fname');
+    myNameInput.value = tmpData.userName;
+    const myEmailInput = document.getElementById('faddress');
+    myEmailInput.value = tmpData.email;
+    const myTextInput = document.getElementById('comment');
+    myTextInput.value = tmpData.text;
+  }
+};
