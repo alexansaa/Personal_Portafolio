@@ -307,7 +307,7 @@ window.onload = function initDataPreserv() {
   const userData = localStorage.getItem('userData');
   if (userData === null) {
     const createData = { userName: 'FullName', email: 'Email Address', text: 'my text' };
-    const storeD = JSON.stringify(createData);
+    
     localStorage.setItem('userData', storeD);
   } else {
     const tmpData = JSON.parse(userData);
