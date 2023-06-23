@@ -290,10 +290,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const myNameInput = document.getElementById('fname');
   myNameInput.addEventListener('input', function changeName() {
     preserveChanges('userName', myNameInput.value);
+    return 0;
   });
   const myEmailInput = document.getElementById('faddress');
-  myEmailInput.addEventListener('input', function changeEmail() {
+  myEmailInput.addEventListener('input', function () {
     preserveChanges('email', myEmailInput.value);
+    return 0;
   });
 });
 
