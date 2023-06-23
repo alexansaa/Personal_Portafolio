@@ -297,17 +297,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// window.onload = function() {
-//   var userData = localStorage.getItem('userData');
-//   if (userData === null) {
-//     var tmpData = {userName: 'FullName', email: 'Email Address'}
-//     var storeD = JSON.stringify(tmpData);
-//     localStorage.setItem('userData', storeD);
-//   } else {
-//     var tmpData = JSON.parse(userData);
-//     const myNameInput = document.getElementById("fname");
-//     myNameInput.value = tmpData['userName'];
-//     const myEmailInput = document.getElementById('faddress');
-//     myEmailInput.value = tmpData['email'];
-//   }
-//};
+window.onload = function() {
+  var userData = localStorage.getItem('userData');
+  if (userData === null) {
+    var tmpData = {userName: 'FullName', email: 'Email Address'}
+    var storeD = JSON.stringify(tmpData);
+    localStorage.setItem('userData', storeD);
+  } else {
+    var tmpData = JSON.parse(userData);
+    const myNameInput = document.getElementById("fname");
+    myNameInput.value = tmpData['userName'];
+    const myEmailInput = document.getElementById('faddress');
+    myEmailInput.value = tmpData['email'];
+  }
+};
