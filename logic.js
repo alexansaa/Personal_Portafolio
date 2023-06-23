@@ -297,12 +297,16 @@ document.addEventListener('DOMContentLoaded', () => {
     preserveChanges('email', myEmailInput.value);
     return 0;
   });
+  const myTextInpuy = document.getElementById('comment');
+  myTextInpuy.addEventListener('input', () => {
+    preserveChanges('text',  myTextInpuy.value);
+  });
 });
 
 window.onload = function initDataPreserv() {
   const userData = localStorage.getItem('userData');
   if (userData === null) {
-    const createData = { userName: 'FullName', email: 'Email Address' };
+    const createData = { userName: 'FullName', email: 'Email Address', text: 'my text' };
     const storeD = JSON.stringify(createData);
     localStorage.setItem('userData', storeD);
   } else {
@@ -311,5 +315,7 @@ window.onload = function initDataPreserv() {
     myNameInput.value = tmpData.userName;
     const myEmailInput = document.getElementById('faddress');
     myEmailInput.value = tmpData.email;
+    const myTextInput = document.getElementById('comment');
+    myTextInput.value = tmpData.text;
   }
 };
