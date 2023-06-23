@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const myTextInpuy = document.getElementById('comment');
   myTextInpuy.addEventListener('input', () => {
-    preserveChanges('text',  myTextInpuy.value);
+    preserveChanges('text', myTextInpuy.value);
   });
 });
 
