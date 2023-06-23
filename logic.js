@@ -288,12 +288,12 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('userData', forSave);
   }
   const myNameInput = document.getElementById('fname');
-  myNameInput.addEventListener('input', function changeName() {
+  myNameInput.addEventListener('input', () => {
     preserveChanges('userName', myNameInput.value);
     return 0;
   });
   const myEmailInput = document.getElementById('faddress');
-  myEmailInput.addEventListener('input', function () {
+  myEmailInput.addEventListener('input', () => {
     preserveChanges('email', myEmailInput.value);
     return 0;
   });
