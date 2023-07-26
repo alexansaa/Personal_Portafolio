@@ -1,5 +1,5 @@
 # Personal_Portafolio
-Personal Portafolio Profesional Web Site with responsive layout
+Personal Portfolio Profesional Web Site with responsive layout for different viewport sizes exposing the most important personal projects about myself. This project is using full HTML & JavaScript. 
 
 <a name="readme-top"></a>
 
