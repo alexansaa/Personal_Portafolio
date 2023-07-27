@@ -105,6 +105,7 @@
 
   .WorkImage img {
     margin-top: 20%;
+    max-width: 90%;
   }
 
   .centerWork {
@@ -159,6 +160,7 @@
   .card h2 {
     font-size: 32px;
     color: #fff;
+    white-space: nowrap;
   }
 
   .card h3 {
@@ -172,6 +174,8 @@
   .card p {
     font-size: 16px;
     color: #fff;
+    max-height: 20%;
+    overflow: hidden;
   }
 
   .flexCardTitle {
@@ -463,10 +467,12 @@
 
   .WorkImage {
     display: block;
+    
   }
 
   .WorkImage img {
     margin-top: 20%;
+    max-width: 90%;
   }
 
   .centerWork {
@@ -522,6 +528,7 @@
   .card h2 {
     font-size: 32px;
     color: #fff;
+    white-space: nowrap;
   }
 
   .card h3 {
@@ -535,6 +542,8 @@
   .card p {
     font-size: 16px;
     color: #fff;
+    max-height: 20%;
+    overflow: hidden;
   }
 
   .flexCardTitle {
@@ -1691,6 +1700,7 @@
 
 #baraMenuImage {
   align-self: center;
+  width: 65px;
 }
 
 .menuHamburgerContainer {
@@ -1706,6 +1716,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .mainPage {
   position: relative;

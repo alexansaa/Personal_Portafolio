@@ -23,48 +23,48 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 const projects = [
   {
-    name: 'Multi-Post Stories',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/WorkHead.png',
+    name: 'Multi-Card Project',
+    sub_name: 'Concert',
+    area_year: ' • Front End Dev • 2023',
+    description: "Information of different JSON objects gathered within an array is dynamically displayed and rendered into the web page. These elements may fulfill different requirements depending on the objective of the website. Styling may be applied depending on the client's requirements.",
+    description_plus: 'JSON Objects have the feature to be dynamic in their composition. An array of objects may carry lots of attributes per element, and these objects may not need to have a specific list of attributes, but they are required to the code to work. In this sense, one may use these features to keep adding information to your web page and use that information all across the website!',
+    image: 'ProjectImages/MultiCard.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
+    liveLink: 'https://alexansaa.github.io/ConcertAdv/',
+    sourceLink: 'https://github.com/alexansaa/ConcertAdv',
   },
   {
-    name: 'Tonic',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/Works_PopUp.png',
+    name: 'Fit All Viewport',
+    sub_name: 'Concert',
+    area_year: ' • Front End Dev • 2023',
+    description: 'This website is able to fit the size of a wide range of viewport sizes. By making it responsible and with a good range of viewport brake points I have managed to develop a great friendly and responsive user interface that makes your application look bold and shiny.',
+    description_plus: 'Responsiveness mixed with good viewport breakpoints set is key to developing web applications able to fit almost every screen device. Nowadays there are a lot of different screen sizes that need to be fitted, this project is meant to show the coding abilities required to build friendly, good-looking, and responsive web pages. Personalization is the key word in this web page, as you can see, many awesome personalized features have been implemented all across the site. Please feel free to try it out!',
+    image: 'ProjectImages/Responsive_Multi_Viewport.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
+    liveLink: 'https://alexansaa.github.io/ConcertAdv/',
+    sourceLink: 'https://github.com/alexansaa/ConcertAdv',
   },
   {
-    name: 'Multi-Post Stories',
-    sub_name: 'CANOPY',
-    area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/WorkCard.png',
+    name: 'LocalStorage Mgmt',
+    sub_name: 'ToDo List',
+    area_year: ' • Front End Dev • 2023',
+    description: "The features implemented in this project have to do with data manipulation at the front end. This means storing data in the client's browser which enables us to have a web application with better performance and quicker loading times.",
+    description_plus: "Navigation also has to do with correctly managing data loaded and saved locally. This feature could help us to ensure security issues and to give one more layer of protection to the net and the back end. Saving data to local storage means managing data with the use of JSON objects. Sending and receiving data through the web also means securely managing data, so that no vulnerabilities may leak any important information across the application.",
+    image: 'ProjectImages/ToDoList.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
+    liveLink: 'https://alexansaa.github.io/To-Do_List/',
+    sourceLink: 'https://github.com/alexansaa/To-Do_List',
   },
   {
-    name: 'Tonic',
+    name: 'Design & Storage',
     sub_name: 'CANOPY',
     area_year: ' • Back End Dev • 2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    description_plus: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: 'images/Work_Init/WorkHead.png',
+    description: 'LocalStorage may be used in many ways, one of which is to make web apps load quickly and the application develops better.',
+    description_plus: 'Having part of the web page already saved locally, then remote serves have the chance to send more data with less effort. Navigation turns out to be even easier and with less cost than the classical web development approach.',
+    image: 'ProjectImages/BookShelf.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://www.google.com/',
-    sourceLink: 'https://github.com/user/project1',
+    liveLink: 'https://alexansaa.github.io/LibraryApp/',
+    sourceLink: 'https://github.com/alexansaa/LibraryApp',
   },
   {
     name: 'Multi-Post Stories',
@@ -117,7 +117,8 @@ function renderCustomDiv(projectIndex) {
   const closeImage = document.createElement('img');
   closeImage.id = 'closeCardImg';
   closeImage.src = 'images/xMenu_50.png';
-  closeImage.classList.add('Close,Menu');
+  closeImage.classList.add('Close');
+  closeImage.classList.add('Menu');
   closeCardPopUp.appendChild(closeImage);
   titleContainer.appendChild(myTitle);
   titleContainer.appendChild(closeCardPopUp);
@@ -143,6 +144,7 @@ function renderCustomDiv(projectIndex) {
   const btnContainer = document.createElement('div');
   btnContainer.classList.add('worksBtnsAperable');
   const myBtnLive = document.createElement('a');
+  myBtnLive.href = project.liveLink;
   myBtnLive.textContent = 'See Live';
   myBtnLive.classList.add('workButtonApereable');
   const myBtnLiveImg = document.createElement('img');
@@ -150,6 +152,7 @@ function renderCustomDiv(projectIndex) {
   myBtnLive.appendChild(myBtnLiveImg);
   const myBtnSrc = document.createElement('a');
   myBtnSrc.textContent = 'See Source';
+  myBtnSrc.href = project.sourceLink
   myBtnSrc.classList.add('workButtonApereable');
   const myBtnSrcImg = document.createElement('img');
   myBtnSrcImg.src = 'images/Iconos/apereable_icons/github.png';
