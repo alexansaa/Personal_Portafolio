@@ -72,7 +72,7 @@ const projects = [
     area_year: ' • Full Stack Dev • 2023',
     description: 'This applications keeps track of any expenses sorte by categories. You can take controll of your financial life with ease using this application.',
     description_plus: 'You can use this app on your desktop as well as on your phone. Log In to your new profile and take a look at all of the awsome features this application brings. RoR technology let us manage the technology stack quickly and easily. Please feel free to try it out!',
-    image: 'ProjectImages/FinancialLife.jpg',
+    image: 'ProjectImages/FinancialLifeApp.png',
     technologies: ['Ruby On Rails', 'HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://financiallifeapp.onrender.com/',
     sourceLink: 'https://github.com/alexansaa/FinancialLife.git',
