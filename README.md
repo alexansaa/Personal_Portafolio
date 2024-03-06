@@ -1,148 +1,70 @@
-# Personal_Portafolio
-Personal Portfolio Profesional Web Site with responsive layout for different viewport sizes exposing the most important personal projects about myself. This project is using full HTML & JavaScript. 
+# Getting Started with Create React App
 
-<a name="readme-top"></a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 📗 Table of Contents
+## Available Scripts
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+In the project directory, you can run:
 
-# 📖 [Personal_Portafolio] <a name="about-project"></a>
+### `npm start`
 
-**[Personal_Portafolio]** is a personal, professional website meant to show to the world all the projects, experiences, objectives, and knowledge I have gathered during all my years of studying, working, and collaborating with wonderful professional people on many projects. This project may serve as a template for your websites. Feel free to use it.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠 Built With <a name="built-with"></a>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Tech Stack <a name="tech-stack"></a>
+### `npm test`
 
-> This project has been developed using HTML & CSS. Using the mobile-first approach, and with the help of Figma movil website template, it has been developed a professional personal portfolio website. Linters for Html & CSS have been used for keeping the code quality.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
+### `npm run build`
 
-### Key Features <a name="key-features"></a>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Mobile first approach**
-- **HTML & CSS Linters**
-- **Media Queries**
-- **Responsive to different screen sizes**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### `npm run eject`
 
-- [Take a look!](<a href="https://alexansaa.github.io/Personal_Portafolio/">Visit Now!</a>)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 💻 Getting Started <a name="getting-started"></a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To get a local copy up and running, follow these steps:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Prerequisites
+## Learn More
 
-In order to run this project you need:
-- Web Browser (Chrome, Edge, Safari, etc.)
-- Text Editor (Visual Studio Code, etc.)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you like to try Linters results, you should need to follow this guide: https://github.com/microverseinc/linters-config/tree/master/html-css
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Setup
+### Code Splitting
 
-Clone this repository to your desired folder:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```sh
-  cd local-folder
-  git clone git https://github.com/alexansaa/Personal_Portafolio.git
-```
+### Analyzing the Bundle Size
 
-### Install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This project won't need further installation
+### Making a Progressive Web App
 
-### Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-To run the project double click the "index.html" file.
+### Advanced Configuration
 
-### Run tests
-
-To test Linters, after you have completed the guided tutorial above (the GitHub link), push the code to your new repository and check the Linters test in the project repository webpage or use GitHub for your desktop.
-
-There are no extra tests for the code itself. If you run the code, you should see the webpage.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-Deploy this project on any websever.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run build` fails to minify
 
-## 👥 Authors <a name="authors"></a>
-
-👤 **Alexander Saavedra**
-
-- GitHub: [@alexansaa](https://github.com/alexansaa)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alexander-saavedra-2803b1b6/)
-
-👤 **Benson Kiai**
-
-- GitHub: [@BenMKT](https://github.com/BenMKT)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Web Page Optimized for wither screen sizes**
-- [ ] **Larger Images Implementation**
-- [ ] **New CSS Styles**
-- [ ] **Formspree suport for contact form**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/alexansaa/Personal_Portafolio/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project give me a star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank every who continues supporting me.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
