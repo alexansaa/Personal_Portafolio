@@ -1,0 +1,11 @@
+.bg_home {
+  background-color: #200408;
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  /* height: 750px; */
+}
+
+.bg_home div {
+  width: 50%;
+}
