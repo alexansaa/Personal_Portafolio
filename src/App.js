@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Layout from './Components/Layout/Layout';
+import Layout from './Components/Layout/LayoutLogic';
 import HomepageLogic from './Components/Home/HomeLogic'
 import AboutLogic from './Components/About/AboutLogic';
 import PortfolioLogic from './Components/Portfolio/PortfolioLogic';
