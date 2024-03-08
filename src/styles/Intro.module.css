@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.font_roboto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.font_kode {
+  font-family: "Kode Mono", monospace;
+}
+
+.font_kalam {
+  font-family: "Kalam", cursive;
+}
+
+.rol_text {
+  /* background: linear-gradient(to right, #8d2f23, #ff7f50); */
+  background-color: #e9330b;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.professional_text {
+  font-size: 45px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.personal_text {
+  font-size: larger;
+  color: rgb(189, 194, 194);
+  padding-bottom: 10%;
+}
+

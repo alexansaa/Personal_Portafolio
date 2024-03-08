@@ -9,11 +9,13 @@
 .nav {
   display: flex;
   flex-direction: row;
-  /* margin-left: 15px; */
+  padding-right: 3%;
+  background-image: linear-gradient(to left, #8d2f23, #200408 80%);
 }
 
 .logo {
-  max-width: 18%;
+  max-width: 14%;
+  padding-left: 5%;
 }
 
 .logo img {
@@ -22,9 +24,6 @@
   object-fit: cover;
 }
 
-.nav_bg_color {
-  background-image: linear-gradient(to left, #8d2f23, #200408);
-}
 
 .nav_bg_color li a:hover {
   background-color: #e9330b;
@@ -32,7 +31,6 @@
 
 .nav_opt {
   width: 100%;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,10 +39,8 @@
 .nav_opt ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
-  padding-left: 6%;
-  padding-right: 6%;
 }
 
 .nav_opt li a {
@@ -55,6 +51,8 @@
 
 .nav_opt li {
   list-style-type: none;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .nav_butons li a { 

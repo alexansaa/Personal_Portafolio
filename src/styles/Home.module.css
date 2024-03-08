@@ -1,11 +1,48 @@
-.bg_home {
+.home {
   background-color: #200408;
-  display: flex;
-  flex-direction: row;
-  color: azure;
-  /* height: 750px; */
+  /* background-image: linear-gradient(to left, #8d2f23, #200408 80%); */
+  /* padding: 4% 3% 4% 3%; */
+  /* padding-top: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%; */
 }
 
-.bg_home div {
+.carousel_cnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: azure;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.carousel_part {
   width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wp_btn_cont {
+  width: 100%;
+}
+
+.wp_btn {
+  background-image: linear-gradient(to right, #8d2f23, #200408);
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.wp_btn_text {
+  color: azure;
+  font-size: x-large;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.wp_btn_img img{
+  width: 70%;
 }
