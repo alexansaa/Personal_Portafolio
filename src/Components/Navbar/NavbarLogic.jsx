@@ -15,7 +15,7 @@ const Navbar = () => (
     <div className={styles.logo}>
       <img src={userLogo} alt="userLogo"></img>
     </div>
-    <div className={`${styles.nav_opt} ${styles.nav_butons}`}>
+    <div className={`${styles.nav_opt} ${styles.nav_butons} ${styles.nav_bg_color}`}>
         <ul>
           {links.map((link) => (
             <React.Fragment key={link.text}>

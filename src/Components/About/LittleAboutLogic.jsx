@@ -6,7 +6,7 @@ const LittleAboutLogic = () => {
     <div className={style.littleAbout}>
       <div className={`${style.litAbout_item} ${style.litAbout_item_padding} ${style.litAbout_text}`}>
         <h2>
-          Taking information to a whole new real-world interconnection level.
+          Closing the gap between digital and real-world infrastructures.
         </h2>
         <br></br>
         <p>

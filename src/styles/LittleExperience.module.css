@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.font_roboto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.lilExp_bold {
+  font-weight: bold;
+}
+
+.out_overflow {
+
+}
+
+.littleExperience_title {
+  color: azure;
+  text-align: center;
+  font-size: 55px;
+  padding: 7% 10% 7% 10%;
+}
+
+.bg_light {
+  background: radial-gradient(ellipse 310px 170px, rgba(141, 47, 35, 0.5), rgba(32, 4, 8, 0.3));
+  overflow: visible;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancyShow_img_cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancyShow_img_cnt img {
+  width: 55%;
+  height: auto;
+}
+
+.dashed_circle_inner {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed azure;
+  border-radius: 50%;
+}
+
+.dashed_circle_outer {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border: 2px dashed azure;
+  border-radius: 50%;
+}
+
+.fancyElement {
+  background-color: azure;
+  border: 4px solid red;
+  padding: 2px 2px 2px 2px;
+  position: absolute;
+  border-radius: 50%; /* Make it a circle */
+}
+
+.fancyElement_innerRotation {
+  animation: fancyElementInnerCircleRotation 95s linear infinite;
+}
+
+.fancyElement_outerRotation {
+  animation: fancyElementOuterCircleRotation 95s linear infinite;
+}
+
+.fancyElement_selfAntiClockRotation {
+  animation: fancyElementRotation_anticlock 60s linear infinite;
+}
+
+.fancyElement_selfClockRotation {
+  animation: fancyElementRotation_clock 60s linear infinite;
+}
+
+@keyframes fancyElementInnerCircleRotation {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg); /* Start position */
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg); /* End position */
+  }
+}
+
+@keyframes fancyElementOuterCircleRotation {
+  from {
+    transform: rotate(360deg) translateX(180px) rotate(0deg); /* Start position */
+  }
+  to {
+    transform: rotate(0deg) translateX(180px) rotate(-360deg); /* End position */
+  }
+}
+
+@keyframes fancyElementRotation_anticlock {
+  from {
+    transform: rotate(0deg); /* Start rotation */
+  }
+  to {
+    transform: rotate(-360deg); /* End rotation */
+  }
+}
+
+@keyframes fancyElementRotation_clock {
+  from {
+    transform: rotate(0deg); /* Start rotation */
+  }
+  to {
+    transform: rotate(360deg); /* End rotation */
+  }
+}
+
+.spaceElement {
+  background-color: azure;
+  border-radius: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.space_rotation_clock_left {
+  /* transform: translate(-300%, -220%) rotate(90deg); */
+  animation: space_rotation_clock_left 15s linear infinite;
+}
+
+.space_rotation_anticlock_left {
+  /* transform: translate(-300%, -220%) rotate(90deg); */
+  animation: space_rotation_anticlock_left 15s linear infinite;
+}
+
+@keyframes space_rotation_clock_left {
+  0% {
+    transform: rotate(160deg) translateX(380px); /* Start rotation from 90 degrees */
+  }
+  100% {
+    transform: rotate(200deg) translateX(380px); /* End rotation at 270 degrees */
+  }
+}
+
+@keyframes space_rotation_anticlock_left {
+  0% {
+    transform: rotate(200deg) translateX(380px); /* Start rotation from 90 degrees */
+  }
+  100% {
+    transform: rotate(160deg) translateX(380px); /* End rotation at 270 degrees */
+  }
+}
