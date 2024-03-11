@@ -18,6 +18,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-size: large;
 }
 
 .professional_text {
@@ -27,7 +28,7 @@
 }
 
 .personal_text {
-  font-size: larger;
+  font-size: x-large;
   color: rgb(189, 194, 194);
   padding-bottom: 10%;
 }

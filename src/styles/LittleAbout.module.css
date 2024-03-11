@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.littleAbout {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.littleAbout p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.littleAbout h2 {
+  font-family: "Kode Mono", monospace;
+}
+
+.litAbout_item {
+  width: 50%;
+  color: azure;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.litAbout_item_padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.userImage {
+  width: 100%;
+  height: auto;
+}
+
+.litAbout_text {
+
+}

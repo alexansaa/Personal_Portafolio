@@ -3,6 +3,9 @@ import Carousel from '../Carousel/CarouselLogic';
 import Intro from '../Intro/IntroLogic';
 import wpIcon from '../../assets/wp.png';
 
+import Slider from '../SliderNav/SliderNavLogic';
+import LittleAbout from '../About/LittleAboutLogic';
+
 const HomeLogic = () => {
   const WhatsApp_Contact = () => {
     console.log("click");
@@ -33,6 +36,8 @@ const HomeLogic = () => {
           </div>
         </div>
       </div>
+      <Slider />
+      <LittleAbout />
     </div>
   );
 };
