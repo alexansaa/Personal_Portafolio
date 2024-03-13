@@ -5,7 +5,7 @@ const InnerCircleElementLogic = ({ element, startAngle, index }) => {
 
   return (
     <div key={index} className={`${style.fancyElement} ${style.fancyElement_innerRotation}`}
-      style={{'--start-angle': `${clampedRotationAngle}deg`}}>
+      style={{ '--start-angle': `${clampedRotationAngle}deg` }}>
       <img src={element.img} alt={element.alt} className={`${element.direction === 'anti-clockwise' ? style.fancyElement_selfAntiClockRotation : style.fancyElement_selfClockRotation}`} />
     </div>
   );

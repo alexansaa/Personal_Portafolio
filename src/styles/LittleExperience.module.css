@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+.lilExp_cnt {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 .font_roboto {
   font-family: "Roboto Mono", monospace;
 }

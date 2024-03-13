@@ -3,6 +3,7 @@ import cloudRed from '../../assets/red_cloud_transparent.png';
 
 import InnerCircleElement from './InnerCircleElementLogic';
 import OuterCircleElement from './OuterCircleElementLogic';
+import SpaceElement from './SpaceElementLogic';
 
 // elementos inner circle
 import aws from '../../assets/inner circle/AWS.png';
@@ -25,6 +26,9 @@ import css from '../../assets/outer circle/css.png';
 import html from '../../assets/outer circle/html.png';
 import java from '../../assets/outer circle/java.png';
 import javascript from '../../assets/outer circle/javascript.png';
+
+// elements space
+// import devops from '';
 import agile from '../../assets/space/agile.png';
 
 const elements = {
@@ -50,27 +54,27 @@ const elements = {
     {direction: 'anti-clockwise', img: java, alt: 'Java'},
     {direction: 'clockwise', img: javascript, alt: 'JavaScript'},
   ],
-  // 'space': {
-  //   'DevOps': {'direction': 'anti-clockwise', 'img': devops, 'alt': 'DevOps'},
-  //   'Scrum': {'direction': 'clockwise', 'img': scrum, 'alt': 'Scrum'},
-  //   'Agile': {'direction': 'anti-clockwise', 'img': agile, 'alt': 'Agile'},
-  //   'Figma': {'direction': 'clockwise', 'img': figma, 'alt': 'Figma'},
-  //   'GitHub': {'direction': 'anti-clockwise', 'img': github, 'alt': 'GitHub'},
-  //   'AI/ML': {'direction': 'clockwise', 'img': aiml, 'alt': 'Artificial Inteligence and Machine Learning'},
-  //   'Inventor': {'direction': 'anti-clockwise', 'img': inventor, 'alt': 'Inventor'},
-  //   'Revit': {'direction': 'clockwise', 'img': revit, 'alt': 'Revit'},
-  //   'AutoCad': {'direction': 'anti-clockwise', 'img': autocad, 'alt': 'AutoCad'},
-  //   'Clean-Energy': {'direction': 'clockwise', 'img': cleanenergy, 'alt': 'Clean Energy'},
-  //   'Digital-Twins': {'direction': 'anti-clockwise', 'img': digitaltwins, 'alt': 'Digital Twins'},
-  //   'Simulations': {'direction': 'clockwise', 'img': simulations, 'alt': 'Simulations'},
-  //   'Projects': {'direction': 'anti-clockwise', 'img': projects, 'alt': 'Projects'},
-  //   'Sales': {'direction': 'clockwise', 'img': sales, 'alt': 'Sales'},
-  // }
+  space: [
+    {direction: 'anti-clockwise', img: azure, alt: 'DevOps'},
+    // {direction: 'clockwise', img: scrum, alt: 'Scrum'},
+    // {direction: 'anti-clockwise', img: agile, alt: 'Agile'},
+    // {direction: 'clockwise', img: figma, alt: 'Figma'},
+    // {direction: 'anti-clockwise', img: github, alt: 'GitHub'},
+    // {direction: 'clockwise', img: aiml, alt: 'Artificial Inteligence and Machine Learning'},
+    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor'},
+    // {direction: 'clockwise', img: revit, alt: 'Revit'},
+    // {direction: 'anti-clockwise', img: autocad, alt: 'AutoCad'},
+    // {direction: 'clockwise', img: cleanenergy, alt: 'Clean Energy'},
+    // {direction: 'anti-clockwise', img: digitaltwins, alt: 'Digital Twins'},
+    // {direction: 'clockwise', img: simulations, alt: 'Simulations'},
+    // {direction: 'anti-clockwise', img: projects, alt: 'Projects'},
+    // {direction: 'clockwise', img: sales, alt: 'Sales'},
+  ]
 };
 
 const LittleExperienceLogic = () => {
   return (
-    <div className={style.out_overflow}>
+    <div className={style.lilExp_cnt}>
       <div className={`${style.littleExperience_title} ${style.font_roboto}`}>
         Taking information to a whole new real-world interconnection level.
       </div>
@@ -115,6 +119,11 @@ const LittleExperienceLogic = () => {
             <img src={agile} alt='agile methodology'/> Scrum
           </div>
         </div> */}
+        {Object.values(elements.outerCircle).map((element, index) => {
+          const n = Object.values(elements.space).length;
+          const rotationAngle = (360/n) * index;
+          return <SpaceElement element={element} startAngle={rotationAngle} key={index}/>
+        })}
       </div>
     </div>
   )
