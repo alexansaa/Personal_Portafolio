@@ -28,13 +28,25 @@ import java from '../../assets/outer circle/java.png';
 import javascript from '../../assets/outer circle/javascript.png';
 
 // elements space
-// import devops from '';
+import scrum from '../../assets/space/scrum.png';
 import agile from '../../assets/space/agile.png';
+import figma from '../../assets/space/figma.png';
+import github from '../../assets/space/github.png';
+import ai from '../../assets/space/ai.png';
+import ml from '../../assets/space/ml.png';
+import inventor from '../../assets/space/Inventor.png';
+import revit from '../../assets/space/revit.png';
+import autocad from '../../assets/space/autocad.png';
+import cleanenergy from '../../assets/space/clean_energy.png';
+import digitaltwins from '../../assets/space/digital twins.png';
+// import simulations from '../../assets/space/simulations.png';
+import projects from '../../assets/space/project.png';
+import sales from '../../assets/space/sales.png';
 
 const elements = {
   innerCircle: [
     { direction: 'clockwise', img: aws, alt: 'AWS' },
-    { direction: 'anti-clockwise', img: azure, alt: 'MsAzure' },
+    // { direction: 'anti-clockwise', img: azure, alt: 'MsAzure' },
     { direction: 'clockwise', img: network, alt: 'Network' },
     { direction: 'anti-clockwise', img: docker, alt: 'Docker' },
     { direction: 'clockwise', img: kubernetes, alt: 'Kubernetes' },
@@ -55,20 +67,26 @@ const elements = {
     {direction: 'clockwise', img: javascript, alt: 'JavaScript'},
   ],
   space: [
-    {direction: 'anti-clockwise', img: azure, alt: 'DevOps'},
-    // {direction: 'clockwise', img: scrum, alt: 'Scrum'},
-    // {direction: 'anti-clockwise', img: agile, alt: 'Agile'},
-    // {direction: 'clockwise', img: figma, alt: 'Figma'},
-    // {direction: 'anti-clockwise', img: github, alt: 'GitHub'},
-    // {direction: 'clockwise', img: aiml, alt: 'Artificial Inteligence and Machine Learning'},
-    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor'},
-    // {direction: 'clockwise', img: revit, alt: 'Revit'},
-    // {direction: 'anti-clockwise', img: autocad, alt: 'AutoCad'},
-    // {direction: 'clockwise', img: cleanenergy, alt: 'Clean Energy'},
-    // {direction: 'anti-clockwise', img: digitaltwins, alt: 'Digital Twins'},
-    // {direction: 'clockwise', img: simulations, alt: 'Simulations'},
-    // {direction: 'anti-clockwise', img: projects, alt: 'Projects'},
-    // {direction: 'clockwise', img: sales, alt: 'Sales'},
+    {direction: 'anti-clockwise', img: azure, alt: 'DevOps', config: 'L1', total: 2},
+    // {direction: 'clockwise', img: ml, alt: 'Machine Learning', config: 'L1', total: 2},
+    // {direction: 'clockwise', img: simulations, alt: 'Simulations', config: 'L1', total: 14},
+
+    {direction: 'anti-clockwise', img: github, alt: 'GitHub', config: 'L2', total: 2},
+    // {direction: 'clockwise', img: cleanenergy, alt: 'Clean Energy', config: 'L2', total: 2},
+
+    {direction: 'anti-clockwise', img: agile, alt: 'Agile', config: 'L3', total: 3},
+    // {direction: 'clockwise', img: revit, alt: 'Revit', config: 'L3', total: 3},
+    // {direction: 'clockwise', img: sales, alt: 'Sales', config: 'L3', total: 3},
+
+    // {direction: 'clockwise', img: figma, alt: 'Figma', config: 'R1', total: 2},
+    // {direction: 'anti-clockwise', img: autocad, alt: 'AutoCad', config: 'R1', total: 2},
+
+    // {direction: 'clockwise', img: scrum, alt: 'Scrum', config: 'R2', total: 2},
+    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor', config: 'R2', total: 2},
+    
+    // {direction: 'anti-clockwise', img: projects, alt: 'Projects', config: 'R3', total: 3},
+    // {direction: 'clockwise', img: ai, alt: 'Artificial Inteligence', config: 'R3', total: 3},
+    // {direction: 'anti-clockwise', img: digitaltwins, alt: 'Digital Twins', config: 'R3', total: 3},
   ]
 };
 
@@ -119,10 +137,8 @@ const LittleExperienceLogic = () => {
             <img src={agile} alt='agile methodology'/> Scrum
           </div>
         </div> */}
-        {Object.values(elements.outerCircle).map((element, index) => {
-          const n = Object.values(elements.space).length;
-          const rotationAngle = (360/n) * index;
-          return <SpaceElement element={element} startAngle={rotationAngle} key={index}/>
+        {Object.values(elements.space).map((element, myIndex) => {
+          return <SpaceElement element={element} key={myIndex} index={myIndex}/>
         })}
       </div>
     </div>

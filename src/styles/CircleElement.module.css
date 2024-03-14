@@ -34,23 +34,21 @@
 
 @keyframes fancyElementInnerCircleRotation {
   from {
-    transform: rotate(var(--start-angle, 0deg)) translateX(100px) rotate(var(--start-angle, 0deg));
+    transform: rotate(var(--start-angle, 0deg)) translateX(100px);
   }
 
   to {
-    transform: rotate(calc(var(--start-angle, 0deg) + 360deg)) translateX(100px) rotate(calc(var(--start-angle, 0deg) - 360deg));
+    transform: rotate(calc(var(--start-angle, 0deg) + 360deg)) translateX(100px);
   }
 }
 
 @keyframes fancyElementOuterCircleRotation {
   from {
-    /* transform: rotate(360deg) translateX(180px) rotate(0deg); */
-    transform: rotate(var(--start-angle, 360deg)) translateX(175px) rotate(0deg);
+    transform: rotate(var(--start-angle, 360deg)) translateX(175px);
   }
 
   to {
-    /* transform: rotate(0deg) translateX(180px) rotate(-360deg); */
-    transform: rotate(calc(var(--start-angle, 360deg) - 360deg)) translateX(175px) rotate(0deg);
+    transform: rotate(calc(var(--start-angle, 360deg) - 360deg)) translateX(175px);
   }
 }
 

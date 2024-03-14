@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kode+Mono:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.font_roboto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.spaceElement_bold {
+  font-weight: bold;
+}
+
 .spaceElement {
   background-color: azure;
   border-radius: 40px;
   position: absolute;
   padding: 0 10px 0 10px;
-  box-shadow: 0 0 20px red;
+  box-shadow: 0 0 14px 4px rgba(255, 0, 0, 0.1);
+  overflow: hidden;
+  height: 40px;
+  width: 125px;
+}
+
+.spaceElement img {
+  max-width: 100%;
+  max-height: auto;
 }
 
 .spaceElement_align {
@@ -16,11 +34,11 @@
   transform: rotate(180deg);
 }
 
-.space_rotation_clock_left {
+.space_rotation-clockwise-left {
   animation: space_rotation_clock_left 15s linear infinite;
 }
 
-.space_rotation_anticlock_left {
+.space_rotation-anti-clockwise-left {
   animation: space_rotation_anticlock_left 15s linear infinite;
 }
 
@@ -36,10 +54,22 @@
 
 @keyframes space_rotation_anticlock_left {
   0% {
-    transform: rotate(200deg) translateX(380px);
+    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
+  }
+  
+  25% {
+    transform: rotate(150deg) translateX(var(--radii-level));
+  }
+  
+  50% {
+    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
   }
 
+  75% {
+    transform: rotate(220deg) translateX(var(--radii-level));
+  }
+  
   100% {
-    transform: rotate(160deg) translateX(380px);
+    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
   }
 }
