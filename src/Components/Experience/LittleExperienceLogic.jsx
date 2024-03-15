@@ -67,26 +67,26 @@ const elements = {
     {direction: 'clockwise', img: javascript, alt: 'JavaScript'},
   ],
   space: [
-    {direction: 'anti-clockwise', img: azure, alt: 'DevOps', config: 'L1', total: 2},
-    // {direction: 'clockwise', img: ml, alt: 'Machine Learning', config: 'L1', total: 2},
+    {direction: 'anti-clockwise', img: azure, alt: 'DevOps', config: 'L1', total: 2, innerIndex: 0},
+    {direction: 'anti-clockwise', img: ml, alt: 'Machine Learning', config: 'L1', total: 2, innerIndex: 1},
     // {direction: 'clockwise', img: simulations, alt: 'Simulations', config: 'L1', total: 14},
 
-    {direction: 'anti-clockwise', img: github, alt: 'GitHub', config: 'L2', total: 2},
-    // {direction: 'clockwise', img: cleanenergy, alt: 'Clean Energy', config: 'L2', total: 2},
+    {direction: 'clockwise', img: github, alt: 'GitHub', config: 'L2', total: 2, innerIndex: 0},
+    {direction: 'clockwise', img: cleanenergy, alt: 'Clean Energy', config: 'L2', total: 2, innerIndex: 1},
 
-    {direction: 'anti-clockwise', img: agile, alt: 'Agile', config: 'L3', total: 3},
-    // {direction: 'clockwise', img: revit, alt: 'Revit', config: 'L3', total: 3},
-    // {direction: 'clockwise', img: sales, alt: 'Sales', config: 'L3', total: 3},
+    {direction: 'anti-clockwise', img: agile, alt: 'Agile', config: 'L3', total: 3, innerIndex: 0},
+    {direction: 'anti-clockwise', img: revit, alt: 'Revit', config: 'L3', total: 3, innerIndex: 1},
+    {direction: 'anti-clockwise', img: sales, alt: 'Sales', config: 'L3', total: 3, innerIndex: 2},
 
-    // {direction: 'clockwise', img: figma, alt: 'Figma', config: 'R1', total: 2},
-    // {direction: 'anti-clockwise', img: autocad, alt: 'AutoCad', config: 'R1', total: 2},
+    // {direction: 'clockwise', img: figma, alt: 'Figma', config: 'R1', total: 2, innerIndex: 0},
+    // {direction: 'clockwise', img: autocad, alt: 'AutoCad', config: 'R1', total: 2, innerIndex: 1},
 
-    // {direction: 'clockwise', img: scrum, alt: 'Scrum', config: 'R2', total: 2},
-    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor', config: 'R2', total: 2},
+    // {direction: 'anti-clockwise', img: scrum, alt: 'Scrum', config: 'R2', total: 2, innerIndex: 0},
+    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor', config: 'R2', total: 2, innerIndex: 1},
     
-    // {direction: 'anti-clockwise', img: projects, alt: 'Projects', config: 'R3', total: 3},
-    // {direction: 'clockwise', img: ai, alt: 'Artificial Inteligence', config: 'R3', total: 3},
-    // {direction: 'anti-clockwise', img: digitaltwins, alt: 'Digital Twins', config: 'R3', total: 3},
+    // {direction: 'clockwise', img: projects, alt: 'Projects', config: 'R3', total: 3, innerIndex: 0},
+    // {direction: 'clockwise', img: ai, alt: 'Artificial Inteligence', config: 'R3', total: 3, innerIndex: 1},
+    // {direction: 'clockwise', img: digitaltwins, alt: 'Digital Twins', config: 'R3', total: 3, innerIndex: 2},
   ]
 };
 
@@ -132,13 +132,8 @@ const LittleExperienceLogic = () => {
         })}
 
         {/* elementos de espacio */}
-        {/* <div className={`${style.spaceElement} ${style.font_roboto} ${style.lilExp_bold} ${style.space_rotation_anticlock_left}`}>
-          <div className={`${style.spaceElement_align} ${style.spaceElement_left_fixRotate}`}>
-            <img src={agile} alt='agile methodology'/> Scrum
-          </div>
-        </div> */}
         {Object.values(elements.space).map((element, myIndex) => {
-          return <SpaceElement element={element} key={myIndex} index={myIndex}/>
+          return <SpaceElement element={element} key={myIndex} index={element.innerIndex}/>
         })}
       </div>
     </div>

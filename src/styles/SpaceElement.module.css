@@ -44,32 +44,54 @@
 
 @keyframes space_rotation_clock_left {
   0% {
-    transform: rotate(160deg) translateX(380px);
+    /* transform: rotate(160deg) translateX(380px); */
+    transform: rotate(var(--start-angle, --rad-End)) translateX(var(--radii-level));
   }
-
+  
+  25% {
+    /* transform: rotate(160deg) translateX(380px); */
+    transform: rotate(var(--rad-Start)) translateX(var(--radii-level));
+  }
+  
+  50% {
+    /* transform: rotate(160deg) translateX(380px); */
+    transform: rotate(var(--start-angle, --rad-End)) translateX(var(--radii-level));
+  }
+  
+  75% {
+    /* transform: rotate(160deg) translateX(380px); */
+    transform: rotate(var(--rad-End)) translateX(var(--radii-level));
+  }
+  
   100% {
-    transform: rotate(200deg) translateX(380px);
+    /* transform: rotate(200deg) translateX(380px); */
+    transform: rotate(var(--start-angle, --rad-End)) translateX(var(--radii-level));
   }
 }
 
 @keyframes space_rotation_anticlock_left {
   0% {
-    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
+    /* transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level)); */
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
   }
   
   25% {
-    transform: rotate(150deg) translateX(var(--radii-level));
+    /* transform: rotate(150deg) translateX(var(--radii-level)); */
+    transform: rotate(var(--rad-End)) translateX(var(--radii-level));
   }
   
   50% {
-    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
+    /* transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level)); */
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
   }
 
   75% {
-    transform: rotate(220deg) translateX(var(--radii-level));
+    /* transform: rotate(220deg) translateX(var(--radii-level)); */
+    transform: rotate(var(--rad-Start)) translateX(var(--radii-level));
   }
   
   100% {
-    transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level));
+    /* transform: rotate(var(--start-angle, 220deg)) translateX(var(--radii-level)); */
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
   }
 }

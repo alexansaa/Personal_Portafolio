@@ -2,11 +2,11 @@ import style from '../../styles/SpaceElement.module.css';
 
 const configuration = {
   L1: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'left'},
-  L2: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'left'},
-  L3: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'left'},
-  R1: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'right'},
-  R2: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'right'},
-  R3: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'right'},
+  L2: {RadStart: 205, RadEnd: 155, Radii: 415, Config: 'left'},
+  L3: {RadStart: 200, RadEnd: 160, Radii: 550, Config: 'left'},
+  R1: {RadStart: 320, RadEnd: 30, Radii: 280, Config: 'right'},
+  R2: {RadStart: 335, RadEnd: 25, Radii: 415, Config: 'right'},
+  R3: {RadStart: 340, RadEnd: 20, Radii: 550, Config: 'right'},
 };
 
 const SpaceElementLogic = ({ element, index }) => {
@@ -51,6 +51,9 @@ const SpaceElementLogic = ({ element, index }) => {
   if (myConfig.RadStart > 180 && myConfig.RadStart < 270 ) {
     deltaDegre = (myConfig.RadStart - myConfig.RadEnd)/element.total;
     startAngle = myConfig.RadStart - (deltaDegre * index);
+    console.log("rad start: " + myConfig.RadStart);
+    console.log("delta total: " + deltaDegre * index);
+    console.log('config element: ' + element.alt + ' ' + element.config + ' delta->' + deltaDegre + ' start Angle: ' + startAngle);
   }
   if (myConfig.RadStart > 270 && myConfig.RadStart < 360 ) {
     deltaDegre = (360 - myConfig.RadStart + myConfig.RadEnd)/element.total;
@@ -60,7 +63,7 @@ const SpaceElementLogic = ({ element, index }) => {
   // console.log('Mi radii: ' + myConfig.Radii);
   // console.log('delta degree: ' + deltaDegre);
   // console.log('index: ' + index);
-  console.log('start angle: ' + startAngle);
+  // console.log('start angle: ' + startAngle);
   // console.log('element tag: ' + element.alt);
   // console.log('element key: ' + `${index}-${element.alt}`);
   
@@ -68,9 +71,13 @@ const SpaceElementLogic = ({ element, index }) => {
   const uniqueKey = `${index}-${element.alt}`;
   
   return (
-    // <div key={index} className={`${style.spaceElement} ${style.font_roboto} ${style.spaceElement_bold} space_rotation-${element.direction}-${myConfig.Config} `}
     <div key={uniqueKey} className={`${style.spaceElement} ${style.font_roboto} ${style.spaceElement_bold} ${style[rotationClass]} `}
-    style={{'--start-angle': `${startAngle}deg`, '--radii-level': `${myConfig.Radii}px`}}>
+    style={{
+      '--start-angle': `${startAngle}deg`, 
+      '--radii-level': `${myConfig.Radii}px`,
+      '--rad-Start': `${myConfig.RadStart}deg`,
+      '--rad-End': `${myConfig.RadEnd}deg`
+    }}>
       <div className={`${style.spaceElement_align} ${myConfig.Config === 'left' ? style.spaceElement_left_fixRotate : ''}`}>
         <img src={element.img} alt={element.alt}/> {element.alt}
       </div>
