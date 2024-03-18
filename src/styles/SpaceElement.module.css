@@ -95,3 +95,55 @@
     transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
   }
 }
+
+.space_rotation-clockwise-right {
+  animation: space_rotation_clock_right 15s linear infinite;
+}
+
+.space_rotation-anti-clockwise-right {
+  animation: space_rotation_anticlock_right 15s linear infinite;
+}
+
+@keyframes space_rotation_clock_right {
+  0% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+  
+  25% {
+    transform: rotate(var(--rad-Start)) translateX(var(--radii-level));
+  }
+  
+  50% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+
+  75% {
+    transform: rotate(calc(360deg + var(--rad-End, --rad-Start))) translateX(var(--radii-level));
+  }
+  
+  100% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+}
+
+@keyframes space_rotation_anticlock_right {
+  0% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+  
+  25% {
+    transform: rotate(calc(360deg + var(--rad-End))) translateX(var(--radii-level));
+  }
+  
+  50% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+  
+  75% {
+    transform: rotate(var(--rad-Start)) translateX(var(--radii-level));
+  }
+  
+  100% {
+    transform: rotate(var(--start-angle, --rad-Start)) translateX(var(--radii-level));
+  }
+}

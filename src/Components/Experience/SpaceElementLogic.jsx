@@ -51,13 +51,13 @@ const SpaceElementLogic = ({ element, index }) => {
   if (myConfig.RadStart > 180 && myConfig.RadStart < 270 ) {
     deltaDegre = (myConfig.RadStart - myConfig.RadEnd)/element.total;
     startAngle = myConfig.RadStart - (deltaDegre * index);
-    console.log("rad start: " + myConfig.RadStart);
-    console.log("delta total: " + deltaDegre * index);
-    console.log('config element: ' + element.alt + ' ' + element.config + ' delta->' + deltaDegre + ' start Angle: ' + startAngle);
   }
   if (myConfig.RadStart > 270 && myConfig.RadStart < 360 ) {
     deltaDegre = (360 - myConfig.RadStart + myConfig.RadEnd)/element.total;
     startAngle = myConfig.RadStart + (deltaDegre * index);
+    console.log("rad start: " + myConfig.RadStart);
+    console.log("delta total: " + deltaDegre * index);
+    console.log('config element: ' + element.alt + ' ' + element.config + ' delta->' + deltaDegre + ' start Angle: ' + startAngle);
   }
   
   // console.log('Mi radii: ' + myConfig.Radii);

@@ -28,6 +28,7 @@ import java from '../../assets/outer circle/java.png';
 import javascript from '../../assets/outer circle/javascript.png';
 
 // elements space
+import devops from '../../assets/space/devops.png';
 import scrum from '../../assets/space/scrum.png';
 import agile from '../../assets/space/agile.png';
 import figma from '../../assets/space/figma.png';
@@ -46,7 +47,7 @@ import sales from '../../assets/space/sales.png';
 const elements = {
   innerCircle: [
     { direction: 'clockwise', img: aws, alt: 'AWS' },
-    // { direction: 'anti-clockwise', img: azure, alt: 'MsAzure' },
+    { direction: 'anti-clockwise', img: azure, alt: 'MsAzure' },
     { direction: 'clockwise', img: network, alt: 'Network' },
     { direction: 'anti-clockwise', img: docker, alt: 'Docker' },
     { direction: 'clockwise', img: kubernetes, alt: 'Kubernetes' },
@@ -67,7 +68,7 @@ const elements = {
     {direction: 'clockwise', img: javascript, alt: 'JavaScript'},
   ],
   space: [
-    {direction: 'anti-clockwise', img: azure, alt: 'DevOps', config: 'L1', total: 2, innerIndex: 0},
+    {direction: 'anti-clockwise', img: devops, alt: 'DevOps', config: 'L1', total: 2, innerIndex: 0},
     {direction: 'anti-clockwise', img: ml, alt: 'Machine Learning', config: 'L1', total: 2, innerIndex: 1},
     // {direction: 'clockwise', img: simulations, alt: 'Simulations', config: 'L1', total: 14},
 
@@ -78,15 +79,15 @@ const elements = {
     {direction: 'anti-clockwise', img: revit, alt: 'Revit', config: 'L3', total: 3, innerIndex: 1},
     {direction: 'anti-clockwise', img: sales, alt: 'Sales', config: 'L3', total: 3, innerIndex: 2},
 
-    // {direction: 'clockwise', img: figma, alt: 'Figma', config: 'R1', total: 2, innerIndex: 0},
-    // {direction: 'clockwise', img: autocad, alt: 'AutoCad', config: 'R1', total: 2, innerIndex: 1},
+    {direction: 'clockwise', img: figma, alt: 'Figma', config: 'R1', total: 2, innerIndex: 0},
+    {direction: 'clockwise', img: autocad, alt: 'AutoCad', config: 'R1', total: 2, innerIndex: 1},
 
-    // {direction: 'anti-clockwise', img: scrum, alt: 'Scrum', config: 'R2', total: 2, innerIndex: 0},
-    // {direction: 'anti-clockwise', img: inventor, alt: 'Inventor', config: 'R2', total: 2, innerIndex: 1},
+    {direction: 'anti-clockwise', img: scrum, alt: 'Scrum', config: 'R2', total: 2, innerIndex: 0},
+    {direction: 'anti-clockwise', img: inventor, alt: 'Inventor', config: 'R2', total: 2, innerIndex: 1},
     
-    // {direction: 'clockwise', img: projects, alt: 'Projects', config: 'R3', total: 3, innerIndex: 0},
-    // {direction: 'clockwise', img: ai, alt: 'Artificial Inteligence', config: 'R3', total: 3, innerIndex: 1},
-    // {direction: 'clockwise', img: digitaltwins, alt: 'Digital Twins', config: 'R3', total: 3, innerIndex: 2},
+    {direction: 'clockwise', img: projects, alt: 'Projects', config: 'R3', total: 3, innerIndex: 0},
+    {direction: 'clockwise', img: ai, alt: 'Artificial Inteligence', config: 'R3', total: 3, innerIndex: 1},
+    {direction: 'clockwise', img: digitaltwins, alt: 'Digital Twins', config: 'R3', total: 3, innerIndex: 2},
   ]
 };
 
