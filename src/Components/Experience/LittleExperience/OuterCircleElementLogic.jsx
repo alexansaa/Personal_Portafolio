@@ -1,4 +1,4 @@
-import style from '../../styles/CircleElement.module.css';
+import style from '../../../styles/CircleElement.module.css';
 
 const OuterCircleElementLogic = ({ element, startAngle, index }) => {
   const clampedRotationAngle = Math.min(Math.max(startAngle, 0), 360);

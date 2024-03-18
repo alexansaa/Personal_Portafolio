@@ -1,48 +1,48 @@
-import style from '../../styles/LittleExperience.module.css';
-import cloudRed from '../../assets/red_cloud_transparent.png';
+import style from '../../../styles/LittleExperience.module.css';
+import cloudRed from '../../../assets/red_cloud_transparent.png';
 
 import InnerCircleElement from './InnerCircleElementLogic';
 import OuterCircleElement from './OuterCircleElementLogic';
 import SpaceElement from './SpaceElementLogic';
 
 // elementos inner circle
-import aws from '../../assets/inner circle/AWS.png';
-import azure from '../../assets/inner circle/azure.png';
-import network from '../../assets/inner circle/networking.png';
-import docker from '../../assets/inner circle/docker.png';
-import kubernetes from '../../assets/inner circle/kubernetes.png';
+import aws from '../../../assets/inner circle/AWS.png';
+import azure from '../../../assets/inner circle/azure.png';
+import network from '../../../assets/inner circle/networking.png';
+import docker from '../../../assets/inner circle/docker.png';
+import kubernetes from '../../../assets/inner circle/kubernetes.png';
 
 // elements outer circle
-import flask from '../../assets/outer circle/flask.png';
-import perl from '../../assets/outer circle/perl.png';
-import python from '../../assets/outer circle/python.png';
-import angular from '../../assets/outer circle/angular.png';
-import csharp from '../../assets/outer circle/CSharp.png';
-import ror from '../../assets/outer circle/rails.png';
-import reactIcon from '../../assets/outer circle/react.png';
-import cplusplus from '../../assets/outer circle/cplusplus.png';
-import ruby from '../../assets/outer circle/ruby.png';
-import css from '../../assets/outer circle/css.png';
-import html from '../../assets/outer circle/html.png';
-import java from '../../assets/outer circle/java.png';
-import javascript from '../../assets/outer circle/javascript.png';
+import flask from '../../../assets/outer circle/flask.png';
+import perl from '../../../assets/outer circle/perl.png';
+import python from '../../../assets/outer circle/python.png';
+import angular from '../../../assets/outer circle/angular.png';
+import csharp from '../../../assets/outer circle/CSharp.png';
+import ror from '../../../assets/outer circle/rails.png';
+import reactIcon from '../../../assets/outer circle/react.png';
+import cplusplus from '../../../assets/outer circle/cplusplus.png';
+import ruby from '../../../assets/outer circle/ruby.png';
+import css from '../../../assets/outer circle/css.png';
+import html from '../../../assets/outer circle/html.png';
+import java from '../../../assets/outer circle/java.png';
+import javascript from '../../../assets/outer circle/javascript.png';
 
 // elements space
-import devops from '../../assets/space/devops.png';
-import scrum from '../../assets/space/scrum.png';
-import agile from '../../assets/space/agile.png';
-import figma from '../../assets/space/figma.png';
-import github from '../../assets/space/github.png';
-import ai from '../../assets/space/ai.png';
-import ml from '../../assets/space/ml.png';
-import inventor from '../../assets/space/Inventor.png';
-import revit from '../../assets/space/revit.png';
-import autocad from '../../assets/space/autocad.png';
-import cleanenergy from '../../assets/space/clean_energy.png';
-import digitaltwins from '../../assets/space/digital twins.png';
-// import simulations from '../../assets/space/simulations.png';
-import projects from '../../assets/space/project.png';
-import sales from '../../assets/space/sales.png';
+import devops from '../../../assets/space/devops.png';
+import scrum from '../../../assets/space/scrum.png';
+import agile from '../../../assets/space/agile.png';
+import figma from '../../../assets/space/figma.png';
+import github from '../../../assets/space/github.png';
+import ai from '../../../assets/space/ai.png';
+import ml from '../../../assets/space/ml.png';
+import inventor from '../../../assets/space/Inventor.png';
+import revit from '../../../assets/space/revit.png';
+import autocad from '../../../assets/space/autocad.png';
+import cleanenergy from '../../../assets/space/clean_energy.png';
+import digitaltwins from '../../../assets/space/digital twins.png';
+// import simulations from '../../../assets/space/simulations.png';
+import projects from '../../../assets/space/project.png';
+import sales from '../../../assets/space/sales.png';
 
 const elements = {
   innerCircle: [
@@ -98,9 +98,7 @@ const LittleExperienceLogic = () => {
         Taking information to a whole new real-world interconnection level.
       </div>
       <div className={style.bg_light}>
-        {/* title */}
         <div className={style.littleExperience_fancyShow}>
-
         </div>
 
         {/* outer circle */}

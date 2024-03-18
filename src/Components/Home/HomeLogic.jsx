@@ -5,7 +5,8 @@ import wpIcon from '../../assets/wp.png';
 
 import SlidingNavbar from '../SliderNav/SliderNavLogic';
 import LittleAbout from '../About/LittleAboutLogic';
-import LittleExperience from '../Experience/LittleExperienceLogic';
+import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
+import ProjectsList from '../Experience/LittleExperience/ProjectsList/ProjectsListLogic';
 
 const HomeLogic = () => {
   const WhatsApp_Contact = () => {
@@ -41,6 +42,7 @@ const HomeLogic = () => {
       <SlidingNavbar />
       <LittleAbout />
       <LittleExperience />
+      <ProjectsList />
     </div>
   );
 };

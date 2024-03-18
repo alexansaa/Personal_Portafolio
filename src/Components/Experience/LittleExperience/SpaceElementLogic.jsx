@@ -1,4 +1,4 @@
-import style from '../../styles/SpaceElement.module.css';
+import style from '../../../styles/SpaceElement.module.css';
 
 const configuration = {
   L1: {RadStart: 220, RadEnd: 150, Radii: 280, Config: 'left'},
