@@ -7,6 +7,7 @@ import SlidingNavbar from '../SliderNav/SliderNavLogic';
 import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
+import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
 
 const HomeLogic = () => {
   const WhatsApp_Contact = () => {
@@ -42,6 +43,7 @@ const HomeLogic = () => {
       <SlidingNavbar />
       <LittleAbout />
       <LittleExperience />
+      <ExperienceList />
       <ProjectsList />
     </div>
   );

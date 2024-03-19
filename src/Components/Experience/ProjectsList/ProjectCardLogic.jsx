@@ -3,14 +3,18 @@ import styles from '../../../styles/ProjectCard.module.css';
 const ProjectCardLogic = ({ project, myIndex }) => {
   return (
     <div>
-      <div className={styles.projectCard_cnt}>
-        <div className={styles.projectCard_number}>{myIndex}</div>
-        <div className={styles.projectCard_description}>
-          <div>Project: {project.name}</div>
-          <div>{project.description}</div>
-        </div>
+      <div>
+        <img src={project.img} alt={project.name} />
       </div>
-      <hr className={styles.project_separation_line}></hr>
+      <div>
+        <h2>{project.name}</h2>
+        <p>{project.description}</p>
+        <ul>
+          {project.technologies.map((tech) => {
+            return <li>{tech}</li>
+          })}
+        </ul>
+      </div>
     </div>
   );
 };

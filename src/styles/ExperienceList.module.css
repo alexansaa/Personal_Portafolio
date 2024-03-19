@@ -1,24 +1,24 @@
-.projects_cnt {
+.experience_cnt {
   display: flex;
   flex-direction: row;
 }
 
-.projects_line_wrapper {
+.experience_line_wrapper {
   border: 1px solid rgb(92, 108, 123, 0.3);
   margin-left: 2%;
   /* position: sticky;
-  top: 0; */
+    top: 0; */
   /* position: relative; */
 }
 
-.projects_line {
+.experience_line {
   height: 50%;
   background: linear-gradient(to bottom, rgba(141, 47, 35, 0.1) 0%, rgba(141, 47, 35, 1) 50%, rgba(141, 47, 35, 0.1) 100%);
   width: 1px;
   /* position: relative; */
 }
 
-.projects_light {
+.experience_light {
   width: 4px;
   box-shadow: 0 0 50px rgba(235, 44, 19, 0.7);
   background: radial-gradient(ellipse 310px 170px, rgba(141, 47, 35, 1), rgba(32, 4, 8, 0.3));
@@ -26,7 +26,7 @@
   height: 50%;
 }
 
-.projects_list_cnt {
+.experience_list_cnt {
   margin-left: 2%;
   margin-right: 2%;
 }
