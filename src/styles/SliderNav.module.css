@@ -5,6 +5,8 @@
   border-radius: 40px;
   margin-left: 60px;
   margin-right: 60px;
+  z-index: 50;
+  position: relative;
 }
 
 .sliderCnt_invisible {
