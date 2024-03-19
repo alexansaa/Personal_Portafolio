@@ -5,8 +5,8 @@
   flex-direction: row;
   max-width: 100%;
   max-height: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .littleAbout p {
@@ -31,10 +31,10 @@
 }
 
 .userImage {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
-.litAbout_text {
-
+.litAbout_text p {
+  text-align: justify;
 }

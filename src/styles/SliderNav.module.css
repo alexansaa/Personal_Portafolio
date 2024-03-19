@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .sliderCnt {
-  background-color: #8d2f23;
+  background-color: rgba(141, 47, 35, 0.95);
   border-radius: 40px;
   margin-left: 60px;
   margin-right: 60px;
@@ -12,14 +12,6 @@
 .sliderCnt_invisible {
   background-color: #200408;
   color: #200408;
-}
-
-.disapear_transition {
-  transition: opacity 0.3s ease-in-out;
-}
-
-.visible {
-  opacity: 1; /* Element is visible and fully opaque */
 }
 
 .sliderNav ul {
@@ -41,7 +33,7 @@
 }
 
 .stickyNav {
-  background-color: #8d2f23;
+  background-color: rgba(141, 47, 35, 0.95);
   position: fixed;
   top: 0;
   border-radius: 40px;

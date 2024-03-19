@@ -79,7 +79,7 @@ const SpaceElementLogic = ({ element, index }) => {
       '--rad-End': `${myConfig.RadEnd}deg`
     }}>
       <div className={`${style.spaceElement_align} ${myConfig.Config === 'left' ? style.spaceElement_left_fixRotate : ''}`}>
-        <img src={element.img} alt={element.alt}/> {element.alt}
+        <img src={element.img} alt={element.alt}/>{element.alt}
       </div>
     </div>
   );

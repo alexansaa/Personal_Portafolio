@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.projectCard_cnt {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto Mono", monospace;
+  /* background-color: #8d2f23; */
+  color: azure;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.projectCard_number {
+  background-color: rgba(141, 47, 35, 0.5);
+  border: 1px solid azure;
+  border-radius: 6px;
+  align-self: center;
+  padding: 0.75% 1% 0.75% 1%;
+  font-size: large;
+}
+
+.projectCard_description {
+  margin-left: 1.5%;
+}
+
+.project_separation_line {
+  border-color: rgb(92, 108, 123,0.3);
+}
