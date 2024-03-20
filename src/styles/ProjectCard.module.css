@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .projectCard_cnt {
+  padding: 10px;
+  background-color: #8d2f23;
+  border-radius: 25px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: "Roboto Mono", monospace;
-  /* background-color: #8d2f23; */
   color: azure;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
 
 .projectCard_number {
@@ -24,5 +24,72 @@
 }
 
 .project_separation_line {
-  border-color: rgb(92, 108, 123,0.3);
+  border-color: rgb(92, 108, 123, 0.3);
+}
+
+.projectCard_img_cnt {
+  /* max-height: 55%; */
+  padding: 1%;
+}
+
+.projectCard_img_cnt img {
+  object-fit: cover;
+  width: 100%;
+  /* max-height: inherit; */
+  height: 250px;
+  border-radius: 15px;
+}
+
+.projectCard_info_cnt {
+  padding: 2%;
+  border-radius: 15px;
+  background-color: rgba(32, 4, 8, 0.5);
+  height: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.projectCard_info_cnt p {
+  text-align: justify;
+}
+
+.projectCard_info_cnt ul {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.projectCard_info_cnt ul li {
+  border-radius: 5px;
+  margin: 0% 1% 0% 1%;
+  padding: 1% 2% 1% 2%;
+  background-color: rgba(240, 255, 255, 0.5);
+  list-style-type: none;
+}
+
+.projectCard_info_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectCard_info_title img {
+  filter: invert(100%);
+  width: 10%;
+  height: auto;
+}
+
+.projectCard_info_location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projectCard_info_location img {
+  width: 7%;
+  margin-right: 5%;
 }
