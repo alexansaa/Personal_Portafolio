@@ -8,6 +8,7 @@ import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
 import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
+import Contact from '../Contact/ContactLogic';
 
 const HomeLogic = () => {
   const WhatsApp_Contact = () => {
@@ -18,7 +19,7 @@ const HomeLogic = () => {
     'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A6A0477DA809F962FBA9A54E53C40E66F6182B822AC8CF0AD1BCDFB8D8CBEC6A/scale?width=1200&aspectRatio=1.78&format=webp',
     'https://i.ytimg.com/vi/1aqjGm3mGpA/sddefault.jpg',
     'https://noticias.coches.com/wp-content/uploads/2020/08/coches.com_quien-es-rayo-mcqueen-cars-10.jpeg',
-  ]; 
+  ];
 
   return (
     <div className={style.home}>
@@ -45,6 +46,17 @@ const HomeLogic = () => {
       <LittleExperience />
       <ExperienceList />
       <ProjectsList />
+      <div className={style.last_wp_btn_part}>
+        <button onClick={WhatsApp_Contact} className={style.wp_btn}>
+          <div className={style.wp_btn_text}>
+            Happy to chat on Whatsapp
+          </div>
+          <div className={style.wp_btn_img}>
+            <img src={wpIcon} alt='Whats App Button'></img>
+          </div>
+        </button>
+      </div>
+      <Contact />
     </div>
   );
 };

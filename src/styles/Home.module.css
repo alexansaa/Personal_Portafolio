@@ -1,5 +1,6 @@
 .home {
   background-color: #200408;
+  margin-bottom: 60%;
 }
 
 .carousel_cnt {
@@ -39,4 +40,11 @@
 
 .wp_btn_img img{
   width: 70%;
+}
+
+.last_wp_btn_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6%;
 }
