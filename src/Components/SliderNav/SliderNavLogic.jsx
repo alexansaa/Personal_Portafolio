@@ -1,4 +1,7 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
+
 import styles from '../../styles/SliderNav.module.css';
 
 function SlidingNavbar() {
@@ -41,13 +44,29 @@ function SlidingNavbar() {
     return elementRect?.top;
   };
 
+  const aboutMeRef = useRef(null);
+
+  const scrollToAboutMe = () => {
+    if (aboutMeRef.current) {
+      // Calculate offset if needed based on element position
+      const offset = aboutMeRef.current.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({ top: offset, behavior: 'smooth' });
+    } else {
+      console.error('Target element not found for scrolling');
+    }
+  };
+
+  // useEffect(() => {
+  //   scrollToAboutMe();
+  // }, []);
+
   return (
     <>
       <div id={sliderFix} className={styles.sliderCnt}>
         {isVisible && (
           <nav className={`${styles.sliderNav} ${styles.stickyNav}`}>
             <ul>
-              <li><a href="#">Exp 1</a></li>
+              <li><Link to="#littleAbout" onClick={scrollToAboutMe}>About Me</Link></li>
               <hr className={styles.horizontalLine}></hr>
               <li><a href="#">Exp 2</a></li>
               <hr className={styles.horizontalLine}></hr>
@@ -60,7 +79,7 @@ function SlidingNavbar() {
         {(
           <nav className={`${styles.sliderNav}`}>
             <ul>
-              <li><a href="#">Exp 1</a></li>
+              <li><Link to="#littleAbout" onClick={scrollToAboutMe}>About Me</Link></li>
               <hr className={styles.horizontalLine}></hr>
               <li><a href="#">Exp 2</a></li>
               <hr className={styles.horizontalLine}></hr>

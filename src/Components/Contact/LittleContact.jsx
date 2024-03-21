@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from '../../styles/Contact.module.css';
+import styles from '../../styles/LittleContact.module.css';
 
 import goto from '../../assets/goto_arrow.png';
 import instagram from '../../assets/instagram.png';
@@ -28,10 +28,10 @@ const LittleContactLogic = () => {
             return (
               <Link to={cont.url} className={styles.contactBorder}>
                 <li key={index}>
-                  <div>
+                  <div className={styles.link_contact_cnt}>
                     <img src={cont.img} alt={`go to ${cont.name} url`} />
-                    {cont.name}
-                    <img id='goto_img' src={goto} alt={`go to ${cont.name} url`} className={styles.mirror_img} />
+                    <p>{cont.name}</p>
+                    <img src={goto} alt={`go to ${cont.name} url`} className={styles.mirror_img} />
                   </div>
                 </li>
               </Link>
