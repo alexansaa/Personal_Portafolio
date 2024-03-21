@@ -13,7 +13,7 @@ const links = [
 const Navbar = () => (
   <nav className={styles.nav}>
     <div className={styles.logo}>
-      <img src={userLogo} alt="userLogo"></img>
+      <img src={userLogo} alt="alexLogo"></img>
     </div>
     <div className={`${styles.nav_opt} ${styles.nav_butons} ${styles.nav_bg_color}`}>
         <ul>
