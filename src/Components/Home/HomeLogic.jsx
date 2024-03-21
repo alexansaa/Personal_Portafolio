@@ -9,6 +9,7 @@ import LittleExperience from '../Experience/LittleExperience/LittleExperienceLog
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
 import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
 import Contact from '../Contact/ContactLogic';
+import LittleContact from '../Contact/LittleContact';
 
 const HomeLogic = () => {
   const WhatsApp_Contact = () => {
@@ -57,7 +58,7 @@ const HomeLogic = () => {
         </button>
       </div>
       <div className={style.place_back}>
-        <Contact />
+        <LittleContact />
       </div>
     </div>
   );
