@@ -10,15 +10,16 @@ const contacts = [
 
 const ContactLogic = () => {
   return (
-    <div>
-      <div>
-        LET'S TALK -
+    <div className={styles.contact_cnt}>
+      <div className={`${styles.continuous_animation}`}>
+        <div className={`${styles.move_left_infinite1} ${styles.moving_element1}`}>LET'S TALK - </div>
+        <div className={`${styles.move_left_infinite2} ${styles.moving_element2}`}>LET'S TALK - </div>
       </div>
       <div>
         <ul>
-          {contacts.map((cont) => {
+          {contacts.map((cont, index) => {
             return (
-              <li>
+              <li key={index}>
                 <a>
                   <img src={cont.img} alt={`go to ${cont.name} url`} />
                   {cont.name}

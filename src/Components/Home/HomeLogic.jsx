@@ -56,7 +56,9 @@ const HomeLogic = () => {
           </div>
         </button>
       </div>
-      <Contact />
+      <div className={style.place_back}>
+        <Contact />
+      </div>
     </div>
   );
 };
