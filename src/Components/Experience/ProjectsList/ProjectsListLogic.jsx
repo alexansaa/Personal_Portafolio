@@ -15,7 +15,7 @@ const myProjects = [
 
 const ProjectsListLogic = () => {
   return (
-    <div className={styles.project_expo}>
+    <div id='recentWork' className={styles.project_expo}>
       <div className={styles.projectTitle}>Recent Work!</div>
       <div className={styles.projects_cnt}>
         <div className={styles.projects_list_cnt}>

@@ -3,7 +3,7 @@ import style from '../../styles/LittleAbout.module.css';
 
 const LittleAboutLogic = () => {
   return (
-    <div id='littleAbout' className={style.littleAbout}>
+    <div id="littleAbout" className={style.littleAbout}>
       <div className={`${style.litAbout_item} ${style.litAbout_item_padding} ${style.litAbout_text}`}>
         <h2>
           Closing the gap between digital and real-world infrastructures.

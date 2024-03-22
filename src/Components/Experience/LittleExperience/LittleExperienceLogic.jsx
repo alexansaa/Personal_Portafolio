@@ -93,7 +93,7 @@ const elements = {
 
 const LittleExperienceLogic = () => {
   return (
-    <div className={style.lilExp_cnt}>
+    <div id='littleExperience' className={style.lilExp_cnt}>
       <div className={`${style.littleExperience_title} ${style.font_roboto}`}>
         Taking information to a whole new real-world interconnection level.
       </div>

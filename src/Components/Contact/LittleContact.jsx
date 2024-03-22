@@ -17,7 +17,7 @@ const contacts = [
 
 const LittleContactLogic = () => {
   return (
-    <div className={styles.contact_cnt}>
+    <div id='contact' className={styles.contact_cnt}>
       <div className={`${styles.continuous_animation}`}>
         <div className={`${styles.move_left_infinite1} ${styles.moving_element1}`}>LET'S TALK - </div>
         <div className={`${styles.move_left_infinite2} ${styles.moving_element2}`}>LET'S TALK - </div>
@@ -26,8 +26,8 @@ const LittleContactLogic = () => {
         <ul>
           {contacts.map((cont, index) => {
             return (
-              <Link to={cont.url} className={styles.contactBorder}>
-                <li key={index}>
+              <Link key={index} to={cont.url} className={styles.contactBorder}>
+                <li>
                   <div className={styles.link_contact_cnt}>
                     <img src={cont.img} alt={`go to ${cont.name} url`} />
                     <p>{cont.name}</p>

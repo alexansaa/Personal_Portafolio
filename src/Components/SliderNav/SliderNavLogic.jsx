@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import React, { useRef } from 'react';
+// import React, { useRef } from 'react';
+
+import { HashLink } from 'react-router-hash-link';
 
 import styles from '../../styles/SliderNav.module.css';
 
@@ -44,33 +46,21 @@ function SlidingNavbar() {
     return elementRect?.top;
   };
 
-  const aboutMeRef = useRef(null);
-
-  const scrollToAboutMe = () => {
-    if (aboutMeRef.current) {
-      // Calculate offset if needed based on element position
-      const offset = aboutMeRef.current.getBoundingClientRect().top + window.pageYOffset;
-      window.scrollTo({ top: offset, behavior: 'smooth' });
-    } else {
-      console.error('Target element not found for scrolling');
-    }
-  };
-
-  // useEffect(() => {
-  //   scrollToAboutMe();
-  // }, []);
-
   return (
     <>
       <div id={sliderFix} className={styles.sliderCnt}>
         {isVisible && (
           <nav className={`${styles.sliderNav} ${styles.stickyNav}`}>
             <ul>
-              <li><Link to="#littleAbout" onClick={scrollToAboutMe}>About Me</Link></li>
+              <li><HashLink to="#littleAbout">About Me</HashLink ></li>
               <hr className={styles.horizontalLine}></hr>
-              <li><a href="#">Exp 2</a></li>
+              <li><HashLink to="#littleExperience">Experience</HashLink></li>
               <hr className={styles.horizontalLine}></hr>
-              <li><a href="#">Exp 3</a></li>
+              <li><HashLink to="#milestones">Milestones</HashLink></li>
+              <hr className={styles.horizontalLine}></hr>
+              <li><HashLink to="#recentWork">Recent Work</HashLink></li>
+              <hr className={styles.horizontalLine}></hr>
+              <li><HashLink to="#contact">Contact</HashLink></li>
             </ul>
           </nav>
         )}
@@ -79,11 +69,15 @@ function SlidingNavbar() {
         {(
           <nav className={`${styles.sliderNav}`}>
             <ul>
-              <li><Link to="#littleAbout" onClick={scrollToAboutMe}>About Me</Link></li>
+              <li><HashLink to="#littleAbout">About Me</HashLink ></li>
               <hr className={styles.horizontalLine}></hr>
-              <li><a href="#">Exp 2</a></li>
+              <li><HashLink to="#littleExperience">Experience</HashLink></li>
               <hr className={styles.horizontalLine}></hr>
-              <li><a href="#">Exp 3</a></li>
+              <li><HashLink to="#milestones">Milestones</HashLink></li>
+              <hr className={styles.horizontalLine}></hr>
+              <li><HashLink to="#recentWork">Recent Work</HashLink></li>
+              <hr className={styles.horizontalLine}></hr>
+              <li><HashLink to="#contact">Contact</HashLink></li>
             </ul>
           </nav>
         )}

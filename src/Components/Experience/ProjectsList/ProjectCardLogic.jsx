@@ -18,8 +18,8 @@ const ProjectCardLogic = ({ project, myIndex }) => {
         </div>
         <div>
           <ul>
-            {project.technologies.map((tech) => {
-              return <li>{tech}</li>
+            {project.technologies.map((tech, index) => {
+              return <li key={index}>{tech}</li>
             })}
           </ul>
         </div>

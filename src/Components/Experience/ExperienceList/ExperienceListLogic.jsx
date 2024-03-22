@@ -39,7 +39,7 @@ const ExperienceListLogic = () => {
   }, [line_wrapper]);
 
   return (
-    <div className={styles.experience_cnt}>
+    <div id='milestones' className={styles.experience_cnt}>
       <div id={line_wrapper} className={styles.experience_line_wrapper}>
         <div id={line} className={styles.experience_line}>
           <div className={styles.experience_light}></div>
