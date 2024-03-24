@@ -1,81 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-.sliderCnt {
-  background-color: rgba(141, 47, 35, 0.95);
-  border-radius: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
-  z-index: 50;
-  position: relative;
+.sliderExp {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.sliderCnt_invisible {
-  background-color: #200408;
-  color: #200408;
+.sliderCnt {
+  border-radius: 40px;
+  background-color: rgba(141, 47, 35, 0.95);
+  width: 45%;
+  z-index: 50;
+  justify-content: center;
+  display: flex;
 }
 
 .sliderNav ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding: 1% 2% 1% 2%;
 }
 
 .sliderNav ul li {
   list-style-type: none;
-  padding: 1% 2% 1% 2%;
+  padding: 2% 5% 2% 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .sliderNav ul li a {
+  text-wrap: nowrap;
   text-decoration: none;
-  color: black;
+  color: azure;
   font-family: "Roboto Mono", monospace;
 }
 
 .stickyNav {
+  border-radius: 40px;
   background-color: rgba(141, 47, 35, 0.95);
+  width: 45%;
   position: fixed;
   top: 0;
-  border-radius: 40px;
   margin-top: 1%;
-  width: 91.5%;
+  max-height: 55px;
   border: 2px solid #200408;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.horizontalLine {
-  width: 2px;
-  background-color: black;
-  border: none;
+.SliderNavLines li:not(:first-child):not(:last-child) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
-/* .navbar {
-  background-color: #333;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(100%);
+.SliderNavLines li:nth-child(1) {
+  border-right: 1px solid black;
 }
 
-.navbar.opened {
-  transform: translateX(0);
+.SliderNavLines li:nth-last-child(1) {
+  border-left: 1px solid black;
 }
-
-.navbar ul {
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-.navbar li {
-  margin: 15px 0;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.5rem;
-} */

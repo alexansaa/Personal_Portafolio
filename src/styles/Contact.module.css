@@ -10,9 +10,8 @@
 .continuous_animation {
   flex-direction: row;
   /* width: 100%; */
-  overflow: visible;
-  width: 400%;
   overflow: hidden;
+  /* width: 400%; */
   /* position: absolute; */
 }
 
