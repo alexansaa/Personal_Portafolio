@@ -41,6 +41,8 @@
 }
 
 .projectCard_info_cnt {
+  color: azure;
+  text-decoration: none;
   padding: 2%;
   border-radius: 15px;
   background-color: rgba(32, 4, 8, 0.5);
@@ -92,4 +94,20 @@
 .projectCard_info_location img {
   width: 7%;
   margin-right: 5%;
+}
+
+.project_meta_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project_meta_data_repo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(240, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 0% 2% 0% 2%;
+  text-decoration: none;
+  color: azure;
 }
