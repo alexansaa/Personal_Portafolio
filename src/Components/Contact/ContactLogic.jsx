@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import styles from '../../styles/Contact.module.css';
 
+import Footer from '../Footer/FooterLogic';
+
 import goto from '../../assets/goto_arrow.png';
 import instagram from '../../assets/instagram.png';
 import github from '../../assets/github.png';
 import linkedin from '../../assets/linkedin.png';
+import WpButton from '../WpButton/WpButtonLogic';
 
-import alexLogo from '../../assets/red_cloud_transparent.png';
 
 const contacts = [
   { name: 'LINKEDIN', url: 'https://www.linkedin.com/in/alexander-saavedra-garcia/', img: linkedin },
@@ -38,15 +40,10 @@ const ContactLogic = () => {
           })}
         </ul>
       </div>
-      <div className={styles.footer_hiden}>
-        <div className={styles.footer_left}>
-          <img src={alexLogo} alt="alexLogo" />
-          <p>alexan.saa@gmail.com | +(593)0988409655</p>
-        </div>
-        <div className={styles.footer_right}>
-          <p>Alexander Web | © All Rights Reserved</p>
-        </div>
+      <div className={styles.button_ctn}>
+        <WpButton />
       </div>
+      <Footer />
     </div>
   );
 };

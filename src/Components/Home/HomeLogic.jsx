@@ -1,20 +1,16 @@
 import style from '../../styles/Home.module.css';
 import Carousel from '../Carousel/CarouselLogic';
 import Intro from '../Intro/IntroLogic';
-import wpIcon from '../../assets/wp.png';
 
 import SlidingNavbar from '../SliderNav/SliderNavLogic';
 import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
 import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
-import LittleContact from '../Contact/LittleContact';
+import LittleContact from '../Contact/LittleContactLogic';
+import WpButton from '../WpButton/WpButtonLogic';
 
 const HomeLogic = () => {
-  const WhatsApp_Contact = () => {
-    console.log("click");
-  };
-
   const images = [
     'https://drive.google.com/thumbnail?id=1YvbDZfSYj-nq4z7ePrIMZ20UQCinVeJe&sz=w1000',
     'https://drive.google.com/thumbnail?id=129HiTL4w8oESjXbQ0sRG2PiJ8DSV5zcI&sz=w1000',
@@ -36,16 +32,7 @@ const HomeLogic = () => {
         </div>
         <div className={style.carousel_part}>
           <Intro />
-          <div className={style.wp_btn_cont}>
-            <button onClick={WhatsApp_Contact} className={style.wp_btn}>
-              <div className={style.wp_btn_text}>
-                Happy to chat on Whatsapp
-              </div>
-              <div className={style.wp_btn_img}>
-                <img src={wpIcon} alt='Whats App Button'></img>
-              </div>
-            </button>
-          </div>
+          <WpButton />
         </div>
       </div>
       <SlidingNavbar />
@@ -53,16 +40,7 @@ const HomeLogic = () => {
       <LittleExperience />
       <ExperienceList />
       <ProjectsList />
-      <div className={style.last_wp_btn_part}>
-        <button onClick={WhatsApp_Contact} className={style.wp_btn}>
-          <div className={style.wp_btn_text}>
-            Happy to chat on Whatsapp
-          </div>
-          <div className={style.wp_btn_img}>
-            <img src={wpIcon} alt='Whats App Button'></img>
-          </div>
-        </button>
-      </div>
+      <WpButton />
       <div className={style.place_back}>
         <LittleContact />
       </div>

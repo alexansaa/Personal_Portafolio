@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom';
 import styles from '../../styles/LittleContact.module.css';
 
+import Footer from '../Footer/FooterLogic';
+
 import goto from '../../assets/goto_arrow.png';
 import instagram from '../../assets/instagram.png';
 import github from '../../assets/github.png';
 import linkedin from '../../assets/linkedin.png';
 
-import alexLogo from '../../assets/red_cloud_transparent.png';
-
 const contacts = [
   { name: 'LINKEDIN', url: 'https://www.linkedin.com/in/alexander-saavedra-garcia/', img: linkedin },
   { name: 'GITHUB', url: 'https://github.com/alexansaa', img: github },
-  { name: 'INSTAGRAM', url: 'https://www.instagram.com/alexbysaa/', img: instagram },
   { name: 'INSTAGRAM', url: 'https://www.instagram.com/alexbysaa/', img: instagram },
 ];
 
@@ -39,15 +38,7 @@ const LittleContactLogic = () => {
           })}
         </ul>
       </div>
-      <div className={styles.footer_hiden}>
-        <div className={styles.footer_left}>
-          <img src={alexLogo} alt="alexLogo" />
-          <p>alexan.saa@gmail.com | +(593)0988409655</p>
-        </div>
-        <div className={styles.footer_right}>
-          <p>Alexander Web | © All Rights Reserved</p>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };
