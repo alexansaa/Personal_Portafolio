@@ -1,0 +1,23 @@
+.portfolio_letter {
+  color: azure;
+}
+
+.portfolioIntro_title {
+  text-align: center;
+  font-size: 55px;
+  padding: 3% 10% 5% 10%;
+  /* margin-top: 3%; */
+}
+
+.font_roboto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.portfolioIntro_cnt {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolioIntro_elmnt {
+  width: 50%;
+}

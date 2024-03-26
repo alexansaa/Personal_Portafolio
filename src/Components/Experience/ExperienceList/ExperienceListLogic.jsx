@@ -27,7 +27,7 @@ const ExperienceListLogic = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const lineHeight = experienceLineWrapper.offsetHeight;
-      
+
       const newPosition = scrollTop / (document.documentElement.scrollHeight - window.innerHeight) * lineHeight;
       // console.log(experienceLine);
 
@@ -39,18 +39,21 @@ const ExperienceListLogic = () => {
   }, [line_wrapper]);
 
   return (
-    <div id='milestones' className={styles.experience_cnt}>
-      <div id={line_wrapper} className={styles.experience_line_wrapper}>
-        <div id={line} className={styles.experience_line}>
-          <div className={styles.experience_light}></div>
+    <>
+      <div id='milestones' className={`${styles.experience_title} ${styles.font_roboto}`}>Milestones</div>
+      <div className={styles.experience_cnt}>
+        <div id={line_wrapper} className={styles.experience_line_wrapper}>
+          <div id={line} className={styles.experience_line}>
+            <div className={styles.experience_light}></div>
+          </div>
+        </div>
+        <div className={styles.experience_list_cnt}>
+          {myExperience.map((someExperience, index) => {
+            return <ExperienceCard experience={someExperience} myIndex={index + 1} key={index} />
+          })}
         </div>
       </div>
-      <div className={styles.experience_list_cnt}>
-        {myExperience.map((someExperience, index) => {
-          return <ExperienceCard experience={someExperience} myIndex={index + 1} key={index} />
-        })}
-      </div>
-    </div>
+    </>
   );
 };
 
