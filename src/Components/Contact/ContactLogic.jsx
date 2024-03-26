@@ -12,7 +12,6 @@ const contacts = [
   { name: 'LINKEDIN', url: 'https://www.linkedin.com/in/alexander-saavedra-garcia/', img: linkedin },
   { name: 'GITHUB', url: 'https://github.com/alexansaa', img: github },
   { name: 'INSTAGRAM', url: 'https://www.instagram.com/alexbysaa/', img: instagram },
-  { name: 'INSTAGRAM', url: 'https://www.instagram.com/alexbysaa/', img: instagram },
 ];
 
 const ContactLogic = () => {

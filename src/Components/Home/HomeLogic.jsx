@@ -8,7 +8,6 @@ import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
 import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
-import Contact from '../Contact/ContactLogic';
 import LittleContact from '../Contact/LittleContact';
 
 const HomeLogic = () => {
@@ -17,9 +16,16 @@ const HomeLogic = () => {
   };
 
   const images = [
-    'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A6A0477DA809F962FBA9A54E53C40E66F6182B822AC8CF0AD1BCDFB8D8CBEC6A/scale?width=1200&aspectRatio=1.78&format=webp',
-    'https://i.ytimg.com/vi/1aqjGm3mGpA/sddefault.jpg',
-    'https://noticias.coches.com/wp-content/uploads/2020/08/coches.com_quien-es-rayo-mcqueen-cars-10.jpeg',
+    'https://drive.google.com/thumbnail?id=1YvbDZfSYj-nq4z7ePrIMZ20UQCinVeJe&sz=w1000',
+    'https://drive.google.com/thumbnail?id=129HiTL4w8oESjXbQ0sRG2PiJ8DSV5zcI&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1jpT5T3BwSpD_ter4JtRBRMFXbw2PP0bY&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1eK52v8PaNi_fNkcTiKDBdYghHXiKZVCU&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1nfJ9U2HETSZqefVAcIOFgDAB_3Pq2cPc&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1IvlQxktF_mp8an7cwofPC6UwpsX2ST8O&sz=w1000',
+    'https://drive.google.com/thumbnail?id=11cefjhsc9t6KXIJhnq2wtQhX1NWS8Zq8&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1U97ddD00P_aPEDvibe7qJtxeytserdMh&sz=w1000',
+    'https://drive.google.com/thumbnail?id=11jBihK56LK7P25IpZDYXtJ6mCXVx2vX_&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1g0CaJd2khxztnQF8iq2DI6KmBulbrpYM&sz=w1000',
   ];
 
   return (
