@@ -12,7 +12,7 @@ function SlidingNavbar() {
     { name: 'Experience', link: '#littleExperience' },
     { name: 'Milestones', link: '#milestones' },
     { name: 'Recent Work', link: '#recentWork' },
-    { name: 'Contact', link: '#contact' },
+    { name: 'Contact', link: 'contact' },
   ];
 
   const sliderStatic = "sliderNavCntStatic";

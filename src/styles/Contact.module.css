@@ -5,6 +5,7 @@
 .contact_cnt {
   margin-top: 0%;
   background-color: #8d2f23;
+  overflow: hidden;
 }
 
 .continuous_animation {
@@ -42,6 +43,7 @@
 
 .move_left_infinite2 {
   display: inline-block;
+  transform: translateX(150%);
   -webkit-animation: movetext2 20s linear infinite;
   animation: movetext2 20s linear infinite;
   animation-delay: 10.3s;
