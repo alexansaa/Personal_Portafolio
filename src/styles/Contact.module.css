@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
 .contact_cnt {
-  margin-top: 0%;
+  padding-bottom: 1%;
   background-color: #8d2f23;
   overflow: hidden;
 }
@@ -96,7 +96,8 @@
 .contact_links {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .contact_links ul {
