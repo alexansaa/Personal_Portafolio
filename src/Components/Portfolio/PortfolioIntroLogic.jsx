@@ -7,7 +7,7 @@ const PortfolioIntroLogic = () => {
   return (
     <div className={`${style.portfolio_letter} ${style.portfolio_spacing}`}>
       <div className={`${style.portfolioIntro_title} ${style.font_roboto}`}>
-        Proffesional Experience
+        Professional Experience
       </div>
       <div className={style.portfolioIntro_cnt}>
         <div className={`${style.portfolioIntro_elmnt} ${style.font_kode}`}>
