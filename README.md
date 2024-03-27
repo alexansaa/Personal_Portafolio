@@ -55,7 +55,7 @@ Personal Portfolio Profesional website exposing the most important personal proj
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Take a look!](<a href="https://alexansaa.github.io/Personal_Portafolio/">Visit Now!</a>)
+- [Take a look!](<a href="https://kleber-saavedra.onrender.com/">Visit Now!</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,9 +65,10 @@ To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 - Web Browser (Chrome, Edge, Safari, etc.)
 - Text Editor (Visual Studio Code, etc.)
+- Install React, Node.js
 
 If you like to try Linters results, you should need to follow this guide: https://github.com/microverseinc/linters-config/tree/master/html-css
 
@@ -82,11 +83,16 @@ Clone this repository to your desired folder:
 
 ### Install
 
-This project won't need further installation
+```sh
+  cd Personal_Portafolio
+  npm install
+```
 
 ### Usage
 
-To run the project double click the "index.html" file.
+```sh
+  npm start
+```
 
 ### Run tests
 
@@ -105,11 +111,7 @@ Deploy this project on any websever.
 👤 **Alexander Saavedra**
 
 - GitHub: [@alexansaa](https://github.com/alexansaa)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alexander-saavedra-2803b1b6/)
-
-👤 **Benson Kiai**
-
-- GitHub: [@BenMKT](https://github.com/BenMKT)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alexander-saavedra-garcia/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,8 +119,8 @@ Deploy this project on any websever.
 
 - [ ] **Web Page Optimized for wither screen sizes**
 - [ ] **Larger Images Implementation**
-- [ ] **New CSS Styles**
 - [ ] **Formspree suport for contact form**
+- [ ] **WhatsApp API Implementation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +140,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank every who continues supporting me.
+I would like to thank everyone who continues supporting me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
