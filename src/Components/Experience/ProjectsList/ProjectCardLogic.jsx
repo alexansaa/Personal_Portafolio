@@ -5,9 +5,9 @@ import rightArrow from '../../../assets/right_arrow.png';
 const ProjectCardLogic = ({ project, myIndex }) => {
   return (
     <div className={styles.projectCard_cnt}>
-      <div className={styles.projectCard_img_cnt}>
+      <Link className={styles.projectCard_img_cnt} to={project.live}>
         <img src={project.img} alt={project.name} />
-      </div>
+      </Link>
 
       <Link className={styles.projectCard_info_cnt} to={project.live}>
         <div className={styles.projectCard_info_title}>
@@ -26,9 +26,9 @@ const ProjectCardLogic = ({ project, myIndex }) => {
               })}
             </ul>
           </div>
-          <Link className={styles.project_meta_data_repo} to={project.repo}>
+          <button className={styles.project_meta_data_repo} to={project.repo}>
             Go To Repo! &#11016;
-          </Link>
+          </button>
         </div>
       </Link>
     </div>

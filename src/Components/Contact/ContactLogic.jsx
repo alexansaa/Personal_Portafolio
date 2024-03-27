@@ -27,8 +27,8 @@ const ContactLogic = () => {
         <ul>
           {contacts.map((cont, index) => {
             return (
-              <Link to={cont.url} className={styles.contactBorder}>
-                <li key={index}>
+              <Link key={index} to={cont.url} className={styles.contactBorder}>
+                <li>
                   <div>
                     <img src={cont.img} alt={`go to ${cont.name} url`} />
                     {cont.name}

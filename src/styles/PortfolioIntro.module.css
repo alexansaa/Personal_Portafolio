@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
 .portfolio_letter {
   color: azure;
+}
+
+.portfolio_spacing {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .portfolioIntro_title {
@@ -13,6 +22,10 @@
   font-family: "Roboto Mono", monospace;
 }
 
+.font_kode{
+  font-family: "Kode Mono", monospace;
+}
+
 .portfolioIntro_cnt {
   display: flex;
   flex-direction: row;
@@ -20,4 +33,30 @@
 
 .portfolioIntro_elmnt {
   width: 50%;
+}
+
+.portfolio_resume_btn_dwnld {
+  background-color: #8d2f23;
+  border-radius: 15px;
+  margin-top: 2%;
+  padding: 1.5% 3% 1.5% 3%;
+  display: flex;
+  width: fit-content;
+  text-decoration: none;
+  color: azure;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+.portfolio_name_resume {
+  font-size: 24px;
+}
+
+.portfolio_goto_resume_arrow {
+  font-size: 30px;
+  margin-left: 2%;
+}
+
+.portfolio_resume_btn_dwnld:hover {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
 }
