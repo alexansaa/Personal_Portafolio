@@ -1,6 +1,7 @@
 import style from '../../styles/About.module.css';
 
 import Footer from '../Footer/FooterLogic';
+import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic'
 
 const AboutLogic = () => {
@@ -8,25 +9,30 @@ const AboutLogic = () => {
     <div className={style.about_spacing}>
       <div>
         <div className={`${style.about_title} ${style.font_roboto}`}>
-          How is Kleber Saaavedra?
+          Who is Kleber Saavedra?
         </div>
         <div className={`${style.about_intro_cnt} ${style.font_kode}`}>
           <div className={style.about_summary_element}>
-            Witnessing the transformative power of technology from a young age, I pursued a career that merges my passion for innovation with a practical understanding of various industries. My academic foundation lies in Mechanical Engineering (Escuela Politecnica Nacional, 2021+), but my interests led me to explore the world of computer science.
-
-            My professional journey began as a sales consultant for a company manufacturing versatile polypropylene products. This role exposed me to a wide range of industrial processes, sparking my interest in the intricate relationship between automation, technology, and efficient workflows.  This experience also solidified my understanding of how diverse industries operate.
-
-            Later, I transitioned into the construction sector, where I honed my project management and client communication skills at a company specializing in both industrial and commercial building projects. Witnessing the company's commitment to analyzing mechanical systems within construction projects further broadened my technical perspective.  Unfortunately, unforeseen economic challenges in Ecuador impacted my entrepreneurial aspirations during this period.
+            I am Kleber Saavedra, a passionate and committed professional with a strong track record in innovation, sustainability, and excellence in the field of engineering and technology. Throughout my diverse career, I have had the privilege of participating in a wide range of projects in areas as diverse as mechanical engineering, computer science, and sustainable energy.
+            <br />
+            <br />
+            From my early days working in the oil industry, where I had the opportunity to immerse myself in the intricate processes of marine engine maintenance, to my current work in the exciting world of digital twins and artificial intelligence applied to energy optimization, every step of my career has been an opportunity to learn, grow, and make a meaningful difference.
+            <br />
+            <br />
+            My experience in computational simulation research of non-compressible flows in circular ducts, as well as in the design and development of digital twins for hand prostheses in collaboration with the Allan Turing Vision and Artificial Intelligence Laboratory, has demonstrated my ability to tackle complex challenges and find innovative solutions.
           </div>
           <div className={style.about_summary_element}>
-            Despite these setbacks, I persevered and found a niche in the third company I joined. While pursuing my computer science studies, I worked for a firm selling industrial and automotive lubricants. This role not only offered valuable experience in business development, but also highlighted the importance of strong client relationships and well-defined contracts in achieving successful business outcomes.
-
-            Today, I leverage my multi-faceted background to create comprehensive solutions for clients encompassing both industrial and technological aspects.  My ability to successfully implement information exchange systems at the office level, coupled with leading industrial automation projects, demonstrates my adaptability and expertise in diverse environments.  Most notably, co-founding a company that utilizes artificial intelligence for energy cost reduction allowed me to make a tangible impact in the energy sector.
-
-            As I look towards the future, I'm committed to leveraging my diverse skillset to continue growing my company and providing innovative solutions that empower businesses.
+            In addition, my involvement in projects related to the automation and control of energy systems in industries and urban environments has reinforced my commitment to sustainability and environmental care. Implementing cutting-edge technologies, such as artificial intelligence and machine learning, to reduce energy consumption and minimize carbon footprint, is one of my passions and a goal that drives me in every project I get involved in.
+            <br />
+            <br />
+            If you are looking for a committed, creative, and results-oriented collaborator for your projects, you have come to the right place. I am excited to offer my skills, experience, and dedication to help you achieve your goals and make the world a better place through innovation and technology.
+            <br />
+            <br />
+            I look forward to collaborating with you and taking our projects to the next level together!
           </div>
         </div>
       </div>
+      <LittleAbout />
       <LittleExperience />
       <Footer />
     </div>

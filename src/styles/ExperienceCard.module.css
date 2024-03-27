@@ -26,3 +26,7 @@
 .experience_separation_line {
   border-color: rgb(92, 108, 123,0.3);
 }
+
+.experienceCardDesc {
+  text-align: justify;
+}

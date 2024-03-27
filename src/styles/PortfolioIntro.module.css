@@ -14,8 +14,7 @@
 .portfolioIntro_title {
   text-align: center;
   font-size: 55px;
-  padding: 3% 10% 5% 10%;
-  /* margin-top: 3%; */
+  padding: 3% 10% 2% 10%;
 }
 
 .font_roboto {
@@ -33,6 +32,9 @@
 
 .portfolioIntro_elmnt {
   width: 50%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
 }
 
 .portfolio_resume_btn_dwnld {

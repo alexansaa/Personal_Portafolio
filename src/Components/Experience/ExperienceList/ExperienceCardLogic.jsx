@@ -7,7 +7,7 @@ const ExperienceCardLogic = ({ experience, myIndex }) => {
         <div className={styles.experienceCard_number}>{myIndex}</div>
         <div className={styles.experienceCard_description}>
           <div>Experience: {experience.name}</div>
-          <div>{experience.description}</div>
+          <div className={styles.experienceCardDesc}>{experience.description}</div>
         </div>
       </div>
       <hr className={styles.experience_separation_line}></hr>
