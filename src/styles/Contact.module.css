@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
 .contact_cnt {
-  padding-bottom: 1%;
+  height: 100vh;
   background-color: #8d2f23;
   overflow: hidden;
 }
@@ -13,6 +13,7 @@
   text-wrap: nowrap;
   width: 100%;
   overflow: hidden;
+  margin-top: 3%;
 }
 
 .moving_element1 {
@@ -157,4 +158,42 @@
 
 .button_ctn {
   margin-top: 1.3%;
+}
+
+.contact_data_cnt_form_cnt {
+  width: 40%;
+}
+
+.contact_data_cnt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.contact_data_cnt_form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact_data_cnt_form input {
+  margin-bottom: 1%;
+  width: 50%;
+  align-self: center;
+  text-align: center;
+}
+
+.contact_data_cnt_form label {
+  margin-top: 1%;
+}
+
+.contact_data_cnt_form button {
+  margin-top: 2%;
+  width: 25%;
+  align-self: center;
+}
+.font_mono {
+  font-family: "Roboto Mono", monospace;
 }

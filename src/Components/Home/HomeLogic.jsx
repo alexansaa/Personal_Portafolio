@@ -7,7 +7,7 @@ import LittleAbout from '../About/LittleAboutLogic';
 import LittleExperience from '../Experience/LittleExperience/LittleExperienceLogic';
 import ProjectsList from '../Experience/ProjectsList/ProjectsListLogic';
 import ExperienceList from '../Experience/ExperienceList/ExperienceListLogic';
-import LittleContact from '../Contact/LittleContactLogic';
+import Contact from '../Contact/ContactLogic';
 import WpButton from '../WpButton/WpButtonLogic';
 
 const HomeLogic = () => {
@@ -42,7 +42,7 @@ const HomeLogic = () => {
       <ProjectsList />
       <WpButton />
       <div className={style.place_back}>
-        <LittleContact />
+        <Contact />
       </div>
     </div>
   );
