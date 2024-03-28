@@ -14,6 +14,9 @@ const ProjectCardLogic = ({ project, myIndex }) => {
           <h2>{project.name}</h2>
           <img src={rightArrow} alt={`go to ${project.name} project`} />
         </div>
+        <div className={styles.projectCard_info_description}>
+          {project.description}
+        </div>
         <div className={styles.projectCard_info_location}>
           <img src={project.location_img}></img>
           <p>{project.location}</p>

@@ -27,15 +27,9 @@
   border-color: rgb(92, 108, 123, 0.3);
 }
 
-.projectCard_img_cnt {
-  /* max-height: 55%; */
-  padding: 1%;
-}
-
 .projectCard_img_cnt img {
   object-fit: cover;
   width: 100%;
-  /* max-height: inherit; */
   height: 250px;
   border-radius: 15px;
 }
@@ -46,11 +40,11 @@
   padding: 2%;
   border-radius: 15px;
   background-color: rgba(32, 4, 8, 0.5);
-  height: auto;
-  flex: 1;
+  /* height: auto; */
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-between; */
 }
 
 .projectCard_info_cnt p {
@@ -89,6 +83,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 .projectCard_info_location img {
@@ -117,4 +113,9 @@
   cursor: pointer;
   background-color: #8d2f23;
   box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+.projectCard_info_description {
+  text-align: justify;
+  font-size: 13px;
 }
