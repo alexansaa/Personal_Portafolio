@@ -5,11 +5,11 @@ import rightArrow from '../../../assets/right_arrow.png';
 const ProjectCardLogic = ({ project, myIndex }) => {
   return (
     <div className={styles.projectCard_cnt}>
-      <Link className={styles.projectCard_img_cnt} to={project.live}>
+      <Link className={styles.projectCard_img_cnt} to={project.live} target='_blank'>
         <img src={project.img} alt={project.name} />
       </Link>
 
-      <Link className={styles.projectCard_info_cnt} to={project.live}>
+      <Link className={styles.projectCard_info_cnt} to={project.live} target='_blank'>
         <div className={styles.projectCard_info_title}>
           <h2>{project.name}</h2>
           <img src={rightArrow} alt={`go to ${project.name} project`} />
