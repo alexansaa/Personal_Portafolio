@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  .sliderCnt {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .sliderCnt {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .sliderCnt {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .sliderCnt {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+  .sliderCnt {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .sliderCnt {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1400px) {
+  .sliderCnt {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  .sliderCnt {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1601px) {
+  .sliderCnt {
+    width: 40%;
+  }
+}
+
 .sliderExp {
   align-items: center;
   display: flex;
@@ -9,7 +63,7 @@
 .sliderCnt {
   border-radius: 40px;
   background-color: rgba(141, 47, 35, 0.95);
-  width: 45%;
+  /* width: 45%; */
   z-index: 50;
   justify-content: center;
   display: flex;
