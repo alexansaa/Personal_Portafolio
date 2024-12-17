@@ -12,6 +12,7 @@ import WpButton from '../WpButton/WpButtonLogic';
 
 const HomeLogic = () => {
   const images = [
+    'https://drive.google.com/thumbnail?id=1bLv2HFoycc5DFrYQgw8pSGecm0jvXz62&sz=w1000',
     'https://drive.google.com/thumbnail?id=1YvbDZfSYj-nq4z7ePrIMZ20UQCinVeJe&sz=w1000',
     'https://drive.google.com/thumbnail?id=129HiTL4w8oESjXbQ0sRG2PiJ8DSV5zcI&sz=w1000',
     'https://drive.google.com/thumbnail?id=1jpT5T3BwSpD_ter4JtRBRMFXbw2PP0bY&sz=w1000',
@@ -22,6 +23,7 @@ const HomeLogic = () => {
     'https://drive.google.com/thumbnail?id=1U97ddD00P_aPEDvibe7qJtxeytserdMh&sz=w1000',
     'https://drive.google.com/thumbnail?id=11jBihK56LK7P25IpZDYXtJ6mCXVx2vX_&sz=w1000',
     'https://drive.google.com/thumbnail?id=1g0CaJd2khxztnQF8iq2DI6KmBulbrpYM&sz=w1000',
+    'https://drive.google.com/thumbnail?id=1cx0AjAiSTUy_2-P99MnaL4_FpkS5UjG2&sz=w1000',
   ];
 
   return (
